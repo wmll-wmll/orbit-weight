@@ -1,0 +1,80 @@
+# Domestic GPU configuration (Biren gfx936, HIP/DTK 25.04)
+# Calibrated from real measurements -- April 2026
+#
+# Source: check_gpu.py benchmark on gfx936 hardware
+#   Matmul peak: ~132 TFLOPS fp16 (42% of A100)
+#   Gather crossover: B*D >= 131K -> dense matmul beats gather
+
+device: domestic_gpu
+arch: gfx936
+api: hip                    # DTK 25.04 HIP interface
+sdk: dtk_25_04
+
+# Measured compute characteristics
+compute:
+  fp16_peak_tflops: 132.0    # Measured @ 8192^2 matmul
+  fp32_peak_tflops: 66.0     # Estimated (1/2 of fp16, typical)
+  matmul_1024_tflops: 0.0    # Below measurement noise (JIT overhead)
+  matmul_2048_tflops: 37.7
+  matmul_4096_tflops: 86.0
+  matmul_8192_tflops: 131.9  # Near peak
+
+# Tensor Core spec
+tensor_core:
+  mma_shape: "16x16x16"      # AMD CDNA-like (inferred from gfx936)
+  fp16_support: true
+  fp32_support: true
+  sparsity_support: false     # fp16 sparse.mm NOT supported
+  sparse_fp32_only: true      # Only fp32 sparse path works
+
+# Memory
+memory:
+  effective_bw_gb_s: 180.0    # Measured effective for gather workloads
+  prefer_contiguous: true
+  alignment_bytes: 128
+
+# Permutation strategy (CALIBRATED from real hardware)
+permutation:
+  # Decision boundary from real data:
+  #   B*D >= 150K  -> dense always wins (1.06-1.52x)
+  #   B*D >= 100K  -> dense wins at N >= 64
+  #   B*D < 100K   -> gather wins (1.19-3.45x)
+  prefer_dense_bd_threshold: 100000   # B*D product threshold
+  prefer_dense_n_threshold: 64         # N must also be >= this
+  default_dtype: float16
+  sparse_available: false             # fp16 sparse NOT supported
+  sparse_fp32_only: true
+
+# Operator fusion (compiler targets)
+fusion:
+  enabled: true
+  estimated_speedups:
+    perm_ln: 1.3           # perm + LayerNorm in one kernel
+    perm_ln_gelu: 1.7      # perm + LN + GELU (eliminates 2 round-trips)
+    perm_linear: 1.2       # perm + linear (weight-stationary)
+
+# Measured crossover data points
+crossover:
+  measurements:
+    - { N: 27,  B: 64,  D: 128, gather_ms: 0.043, dense_ms: 0.052, winner: gather, ratio: 1.19 }
+    - { N: 27,  B: 256, D: 512, gather_ms: 0.039, dense_ms: 0.046, winner: gather, ratio: 1.19 }
+    - { N: 64,  B: 64,  D: 128, gather_ms: 0.015, dense_ms: 0.046, winner: gather, ratio: 3.08 }
+    - { N: 64,  B: 256, D: 512, gather_ms: 0.074, dense_ms: 0.049, winner: dense,  ratio: 1.52 }
+    - { N: 125, B: 64,  D: 128, gather_ms: 0.013, dense_ms: 0.046, winner: gather, ratio: 3.45 }
+    - { N: 125, B: 256, D: 512, gather_ms: 0.138, dense_ms: 0.130, winner: dense,  ratio: 1.06 }
+    - { N: 216, B: 64,  D: 128, gather_ms: 0.020, dense_ms: 0.046, winner: gather, ratio: 2.35 }
+    - { N: 216, B: 256, D: 512, gather_ms: 0.237, dense_ms: 0.201, winner: dense,  ratio: 1.18 }
+  note: "dense wins when B*D >= 131K. Ratio < 1 means dense is faster."
+
+# Porting / migration
+migration:
+  status: operational         # HIP works - no more placeholder
+  api_mapping:
+    torch_gather: "hip::gather (via torch.gather on HIP)"
+    torch_matmul: "rocBLAS GEMM (via torch.matmul)"
+    torch_sparse: "NOT for fp16 - fall back to dense"
+  future:
+    - "Implement native HIP fused kernels (perm+LN+GELU)"
+    - "Benchmark rocBLAS explicit tiling for permutation matmul"
+    - "Test CSR sparse for fp32 fallback path"
+    - "Profile with rocprof for kernel-level optimization"

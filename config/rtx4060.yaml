@@ -1,0 +1,48 @@
+# RTX 4060 (Ada Lovelace) configuration
+device: cuda
+arch: ada_lovelace
+compute_capability: "8.9"
+driver: "550+"
+
+# Tensor Core specs (FP16)
+tensor_core:
+  mma_shape: "16x16x16"    # MMA instruction tile
+  fp16_throughput_tflops: 15.0  # theoretical FP16 TFLOPS
+  fp32_throughput_tflops: 7.5   # theoretical FP32 TFLOPS
+
+# Memory hierarchy
+memory:
+  global_gb: 8
+  bandwidth_gbs: 272        # 128-bit GDDR6
+  l2_cache_kb: 24576        # 24 MB L2
+  shared_mem_per_sm_kb: 100 # 100 KB (with opt-in)
+  registers_per_sm: 65536
+
+# Permutation matrix format selection
+# N ≤ prefer_dense_threshold → use dense matmul (Tensor Core friendly)
+# N ≤ prefer_sparse_threshold → use CSR sparse matmul
+# N > prefer_sparse_threshold → use BSR (block sparse row)
+permutation:
+  prefer_dense_threshold: 64
+  prefer_sparse_threshold: 4096
+  default_dtype: float32
+  benchmark_dtypes: [float32, float16]
+
+# Benchmark defaults
+benchmark:
+  warmup: 30
+  repeat: 200
+  n_rounds: 10     # for statistical tests
+  shapes:
+    - [16, 27, 128]
+    - [256, 27, 128]
+    - [1024, 27, 512]
+    - [16, 64, 128]
+    - [256, 64, 128]
+    - [1024, 64, 512]
+    - [16, 125, 128]
+    - [256, 125, 128]
+    - [1024, 125, 512]
+    - [16, 216, 128]
+    - [256, 216, 128]
+    - [1024, 216, 512]

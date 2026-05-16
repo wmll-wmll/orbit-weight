@@ -1,0 +1,38 @@
+# MUXI MXMACA GPU configuration template
+# Note: values are placeholder estimates until access to real hardware
+device: mxmaca
+arch: muxi_proprietary
+
+# MXMACA Tensor Core equivalent spec (estimated)
+tensor_core:
+  mma_shape: "8x8x8"       # Smaller tile than NVIDIA (estimated)
+  fp16_throughput_tflops: 8.0
+  fp32_throughput_tflops: 4.0
+
+memory:
+  memory_layout: "nc1hwc0"  # 5D layout preferred
+  prefer_contiguous: true
+  alignment_bytes: 128      # Cache line alignment
+
+# Smaller tiles → lower cross-over for dense vs sparse
+permutation:
+  prefer_dense_threshold: 32
+  prefer_sparse_threshold: 2048
+  default_dtype: float32
+  tiling_factor: 8          # Manual tiling granularity
+
+# Operator fusion candidates
+# MUXI supports fusing perm + layernorm + activation into single kernel
+fusion:
+  enabled: true
+  patterns:
+    - "perm_ln"       # permutation + layer norm
+    - "perm_ln_gelu"  # permutation + layer norm + GELU
+    - "perm_linear"   # permutation + linear (weight-stationary)
+
+# Porting notes:
+# 1. Replace torch.cuda → torch.mxmaca (or equivalent device backend)
+# 2. torch.matmul → mxmaca.matmul (may require explicit tiling)
+# 3. torch.sparse → mxmaca.sparse (check CSR format compatibility)
+# 4. Use MXMACA profiler (mxprof) for kernel-level analysis
+# 5. Adjust shared memory / register allocation per SM
