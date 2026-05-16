@@ -1,6 +1,6 @@
 # Orbit-Weight: Group-Theoretic Orbit Weight Sharing + Compiler-Driven Gather Elimination
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)]()
 
 **面向国产GPU的结构化权重共享与编译器推理加速**
@@ -201,7 +201,7 @@ cd paper && python gen_docx.py all  # Word documents
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE) for details.
+CC BY-NC-SA 4.0 — 仅限学习/研究/教育用途，禁止商用。See [LICENSE](LICENSE).
 
 ---
 
