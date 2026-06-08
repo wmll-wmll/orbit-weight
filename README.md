@@ -3,17 +3,16 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)]()
 
-**面向国产GPU的结构化权重共享与编译器推理加速**
+**Algebraic Structure as a Principled Prior for Neural Architecture Design**
 
-A principled approach to neural network weight sharing based on group-theoretic orbit decomposition, combined with a minimal compiler IR that systematically eliminates gather operations for domestic GPU inference acceleration.
+A principled approach to neural network weight sharing based on group-theoretic orbit decomposition, combined with a minimal compiler IR that systematically eliminates gather operations. Covers theory (three theorems with formal proofs), systems (compiler with 10,000-graph verified soundness), and applications (crystallography, synthetic benchmarks, domestic GPU optimization).
 
 ---
 
 ## Quick Start
 
 ```bash
-# Install deps
-pip install torch numpy scipy pyyaml
+pip install torch numpy scipy pyyaml matplotlib
 
 # Run compiler demo (60s)
 python examples/demo_compiler.py
@@ -24,120 +23,176 @@ python examples/demo_orbit.py
 # Run C2 dimer validation (60s)
 python examples/validate_dimer.py
 
-# Run all tests
+# Run all correctness tests
 python tests/test_equivariance.py
+
+# Verify compiler soundness (10,000 random graphs)
+python theory/compiler_soundness.py
 ```
 
 ---
 
-## Two Core Contributions
-
-### 1. Orbit-Shared Weighting
-
-**Problem:** Standard MLPs share one weight matrix across all input positions — ignoring spatial structure. Per-position weights are too expensive (N × parameters).
-
-**Solution:** Decompose positions into orbits under a symmetry group. Same-orbit positions share weights; different orbits use independent weights.
-
-```
-Uniform sharing:  1 matrix for all 125 positions  → cheap but weak
-Orbit sharing:   48 matrices for 48 orbits        → principled middle ground
-Per-position:   125 matrices for 125 positions    → expensive but expressive
-```
-
-**Key result:** Orbit-shared models reach 100% accuracy with 8× fewer training samples than standard MLPs. Group-theoretic orbits outperform equal-parameter random grouping by 44%.
-
-### 2. Compiler-Driven Gather Elimination
-
-**Problem:** Gather operations are the bottleneck on domestic GPUs (Biren gfx936, MUXI) where dense matmul is heavily optimized but scatter/gather is not.
-
-**Solution:** A minimal IR with 3 node types (`GatherOp`, `ElementWiseOp`, `LinearOp`) and 4 graph-rewriting passes:
-
-```
-Before: Gather → LN → Linear → GELU → Gather → LN → Linear → GELU → ...  (6 gathers)
-After:  LN → Linear → GELU → LN → Linear → GELU → ... → Gather           (1 gather)
-```
-
-| Pass | Transform | Effect |
-|------|-----------|--------|
-| **Reorder** | Push `GatherOp` past `ElementWiseOp` | Move gathers deeper |
-| **Absorb** | Absorb `GatherOp` into `LinearOp` by permuting weights | Eliminate gathers |
-| **Chain** | Merge consecutive `GatherOp(p1) → GatherOp(p2)` | Compose permutations |
-| **Fuse** | Detect fusable `GatherOp → ElementWiseOp` patterns | Mark fusion targets |
-
-**Key result:** 6 gathers → 1 gather (83% reduction). 1.63× inference speedup on domestic GPU, 1.80× on NVIDIA.
-
----
-
-## Architecture
+## Repository Structure
 
 ```
 ├── cube/              Group theory layer
-│   ├── cube3d.py       Rubik's cube permutation generators (12 ops)
-│   ├── perm_matrix.py  Permutation matrix (dense/CSR/BSR)
+│   ├── cube3d.py       Rubik's cube permutation generators (12 ops), get_orbit_ids()
+│   ├── perm_matrix.py  Permutation matrix (dense/CSR)
 │   └── layers.py       nn.Module: CubePermutation, FusedPermLN, SoftCubePermutation
+├── groups/            General finite group library (NEW)
+│   ├── base.py         Group protocol, BFS orbit decomposition, OrbitLinear
+│   ├── cyclic.py       Cyclic group C_n
+│   ├── dihedral.py     Dihedral group D_n
+│   ├── symmetric.py    Symmetric group S_n
+│   └── octahedral.py   Octahedral group O_h (48 elements)
 ├── compiler/          Graph IR + optimization passes
 │   ├── ir.py           3 node types: GatherOp, ElementWiseOp, LinearOp
-│   └── passes.py       4 passes: Reorder, Absorb, Chain, Fuse + optimize()
-├── models/            Reference model implementations
-│   ├── mlp.py          StandardMLP, CubeMLP, model builders
-│   └── heads.py        PoolHead, PerPositionHead, AttentionHead
+│   ├── passes.py       4 passes: Reorder, Absorb, Chain, Fuse + optimize()
+│   └── export_torchscript.py  IR-to-TorchScript export pipeline (NEW)
+├── theory/            Formal theory + numerical validation (NEW)
+│   ├── proofs.md       Three theorems with complete proofs
+│   ├── orbit_bounds.py Theorem 1: Rademacher generalization bound validation
+│   ├── compiler_soundness.py  Theorem 2: 10,000-graph fuzzer (100% pass rate)
+│   └── crossover_roofline.py  Theorem 3: Roofline model calibrated on gfx936
+├── models/            Model implementations
+│   ├── mlp.py          StandardMLP, CubeMLP, OrbitLinear, make_orbit_mlp()
+│   ├── heads.py        PoolHead, PerPositionHead, AttentionHead
+│   └── equivariant_baselines.py  GCNN, DeepSets, SE3-T adapter, Random (NEW)
+├── tasks/             Data generators
+│   ├── crystal.py      Real crystal structures (Materials Project, 158 space groups) (NEW)
+│   ├── spatial.py      Rotation prediction, position reconstruction
+│   └── shapes3d.py     3D voxel shape classification (8 types)
 ├── backends/          Device-specific strategies
 │   ├── nvidia.py       CUDA reference
-│   ├── domestic.py     Biren gfx936 (HIP/DTK 25.04, calibrated crossover data)
+│   ├── domestic.py     Biren gfx936 (calibrated crossover + roofline_estimate())
 │   └── muxi.py         MUXI MXMACA placeholder
-├── config/            Hardware configuration
+├── validation/        Experiment framework
+│   ├── runner.py       ExperimentRunner (bootstrap CI, Cohen's d, Wilcoxon)
+│   ├── exp_*.py        15+ experiment scripts
+│   ├── plot_*.py       4 plotting modules
+│   └── report.py       Auto-generate publication tables
+├── config/            Hardware YAML configs
 │   ├── rtx4060.yaml    NVIDIA Ada Lovelace
-│   ├── domestic.yaml   Biren gfx936 (132 TFLOPS fp16 + measured data)
-│   └── muxi.yaml       MUXI estimated config
-├── examples/          Runnable demos
+│   ├── domestic.yaml   Biren gfx936 (132 TFLOPS fp16)
+│   └── muxi.yaml       MUXI estimated
+├── tests/
+│   └── test_equivariance.py  All correctness tests (12 tests)
+├── examples/
 │   ├── demo_compiler.py    Compiler pipeline walkthrough
 │   ├── demo_orbit.py       Orbit decomposition demo
 │   └── validate_dimer.py   C2 symmetric dimer validation
-├── tests/             Test suite
-│   └── test_equivariance.py  All correctness tests (8 tests)
-├── figures/           Experiment figures
-└── paper/             Paper sources (Markdown + generator)
+├── check_gpu.py       GPU capability checker
+├── validate_dimer.py  Standalone C2 dimer demo
+├── requirements.txt
+└── README.md
 ```
+
+---
+
+## Core Idea
+
+**Problem:** Standard MLPs share one weight matrix across all input positions — ignoring the algebraic structure (symmetry groups) inherent in spatially organized data. Per-position weights are too expensive (N × parameters).
+
+**Solution:** Use the **orbit decomposition** of a finite group G acting on input positions as the blueprint for parameter partitioning. Positions in the same orbit share weights; distinct orbits use independent weights (1 ≤ K ≤ N).
+
+```
+Uniform sharing:  1 matrix for all positions      → cheap but weak
+Orbit sharing:    K matrices (group-determined)    → principled middle ground
+Per-position:     N matrices                       → expensive but expressive
+```
+
+**Compiler co-design:** Group actions are implemented as gather operations — a bottleneck on domestic GPUs. Our 4-pass compiler eliminates 83% of gathers while **guaranteeing exact output equivalence** (Theorem 2, verified on 10,000 random graphs).
+
+---
+
+## Three Theorems
+
+| Theorem | Statement | Verification |
+|---------|-----------|-------------|
+| **1. Orbit Optimality** | Generalization gap ≤ O(√K / √m) | R² > 0.95 on empirical validation |
+| **2. Compiler Soundness** | optimize(G)(x) = G(x) for all inputs | **10,000/10,000 fuzzer pass rate** |
+| **3. Crossover Boundary** | N* = FLOPS_peak × s / (2 × BW_eff) | 8/8 gfx936 points correctly predicted |
 
 ---
 
 ## Key Results
 
-### Ablation Study (125-way position reconstruction)
+### Position Occlusion Experiment (Table 1)
 
-| Model | Accuracy | Parameters |
-|-------|----------|------------|
-| StandardMLP (uniform) | 1.52% | 55,872 |
-| OrbitMLP (48 orbits) | **15.06%** | 2,681,856 |
-| RandomOrbitMLP (48 random) | 10.05% | 2,681,856 |
-| PerPositionMLP (125 indep) | 18.52% | 6,984,000 |
+Under 70% position masking during training, orbit weight sharing dramatically outperforms random grouping:
 
-- Orbit > Random by **+4.44pp (44% relative)** — same params, structured grouping wins
-- Orbit achieves **78.3%** of PerPosition accuracy with **38.4%** parameters
+| Group | N | K | OrbitMLP | RandomMLP | Orbit−Random |
+|-------|---|---|----------|-----------|-------------|
+| Cube(5) | 125 | 48 | **75.6%** | 45.2% | **+30.3 pp** |
+| O_h(3) | 27 | 15 | **70.1%** | 49.4% | **+20.7 pp** |
 
-### Sample Efficiency
+The gap **grows with occlusion severity** — the signature of gradient sharing through correct algebraic structure.
 
-| Training samples | StandardMLP | OrbitMLP |
-|-----------------|------------|----------|
-| 400 | 72.92% | **100.00%** |
-| 3200 | 86.62% | 100.00% |
+### Crystal Formation Energy (Table 2)
 
-Orbit reaches 100% with **8× fewer samples** than StandardMLP can achieve at all.
+On 2,736 real crystals (Materials Project, 158 space groups):
 
-### Inference Speedup
+| Model | K | MAE |
+|-------|---|------|
+| StandardMLP | 1 | 0.8719 |
+| RandomMLP | 25 | 0.8697 |
+| **OrbitMLP (O_h proxy)** | 25 | **0.8235** |
+| PerPositionMLP | 40 | 0.8081 |
 
-| Platform | Unoptimized | Optimized | Speedup |
-|----------|-------------|-----------|---------|
-| Biren gfx936 | 3.17ms | 1.94ms | **1.63×** |
-| NVIDIA 4060 | 3.64ms | 2.02ms | **1.80×** |
+OrbitMLP beats StandardMLP by **5.5%** and RandomMLP by **5.3%** on real scientific data.
 
-### Gather vs Dense Crossover (gfx936, measured)
+### Compiler Speedup
 
-| Condition | Winner |
-|-----------|--------|
-| B×D < 100,000 | Gather (1.2–3.5×) |
-| B×D ≥ 100,000, N ≥ 64 | Dense matmul (1.1–1.5×) |
-| B×D ≥ 150,000 | Unconditionally dense |
+| Model | Gathers Before | Gathers After | Speedup (RTX 4060) |
+|-------|---------------|---------------|---------------------|
+| StandardMLP | 0 | 0 | 1.09× (overhead) |
+| CubeMLP | 6 | 1 | **1.13×** |
+
+Projected 1.5–1.8× on domestic GPUs (gfx936) based on measured crossover data.
+
+---
+
+## Running Experiments
+
+```bash
+# Multi-group occlusion experiment (Table 1)
+python validation/exp_broad_groups.py
+
+# Crystal data download + formation energy (Table 2a)
+python tasks/crystal.py
+
+# Compiler speedup benchmark (Table 2b)
+python compiler/export_torchscript.py
+
+# All correctness tests
+python tests/test_equivariance.py
+
+# Compiler soundness fuzzer
+python theory/compiler_soundness.py --quick    # 1,000 graphs
+python theory/compiler_soundness.py            # 10,000 graphs
+
+# Theory validation
+python theory/orbit_bounds.py
+python theory/crossover_roofline.py
+
+# Full experiment suite
+python validation/exp_throughput.py
+python validation/exp_ablation.py
+python validation/exp_sample_efficiency.py
+python validation/exp_rotation_equivariance.py
+python validation/exp_group_theory.py
+```
+
+---
+
+## Compiler Passes
+
+| Pass | Transform | Effect |
+|------|-----------|--------|
+| **Reorder** | GatherOp → ElementWiseOp  ⇒  ElementWiseOp → GatherOp | Push gathers deeper |
+| **Absorb** | GatherOp(perm) → LinearOp(W)  ⇒  LinearOp(W') → GatherOp(perm) | Eliminate gathers via weight permutation |
+| **Chain** | GatherOp(p₁) → GatherOp(p₂)  ⇒  GatherOp(p₁∘p₂) | Compose consecutive gathers |
+| **Fuse** | Detect GatherOp + ElementWiseOp | Mark kernel fusion targets |
 
 ---
 
@@ -145,37 +200,10 @@ Orbit reaches 100% with **8× fewer samples** than StandardMLP can achieve at al
 
 | Domain | Symmetry Group | Method |
 |--------|---------------|--------|
-| Crystal structure prediction | 230 space groups | Orbit sharing |
-| Virus capsid assembly | Icosahedral point group | Orbit sharing |
-| Molecular conformations | Molecular point groups (C₂ᵥ, D₆ₕ, Oₕ) | Orbit sharing |
+| Crystal structure prediction | 230 space groups (via spglib) | Orbit sharing |
+| Protein dimer contact prediction | C2 point group | Orbit sharing |
 | MoE model inference | Expert routing | Gather elimination |
-| Transformer/LLM inference | Token rearrangement | Gather elimination |
 | Multi-view 3D perception | SE(3) camera group | Both |
-
----
-
-## Run Experiments
-
-```bash
-# Full experiment suite (requires GPU)
-python ../魔方ai/validation/exp_throughput.py
-python ../魔方ai/validation/exp_ablation.py
-python ../魔方ai/validation/exp_sample_efficiency.py
-python ../魔方ai/validation/exp_rotation_equivariance.py
-python ../魔方ai/validation/exp_group_theory.py
-python ../魔方ai/validation/exp_cube_size_scale.py
-python ../魔方ai/validation/exp_training_dynamics.py
-python ../魔方ai/validation/exp_backend_gather.py
-
-# Generate figures
-python ../魔方ai/validation/plot_results.py
-python ../魔方ai/validation/plot_crossover.py
-python ../魔方ai/validation/plot_2x2.py
-
-# Generate paper
-cd paper && python gen.py all     # HTML + LaTeX + PDF
-cd paper && python gen_docx.py all  # Word documents
-```
 
 ---
 
@@ -183,35 +211,23 @@ cd paper && python gen_docx.py all  # Word documents
 
 | Backend | Status | Notes |
 |---------|--------|-------|
-| NVIDIA CUDA | Full | Reference implementation, gather is fast here |
-| Biren gfx936 (HIP) | Calibrated | 8 measured crossover data points, decision boundary validated |
-| MUXI MXMACA | Placeholder | Migration guide included, awaiting hardware access |
+| NVIDIA CUDA | Full | Reference implementation |
+| Biren gfx936 (HIP) | Calibrated | 8 crossover data points, decision boundary |
+| MUXI MXMACA | Placeholder | Migration guide included |
 
 ---
 
 ## Citation
 
 ```bibtex
-@article{orbit-sharing-2025,
-  title={Orbit-Shared Weighting via Group Theory and Compiler-Driven Gather Elimination for Domestic GPU Deployment},
-  note={Group-theoretic orbit decomposition + compiler IR for gather elimination on domestic GPUs},
-  year={2025}
+@article{orbit-weight-sharing,
+  title={Orbit Weight Sharing: Group-Theoretic Parameter Partitioning with Compiler Co-Design for Neural Networks},
+  author={Liang, N.},
+  note={Submitted to Communications AI \& Computing},
+  year={2026}
 }
 ```
 
 ## License
 
-CC BY-NC-SA 4.0 — 仅限学习/研究/教育用途，禁止商用。See [LICENSE](LICENSE).
-
----
-
-## Related Work
-
-This repository is part of a larger research project. See also:
-- **Competition entry** (XH-202608): `competition_work/` — MoE/MLA/NSA operator optimization for TileLang + MXMACA
-- **Full paper**: `魔方ai/paper/` — Chinese and English versions with all figures
-- **Extended experiments**: `魔方ai/validation/` — 15 experiment scripts with bootstrap CI analysis
-
----
-
-*Maintained as open-source research. Contributions and discussions welcome.*
+CC BY-NC-SA 4.0 — non-commercial research/education use only. See [LICENSE](LICENSE).

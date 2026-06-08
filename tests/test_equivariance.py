@@ -13,7 +13,8 @@ Validates:
 
 import torch
 import sys
-sys.path.insert(0, "e:/operator")
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from cube.perm_matrix import PermutationMatrix, gather_ref, verify_equivalence
 from cube.cube3d import CubePermutations

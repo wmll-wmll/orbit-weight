@@ -130,3 +130,99 @@ def make_cube_mlp(n_pos: int, d_model: int, n_layers: int,
         perm = cube.get_rotation(moves[i % 6])
         layers.append(_GatherLayer(perm))
     return nn.Sequential(*layers)
+
+
+# ═══════════════════════════════════════════════════════════════
+# OrbitLinear layer and orbit-based model constructor
+# ═══════════════════════════════════════════════════════════════
+
+class OrbitLinear(nn.Module):
+    """Per-position linear layer with orbit-based weight sharing.
+
+    Each orbit has its own weight matrix and bias vector.
+    Positions sharing the same orbit index use the same parameters.
+
+    This is the core building block for orbit-shared models.
+    When orbit_ids maps all positions to the same orbit (K=1),
+    it reduces to standard shared-weight Linear.
+    When each position is its own orbit (K=N),
+    it reduces to per-position independent Linear.
+
+    Args:
+        orbit_ids: [N] tensor mapping positions to orbit indices (0..K-1)
+        n_orbits: total number of orbits K
+        D: feature dimension (input = output = D)
+    """
+
+    def __init__(self, orbit_ids: torch.Tensor, n_orbits: int, D: int):
+        super().__init__()
+        self.register_buffer('orbit_ids', orbit_ids, persistent=False)
+        self.n_orbits = n_orbits
+        self.weight = nn.Parameter(torch.randn(n_orbits, D, D) / (D ** 0.5))
+        self.bias = nn.Parameter(torch.zeros(n_orbits, D))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """Forward pass with orbit-shared weights.
+
+        Args:
+            x: [B, N, D]
+
+        Returns:
+            [B, N, D]
+        """
+        w = self.weight[self.orbit_ids]  # [N, D, D]
+        b = self.bias[self.orbit_ids]    # [N, D]
+        # einsum avoids [B, N, D, D] intermediate
+        return torch.einsum('bnd,ndm->bnm', x, w) + b.unsqueeze(0)
+
+
+def make_orbit_mlp(n_pos: int, d_model: int, n_layers: int,
+                   orbit_ids: torch.Tensor = None,
+                   n_orbits: int = None,
+                   n_cube: int = None,
+                   use_gathers: bool = False) -> nn.Module:
+    """Build OrbitMLP (or OrbitCubeMLP) as nn.Sequential.
+
+    LN → OrbitLinear → GELU → (optional: gather)
+
+    If orbit_ids is None, computes orbits from the cube face rotation group
+    using n_cube (requires n_pos == n_cube**3).
+
+    Args:
+        n_pos: number of positions N
+        d_model: feature dimension D
+        n_layers: number of layers
+        orbit_ids: [N] tensor, orbit assignment per position (optional)
+        n_orbits: number of orbits K (required if orbit_ids is provided)
+        n_cube: cube side length (used if orbit_ids is None)
+        use_gathers: if True, adds gather rotations after each GELU
+
+    Returns:
+        nn.Sequential model
+    """
+    if orbit_ids is None:
+        if n_cube is None:
+            raise ValueError("Either orbit_ids or n_cube must be provided")
+        assert n_pos == n_cube ** 3
+        cube = CubePermutations(n_cube)
+        orbit_ids = cube.get_orbit_ids()
+        n_orbits = cube.get_orbit_count()
+    else:
+        assert n_orbits is not None, "n_orbits required when orbit_ids provided"
+
+    layers = []
+    if use_gathers and n_cube is not None:
+        cube = CubePermutations(n_cube)
+        moves = ['U', 'R', 'F', 'D', 'L', 'B']
+
+    for i in range(n_layers):
+        layers.extend([
+            nn.LayerNorm(d_model),
+            OrbitLinear(orbit_ids, n_orbits, d_model),
+            nn.GELU(),
+        ])
+        if use_gathers and n_cube is not None:
+            perm = cube.get_rotation(moves[i % 6])
+            layers.append(_GatherLayer(perm))
+
+    return nn.Sequential(*layers)

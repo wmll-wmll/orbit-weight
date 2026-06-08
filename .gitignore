@@ -1,2 +1,13 @@
 __pycache__/
 *.pyc
+*.pkl
+*.pdf
+*.docx
+*.html
+# Figures (not code)
+figures/*.png
+figures/*.svg
+# QM9 data
+qm9_data/
+# Paper drafts (not final)
+paper/

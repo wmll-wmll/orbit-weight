@@ -219,5 +219,53 @@ def crossover_summary():
     print("Crossover @ B×D ≈ 131K (N=64,B=256,D=512)")
 
 
+def append_measurement(N: int, B: int, D: int, gather_ms: float, dense_ms: float):
+    """Dynamically add a new data point to CROSSOVER_DATA.
+
+    Args:
+        N: number of positions
+        B: batch size
+        D: feature dimension
+        gather_ms: measured gather latency
+        dense_ms: measured dense matmul latency
+    """
+    ratio = dense_ms / gather_ms if gather_ms > dense_ms else -gather_ms / dense_ms
+    CROSSOVER_DATA.append((N, B, D, gather_ms, dense_ms, ratio))
+    # Keep sorted by N then B*D
+    CROSSOVER_DATA.sort(key=lambda x: (x[0], x[1] * x[2]))
+
+
+def roofline_estimate(N: int, B: int, D: int,
+                      BW_eff: float = 180.0,
+                      peak_tflops: float = 110.0,
+                      elem_bytes: int = 2) -> tuple:
+    """Theorem 3: Roofline model prediction for gather vs dense.
+
+    Computes predicted latencies from the closed-form roofline model
+    described in theory/proofs.md. Returns (gather_ms, dense_ms, winner).
+
+    Args:
+        N: number of positions
+        B: batch size
+        D: feature dimension
+        BW_eff: effective memory bandwidth in GB/s
+        peak_tflops: effective TFLOPS for this matmul shape
+        elem_bytes: bytes per element (2=fp16, 4=fp32)
+
+    Returns:
+        (predicted_gather_ms, predicted_dense_ms, predicted_winner)
+    """
+    # Gather: memory-bandwidth-bound
+    total_bytes = B * N * D * elem_bytes
+    t_gather_ms = total_bytes / (BW_eff * 1e9) * 1e3 + 0.003  # +launch overhead
+
+    # Dense matmul: compute-bound (for large B*D) or launch-overhead-bound
+    flops = 2.0 * B * N * N * D
+    t_dense_ms = flops / (peak_tflops * 1e12) * 1e3 + 0.012  # +launch overhead
+
+    winner = 'dense' if t_dense_ms < t_gather_ms else 'gather'
+    return (t_gather_ms, t_dense_ms, winner)
+
+
 if __name__ == "__main__":
     crossover_summary()

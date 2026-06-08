@@ -231,6 +231,43 @@ class CubePermutations:
             result[face + "'"] = self.get_rotation(face + "'")
         return result
 
+    # ──── Orbit decomposition ────
+
+    def get_orbit_ids(self) -> torch.Tensor:
+        """Return orbit decomposition under face rotation group.
+
+        Uses BFS over all 12 generators (6 faces × 2 directions) to
+        partition the N³ positions into orbits. Positions in the same
+        orbit are mutually reachable via legal face rotations.
+
+        Returns:
+            orbit_ids: [N³] tensor mapping each position to its orbit index (0..K-1)
+        """
+        N = self.total
+        generators = list(self.all_generators().values())
+        orbit_ids = torch.full((N,), -1, dtype=torch.long)
+        orbit_id = 0
+
+        for pos in range(N):
+            if orbit_ids[pos] >= 0:
+                continue
+            stack = [pos]
+            orbit_ids[pos] = orbit_id
+            while stack:
+                p = stack.pop()
+                for gen in generators:
+                    neighbor = int(gen[p])
+                    if orbit_ids[neighbor] < 0:
+                        orbit_ids[neighbor] = orbit_id
+                        stack.append(neighbor)
+            orbit_id += 1
+
+        return orbit_ids
+
+    def get_orbit_count(self) -> int:
+        """Return the number of orbits under the face rotation group."""
+        return int(self.get_orbit_ids().max().item()) + 1
+
     # ──── Validation ────
 
     def is_valid_permutation(self, perm: torch.Tensor) -> bool:
