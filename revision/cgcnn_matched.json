@@ -1,0 +1,35 @@
+{
+  "config": {
+    "n_crystals": 2741,
+    "device": "cuda",
+    "epochs": 200,
+    "protocol": "AdamW lr5e-4 wd5e-2 cosine 80/20",
+    "model": {
+      "atom_fea_len": 64,
+      "n_conv": 3,
+      "h_fea_len": 128,
+      "n_h": 1
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  },
+  "per_seed": {
+    "42": {
+      "test_mae_eV": 0.07170625030994415,
+      "best_epoch": null
+    },
+    "123": {
+      "test_mae_eV": 0.06946303695440292,
+      "best_epoch": null
+    },
+    "456": {
+      "test_mae_eV": 0.0758085623383522,
+      "best_epoch": null
+    }
+  },
+  "mae_mu_eV": 0.07232594986756642,
+  "mae_std_eV": 0.0032178321516005298
+}
