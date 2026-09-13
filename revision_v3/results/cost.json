@@ -1,0 +1,69 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "label_preprocessing_seconds_total": 0.0915076732635498,
+  "label_preprocessing_ms_per_crystal": 0.03338477681997439,
+  "standard": {
+    "params": 19265,
+    "forward_batch1_ms": 1.0333538055419922,
+    "forward_batch1_peak_alloc_MB": 9.66144,
+    "forward_batch64_ms": 1.2668768564860027,
+    "forward_batch64_peak_alloc_MB": 11.888128
+  },
+  "wide": {
+    "params": 69337,
+    "forward_batch1_ms": 1.2503226598103843,
+    "forward_batch1_peak_alloc_MB": 9.936384,
+    "forward_batch64_ms": 2.7172088623046875,
+    "forward_batch64_peak_alloc_MB": 15.186944
+  },
+  "cube4": {
+    "params": 69185,
+    "forward_batch1_ms": 2.0838101704915366,
+    "forward_batch1_peak_alloc_MB": 9.860608,
+    "forward_batch64_ms": 1.6001701354980469,
+    "forward_batch64_peak_alloc_MB": 54.705664
+  },
+  "occupancy4": {
+    "params": 69185,
+    "forward_batch1_ms": 2.0000298817952475,
+    "forward_batch1_peak_alloc_MB": 9.860608,
+    "forward_batch64_ms": 1.750636100769043,
+    "forward_batch64_peak_alloc_MB": 54.705664
+  },
+  "geo4": {
+    "params": 69185,
+    "forward_batch1_ms": 2.000125249226888,
+    "forward_batch1_peak_alloc_MB": 9.860608,
+    "forward_batch64_ms": 1.7005284627278647,
+    "forward_batch64_peak_alloc_MB": 54.705664
+  },
+  "random4": {
+    "params": 69185,
+    "forward_batch1_ms": 1.4502922693888345,
+    "forward_batch1_peak_alloc_MB": 9.860608,
+    "forward_batch64_ms": 1.399993896484375,
+    "forward_batch64_peak_alloc_MB": 54.705664
+  },
+  "sitelabel": {
+    "params": 535105,
+    "forward_batch1_ms": 1.402012507120768,
+    "forward_batch1_peak_alloc_MB": 11.724288,
+    "forward_batch64_ms": 1.5667120615641275,
+    "forward_batch64_peak_alloc_MB": 56.569344
+  },
+  "struct": {
+    "params": 20481,
+    "forward_batch1_ms": 1.1347293853759766,
+    "forward_batch1_peak_alloc_MB": 9.689088,
+    "forward_batch64_ms": 1.0666767756144204,
+    "forward_batch64_peak_alloc_MB": 11.825664
+  },
+  "hierarchy": {
+    "params": 20673,
+    "forward_batch1_ms": 1.2334426244099934,
+    "forward_batch1_peak_alloc_MB": 9.690112,
+    "forward_batch64_ms": 1.1685371398925781,
+    "forward_batch64_peak_alloc_MB": 11.856896
+  }
+}

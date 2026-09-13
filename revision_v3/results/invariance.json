@@ -1,0 +1,89 @@
+{
+  "n_crystals": 250,
+  "padding_slots_added": 19,
+  "checks": {
+    "formation_energy": {
+      "standard": {
+        "params": 19265,
+        "max_abs_permutation_difference_eV": 3.5762786865234375e-07,
+        "max_rel_permutation": 3.96184901774177e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "wide": {
+        "params": 69337,
+        "max_abs_permutation_difference_eV": 2.384185791015625e-07,
+        "max_rel_permutation": 2.642179026679514e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "cube4": {
+        "params": 69185,
+        "max_abs_permutation_difference_eV": 3.5762786865234375e-07,
+        "max_rel_permutation": 4.0077586049847014e-07,
+        "max_abs_padding_difference_eV": 3.5762786865234375e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "occupancy4": {
+        "params": 69185,
+        "max_abs_permutation_difference_eV": 3.5762786865234375e-07,
+        "max_rel_permutation": 3.995587860572414e-07,
+        "max_abs_padding_difference_eV": 3.5762786865234375e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "geo4": {
+        "params": 69185,
+        "max_abs_permutation_difference_eV": 3.5762786865234375e-07,
+        "max_rel_permutation": 3.9979451571525715e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "random4": {
+        "params": 69185,
+        "max_abs_permutation_difference_eV": 3.5762786865234375e-07,
+        "max_rel_permutation": 3.9722024780530774e-07,
+        "max_abs_padding_difference_eV": 3.5762786865234375e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "sitelabel": {
+        "params": 535105,
+        "max_abs_permutation_difference_eV": 2.384185791015625e-07,
+        "max_rel_permutation": 2.6435299105287413e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "struct": {
+        "params": 20481,
+        "max_abs_permutation_difference_eV": 2.384185791015625e-07,
+        "max_rel_permutation": 2.6296294208805193e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      },
+      "hierarchy": {
+        "params": 20673,
+        "max_abs_permutation_difference_eV": 2.384185791015625e-07,
+        "max_rel_permutation": 2.6478264203433355e-07,
+        "max_abs_padding_difference_eV": 2.384185791015625e-07,
+        "tolerance_eV": 1e-05,
+        "permutation_pass": true,
+        "padding_pass": true
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Assemble the final reupload package with a date stamp on every file name, write a hash
+manifest, and zip it."""
+import os, sys, json, shutil, hashlib, zipfile, datetime
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+STAMP = sys.argv[1] if len(sys.argv) > 1 else datetime.datetime.now().strftime("%Y%m%d")
+PKG = os.path.join(ROOT, f"package_{STAMP}")
+DEL = os.path.join(ROOT, "deliverable")
+MS = os.path.join(ROOT, "manuscript")
+FIG = os.path.join(ROOT, "figures")
+RES = os.path.join(ROOT, "results_v3")
+DAT = os.path.join(ROOT, "data")
+
+if os.path.exists(PKG):
+    print("package dir already exists, refusing to overwrite:", PKG)
+    sys.exit(1)
+
+
+def stamped(name, stamp=STAMP):
+    base, ext = os.path.splitext(name)
+    return f"{base}_{stamp}{ext}"
+
+
+def put(src, subdir, newname=None):
+    d = os.path.join(PKG, subdir)
+    os.makedirs(d, exist_ok=True)
+    dst = os.path.join(d, newname or stamped(os.path.basename(src)))
+    shutil.copy2(src, dst)
+    return dst
+
+
+def main():
+    files = []
+    # 1 manuscript
+    for f in ["main_clean.docx", "main_clean.pdf"]:
+        p = os.path.join(DEL, f)
+        if os.path.exists(p):
+            files.append(put(p, "01_Manuscript",
+                             stamped(f.replace("main_clean", "manuscript"))))
+    files.append(put(os.path.join(MS, "main.md"), "01_Manuscript",
+                     stamped("manuscript_source.md")))
+    files.append(put(os.path.join(DEL, "summary_of_changes.md"), "01_Manuscript"))
+    # 2 response
+    for f in ["Response_to_Reviewers.docx", "Response_to_Reviewers.md",
+              "reviewer_response_tracker.xlsx", "reviewer_response_tracker.csv"]:
+        files.append(put(os.path.join(DEL, f), "02_Response"))
+    # 3 supplementary
+    files.append(put(os.path.join(DEL, "supplementary.docx"), "03_Supplementary"))
+    files.append(put(os.path.join(MS, "supplementary.md"), "03_Supplementary",
+                     stamped("supplementary_source.md")))
+    # 4 highlights / cover
+    for f in ["highlights.txt", "cover_letter.docx", "cover_letter.md",
+              "graphical_abstract_declaration.txt"]:
+        files.append(put(os.path.join(DEL, f), "04_Highlights_and_cover"))
+    # 5 figures
+    for f in sorted(os.listdir(FIG)):
+        if f.lower().endswith((".svg", ".png", ".tiff", ".tif")):
+            files.append(put(os.path.join(FIG, f), "05_Figures"))
+    # 6 data and code
+    for f in sorted(os.listdir(HERE)):
+        if f.endswith(".py"):
+            files.append(put(os.path.join(HERE, f), "06_Data_and_code/code"))
+    for f in sorted(os.listdir(RES)):
+        if f.endswith(".json") and not f.startswith("_"):
+            files.append(put(os.path.join(RES, f), "06_Data_and_code/results"))
+    for f in sorted(os.listdir(DAT)):
+        files.append(put(os.path.join(DAT, f), "06_Data_and_code/data"))
+    pdir = os.path.join(RES, "preds")
+    if os.path.isdir(pdir):
+        n = 0
+        for f in sorted(os.listdir(pdir)):
+            if f.endswith(".npy"):
+                put(os.path.join(pdir, f), "06_Data_and_code/per_crystal_predictions",
+                    stamped(f))
+                n += 1
+        print("packaged", n, "prediction files")
+
+    # manifest
+    rows = []
+    for f in files:
+        h = hashlib.sha256(open(f, "rb").read()).hexdigest()
+        rows.append((os.path.relpath(f, PKG), os.path.getsize(f), h))
+    for dirpath, _, fnames in os.walk(os.path.join(PKG, "06_Data_and_code",
+                                                   "per_crystal_predictions")):
+        for fn in fnames:
+            fp = os.path.join(dirpath, fn)
+            h = hashlib.sha256(open(fp, "rb").read()).hexdigest()
+            rows.append((os.path.relpath(fp, PKG), os.path.getsize(fp), h))
+    rows.sort()
+    man = os.path.join(PKG, f"MANIFEST_{STAMP}.csv")
+    with open(man, "w", encoding="utf-8") as fh:
+        fh.write("path,bytes,sha256\n")
+        for r in rows:
+            fh.write(f"{r[0]},{r[1]},{r[2]}\n")
+    print("manifest rows:", len(rows))
+
+    readme = f"""# Reupload package - COMMAT-D-26-03017R1 (revised)
+
+Stamp: {STAMP}
+
+| Folder | Contents |
+|---|---|
+| 01_Manuscript | revised manuscript (DOCX, PDF, markdown source) and a summary of changes |
+| 02_Response | point-by-point response to the editor and Reviewer 1, plus the tracker (XLSX/CSV) |
+| 03_Supplementary | supplementary material (DOCX and markdown source) |
+| 04_Highlights_and_cover | Highlights, cover letter, graphical-abstract declaration |
+| 05_Figures | every figure as SVG (source), 600 dpi PNG and 600 dpi LZW TIFF |
+| 06_Data_and_code | experiment code, result JSON, cohort export (JSONL) and per-crystal predictions |
+
+A SHA256 manifest for every file is in MANIFEST_{STAMP}.csv.
+
+Every number in the manuscript, the supplementary material and the response letter is read
+from the JSON files in 06_Data_and_code/results at build time; the documents are generated by
+06_Data_and_code/code/build_docs.py, so text and data cannot drift apart.
+
+The archived values of the earlier submission are retained only in Table S7 of the
+supplementary material, labelled as archival and inadmissible as evidence.
+"""
+    with open(os.path.join(PKG, f"README_{STAMP}.md"), "w", encoding="utf-8") as fh:
+        fh.write(readme)
+
+    zp = os.path.join(ROOT, f"resubmission_package_crystal_v3_{STAMP}.zip")
+    with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+        for dirpath, _, fnames in os.walk(PKG):
+            for fn in fnames:
+                fp = os.path.join(dirpath, fn)
+                z.write(fp, os.path.relpath(fp, os.path.dirname(PKG)))
+    print("wrote", zp, round(os.path.getsize(zp) / 1e6, 2), "MB")
+
+
+if __name__ == "__main__":
+    main()
