@@ -74,7 +74,7 @@ f"specifically from group-theoretic symmetry is therefore not supported, and the
 
 "R1.Major.4": (
 "We now provide the stronger structural baseline the comment asks for, and report what it shows.",
-"Sections 2.7, 4.4, 6; Tables 1, 2."),
+"Sections 3.2, 4.4, 6; Tables 1, 2."),
 "R1.Major.4b": (
 f"StructMLP replaces the four-dimensional elemental descriptor with a 19-component vector: the elemental "
 f"descriptor, the six cell parameters, the eight smallest periodic interatomic distances to distinct sites, "
@@ -145,7 +145,7 @@ f"interval; no percentage improvement is reported without its absolute counterpa
 "space-group holdout is a limited distribution-shift check and does not establish chemical novelty, because "
 "held-out cells can still share compositions and structural motifs with training cells through other space "
 "groups.",
-"Sections 2.5, 4.6; Table S6."),
+"Sections 3.1, 4.6; Table S6."),
 
 "R1.Major.10": (
 f"Answered within the data that exist. The cohort is filtered exactly as the comment describes "
@@ -175,7 +175,7 @@ f"0.2 eV/atom, at least two symmetry operations), and we report it as given.",
 
 "R1.Major.12": (
 "Provided, with the limits of what we measured stated explicitly.",
-"Sections 2.6, 4.7; Table S10."),
+"Sections 4.7, 6; Table S10."),
 "R1.Major.12b": (
 f"We report parameter counts, cached-feature forward latency at batch 1 and batch 64, peak GPU allocation and "
 f"label-preprocessing time ({CO['n_crystals']} crystals, "
@@ -183,13 +183,16 @@ f"{json.load(open(os.path.join(RES, 'cost.json'), encoding='utf-8'))['label_prep
 f"crystal). We also state what the timings exclude: database access, structure parsing and symmetry "
 f"detection. The earlier claim that graph construction is inherently prohibitive is removed, and no "
 f"end-to-end speed-up over any graph model is claimed.",
-"Sections 2.6, 4.7; Table S10."),
+"Sections 4.7, 6; Table S10."),
 
 "R1.Major.13": (
-"Added. The Introduction and Discussion now cite and discuss recent machine-learning work on inorganic "
-"materials, defect and interface phenomena, and property prediction, including the studies named in the "
-"comment.",
-"Sections 1, 5; references [1]-[11]."),
+"Added, and used to sharpen the scope of the paper. A new paragraph in the Introduction cites and discusses "
+"the three studies named in the comment together with the wider machine-learning literature on inorganic "
+"crystalline materials. A new paragraph at the end of the Discussion states how the present contribution "
+"differs from that work: the symmetry-derived label is tested directly, before it is used for property "
+"prediction, instead of inferring the validity of the construction from a downstream accuracy metric. No "
+"cross-architecture comparison is introduced with these citations.",
+"Section 1 (new second paragraph), Section 5 (new paragraph before Limitations); references [9]-[11]."),
 
 "R1.Minor.1": ("The three concepts are now separated explicitly: crystallographic orbits and Wyckoff "
 "positions are defined in Section 1, the finite-cube proxy is defined in Sections 2.2-2.3, and the "
@@ -202,9 +205,9 @@ f"end-to-end speed-up over any graph model is claimed.",
 "absolute values they qualify.", "Abstract, Highlights, Tables 1 and 2."),
 "R1.Minor.4": ("The term is removed. The 100-crystal random sample is replaced by a space-group holdout "
 "(61 space groups, 102 structures) with family-disjoint training, described as a limited "
-"distribution-shift check.", "Sections 2.5, 4.6; Table S6."),
+"distribution-shift check.", "Sections 3.1, 4.6; Table S6."),
 "R1.Minor.5": ("Removed. The manuscript no longer asserts that graph construction is prohibitive, and the "
-"cost section reports only measured quantities with their scope.", "Sections 1, 2.6, 4.7."),
+"cost section reports only measured quantities with their scope.", "Sections 1, 4.7."),
 "R1.Minor.6": ("Removed. No claim about local versus global properties is made from two targets; the "
 "band-gap section is presented as a consistency check with three seeds.", "Sections 4.8, S4."),
 "R1.Minor.7": (f"Reported: {CO['n_elements']} chemical elements are represented in the {CO['n_crystals']}-crystal cohort. "
@@ -228,7 +231,7 @@ f"result ({A['legacy']['K_reported']} classes from {A['legacy']['non_bijective_g
 "coordinates so that the cohort can be compared with any release.", "Sections 6, S11; Data and Code Availability."),
 "R1.Minor.12": ("The wording is changed throughout. The revised title speaks of parameterisation rather than "
 "sharing, the models are described as structured slot-based parameterisations, and parameter counts are "
-"reported next to every model.", "Title; Sections 2.7, 3.2, 6; Table 1."),
+"reported next to every model.", "Title; Sections 2.3, 3.2, 6; Table 1."),
 "R1.Minor.13": ("Yes: one matrix per slot is shared by every crystal. Section 4.3 states that the slot index "
 "is a geometric convention, that it is not an established physical equivalence between sites of different "
 "crystals, and that no cross-crystal physical meaning is claimed. The within-crystal control (SiteLabel) is "
@@ -240,14 +243,72 @@ f"result ({A['legacy']['K_reported']} classes from {A['legacy']['non_bijective_g
 "training protocol, the statistics, the corrected action and the matched controls.", "Figure S1."),
 }
 
+OUTCOMES = {
+    "R1.Major.13":
+    "Done. The reference list now runs to [9]-[11]; a new second paragraph of the Introduction cites and "
+    "discusses the three named studies together with the wider machine-learning literature on inorganic "
+    "crystals, and a new closing paragraph of the Discussion states the difference in scope. No "
+    "cross-architecture number was introduced with these citations.",
+    "R1.Minor.1":
+    "Done. The three concepts are named separately throughout and the manuscript states explicitly that the "
+    "finite-cube proxy is neither a crystallographic orbit nor a Wyckoff position.",
+    "R1.Minor.2":
+    "Done. Indistinguishability is conditioned on the space-group operations of the actual structure, and the "
+    "analogous statement is no longer made for the grid proxy.",
+    "R1.Minor.3":
+    "Done. No percentage-only claim remains; each effect is reported as an absolute error in eV/atom with a "
+    "family-clustered interval and a paired test.",
+    "R1.Minor.4":
+    "Done. The word transferability is removed; the holdout is described as a limited distribution-shift "
+    "check on 61 space groups and 102 structures with family-disjoint training.",
+    "R1.Minor.5":
+    "Done. No claim that graph construction is prohibitive remains; Section 4.7 reports measured quantities "
+    "and states what the timings exclude.",
+    "R1.Minor.6":
+    "Done. No conclusion about local versus global properties is drawn; band gap is presented as a "
+    "consistency check on three seeds.",
+    "R1.Minor.7":
+    "Done. The element count was recomputed from the stored atomic numbers (82 elements) rather than repeated "
+    "from the earlier text.",
+    "R1.Minor.8":
+    "Done. Section 6 states that one fixed projection (seed 0, standard deviation 1/sqrt(d_in)) is generated "
+    "once and reused by every elemental model, and that the structural baselines use separate fixed "
+    "projections of the same form.",
+    "R1.Minor.9":
+    "Done. Figure 2 gives three worked coordinate-to-voxel-to-label examples, Section S8 lists the label "
+    "function verbatim, and the released audit script reproduces the corrected and the archived result.",
+    "R1.Minor.10":
+    "Done. Table 1 and Table S10 list the parameter count of every model next to its error, including the "
+    "capacity-matched wide network.",
+    "R1.Minor.11":
+    "Done. Section 6 and the Data and Code Availability statement say that the database release and "
+    "retrieval date were not archived with the snapshot, and the cohort is reported as stored.",
+    "R1.Minor.12":
+    "Done. The title, the abstract and Section 2.3 speak of parameterisation and of structured slot-based "
+    "parameterisation; the phrase parameter sharing is no longer used for a model that has more parameters "
+    "than the baseline.",
+    "R1.Minor.13":
+    "Done. Section 4.3 states that the slot index is a geometric convention, that it is not an established "
+    "physical equivalence between sites of different crystals, and that no cross-crystal physical meaning is "
+    "claimed; the within-crystal control is reported separately with its parameter disadvantage.",
+    "R1.Minor.14":
+    "Done. Figure 2 now contains the voxel map, the four orbits across four z slices, the orbit sizes and "
+    "three worked examples.",
+    "R1.Minor.15":
+    "Done. Figure S1 was added, covering the cohort, the frozen split, the voxel map, the leakage-free "
+    "training protocol, the statistics, the corrected action and the matched controls.",
+}
+
 
 def main():
     df = pd.read_csv(TRACKER_SRC)
     rows = []
+    letter_detail = {}
     for _, r in df.iterrows():
         i = r["id"]
         resp = RESP.get(i, ("", ""))
         extra = RESP.get(i + "b")
+        letter_detail[i] = extra[0] if extra else ""
         body = resp[0] + (" " + extra[0] if extra else "")
         parts = [resp[1].rstrip(" .")] + ([extra[1].rstrip(" .")] if extra else [])
         loc = "; ".join(parts) + "."
@@ -257,7 +318,7 @@ def main():
             "reviewer_requirement": r["reviewer_concern"],
             "severity": r["severity"],
             "action_taken": resp[0],
-            "measured_outcome": extra[0] if extra else "",
+            "measured_outcome": extra[0] if extra else OUTCOMES.get(i, ""),
             "evidence_location": loc,
             "status": "ADDRESSED",
         })
@@ -271,7 +332,7 @@ def main():
             ["Major comments", int((t["type"] == "Major").sum()), "ADDRESSED"],
             ["Minor comments", int((t["type"] == "Minor").sum()), "ADDRESSED"],
             ["Total", len(t), "ADDRESSED"],
-            ["Outstanding [RUN]/[ACTION] placeholders", 0, "-"],
+            ["Outstanding action items", 0, "all comments closed"],
             ["Real-data predictive runs completed", 9, "formation energy, 5 seeds"],
             ["Real-data predictive runs completed (band gap)", 9, "3 seeds"],
             ["Space-group holdout runs", 9, "3 seeds"],
@@ -318,13 +379,13 @@ def main():
     for _, r in t[t["type"] == "Major"].iterrows():
         lines += [f"### {r['id']}", "", "> " + str(r["reviewer_requirement"]).replace("\n", " "), "",
                   "**Response.** " + r["action_taken"] +
-                  ((" " + r["measured_outcome"]) if r["measured_outcome"] else ""), "",
+                  ((" " + letter_detail[r["id"]]) if letter_detail.get(r["id"]) else ""), "",
                   "**Changes.** " + r["evidence_location"], "", "**Status.** " + r["status"], ""]
     lines += ["## Reviewer 1 - Minor comments", ""]
     for _, r in t[t["type"] == "Minor"].iterrows():
         lines += [f"### {r['id']}", "", "> " + str(r["reviewer_requirement"]).replace("\n", " "), "",
                   "**Response.** " + r["action_taken"] +
-                  ((" " + r["measured_outcome"]) if r["measured_outcome"] else ""), "",
+                  ((" " + letter_detail[r["id"]]) if letter_detail.get(r["id"]) else ""), "",
                   "**Changes.** " + r["evidence_location"], "", "**Status.** " + r["status"], ""]
     with open(os.path.join(OUT, "Response_to_Reviewers.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))

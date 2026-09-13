@@ -99,6 +99,12 @@ def main():
     cost_rows = "\n".join(
         f"| {m} | {C[m]['params']:,} | {C[m]['forward_batch1_ms']:.2f} | "
         f"{C[m]['forward_batch64_ms']:.2f} |" for m in ORDER if m in C)
+    COMMIT = "53c346d7ff132fb713f71dcc75cea0af775c3594"
+    _pin = os.path.join(ROOT, "github_commit.txt")
+    if os.path.exists(_pin):
+        _v = open(_pin, encoding="utf-8").read().strip()
+        if _v:
+            COMMIT = _v
 
     doc = f"""# Correctly constructing and fairly evaluating symmetry-aware parameterisation for crystal-property neural networks
 
@@ -150,6 +156,21 @@ the per-site computation independent and combines sites only through a permutati
 pooling step. In that setting the only place where structural information can enter is the
 site feature vector and, if the model uses one, a discrete label that selects which trainable
 transform is applied to a site.
+
+Recent work in materials informatics has broadened the range of problems that machine-learned
+models are asked to address, which makes the representational assumptions of those models
+consequential. Machine learning combined with phase-field crystal modelling has been used to
+relate nano-steps at &Sigma;3{{111}} twin boundaries to dislocation-cell strengthening \\[9\\];
+coupled oxygen doping and crystal-amorphous multiphase coupling has been reported to improve
+the wear resistance of a NiTiCu alloy \\[10\\]; and the principles, advances and emerging
+applications of machine-learning force fields for inorganic crystalline materials have been
+reviewed recently \\[11\\]. Each of these applications consumes a structural representation of
+a crystal, and each is therefore sensitive to how that representation treats the symmetry of
+the lattice: a descriptor that merges sites which are not symmetry-equivalent, or separates
+sites which are, degrades the information the model is meant to use. The question addressed
+here is narrower than those applications and prior to them: how a symmetry-derived label
+should be constructed, and how it should be checked, before it is used to share parameters in
+a property-prediction network.
 
 The appeal of the second route is that crystal structures come with a ready-made labelling:
 the space group partitions the sites of a cell into symmetry orbits, so a label could encode
@@ -465,6 +486,14 @@ archived values as evidence. A methodology paper is only useful if the negative 
 reported with the same care as a positive one, and if the reader can re-run the audit and the
 protocol from the released code and data.
 
+Links to the wider literature are indirect but real. The studies discussed in Section 1 use
+learned representations of inorganic crystals for defect and interface behaviour \\[9\\], alloy
+properties \\[10\\] and interatomic potentials \\[11\\], and each inherits whatever its
+structural descriptor encodes. A label that is presented as encoding symmetry equivalence but
+encodes voxel geometry instead is hard to detect from a downstream metric, because the model
+can still fit its training data. That is why the construction is tested directly here rather
+than inferred from accuracy.
+
 ### Limitations
 
 The cohort is a filtered Materials Project snapshot (8-40 sites, energy above hull below
@@ -513,7 +542,8 @@ per-crystal test predictions for every model and seed, the figures with their SV
 and the derived JSON tables used to produce every number above. The cohort is a Materials
 Project snapshot supplied as a cached pickle; per-crystal identifiers, coordinates, cell
 parameters and targets are exported to JSONL by the released code. Repository:
-https://github.com/wmll-wmll/orbit-weight.
+https://github.com/wmll-wmll/orbit-weight, branch master, commit {COMMIT}. The scripts and the
+derived JSON tables are also included in 06_Data_and_code of this submission package.
 
 ## References
 
@@ -525,6 +555,9 @@ https://github.com/wmll-wmll/orbit-weight.
 [6] Spglib dataset documentation, accessed 12 September 2026.
 [7] T.S. Cohen, M. Welling, PMLR 48 (2016) 2990-2999.
 [8] M. Zaheer et al., NeurIPS 30 (2017).
+[9] H. Li et al., Scripta Mater. 283 (2026) 117432.
+[10] H. Ma et al., Rare Metals 45 (6) (2026) e70319.
+[11] J. Yi et al., Phys. Chem. Chem. Phys. (2026) doi:10.1039/D6CP01826B.
 
 ## Figures
 
