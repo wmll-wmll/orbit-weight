@@ -1,0 +1,68 @@
+{
+  "group": "48 signed permutation matrices",
+  "n_grid": 64,
+  "corrected": {
+    "gauge": "cube-centred",
+    "bijective_maps": 48,
+    "closure_ok": 2304,
+    "closure_total": 2304,
+    "n_orbits": 4,
+    "orbit_sizes": [
+      24,
+      24,
+      8,
+      8
+    ]
+  },
+  "archived": {
+    "gauge": "origin-centred and clipped to [0,3]",
+    "non_bijective_maps": 42,
+    "stored_generator_distinct_images": [
+      16
+    ],
+    "classes_from_archived_bfs": 40,
+    "class_sizes": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "not an orbit decomposition because the generators are not bijections"
+  }
+}

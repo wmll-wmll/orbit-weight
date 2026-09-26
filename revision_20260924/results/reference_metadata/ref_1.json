@@ -1,0 +1,901 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T03:13:44Z",
+    "timestamp": 1790219624049,
+    "version": "4.1.0"
+  },
+  "reference-count": 66,
+  "publisher": "AIP Publishing",
+  "issue": "1",
+  "content-domain": {
+    "domain": [
+      "pubs.aip.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Accelerating the discovery of advanced materials is essential for human welfare and sustainable, clean energy. In this paper, we introduce the Materials Project (www.materialsproject.org), a core program of the Materials Genome Initiative that uses high-throughput computing to uncover the properties of all known inorganic materials. This open dataset can be accessed through multiple channels for both interactive exploration and data mining. The Materials Project also seeks to create open-source platforms for developing robust, sophisticated materials analyses. Future efforts will enable users to perform \u2018\u2018rapid-prototyping\u2019\u2019 of new materials in silico, and provide researchers with new avenues for cost-effective, data-driven materials design.</jats:p>",
+  "DOI": "10.1063/1.4812323",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        18
+      ]
+    ],
+    "date-time": "2013-07-18T18:56:51Z",
+    "timestamp": 1374173811000
+  },
+  "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "Crossref",
+  "is-referenced-by-count": 12632,
+  "title": [
+    "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation"
+  ],
+  "prefix": "10.1063",
+  "volume": "1",
+  "author": [
+    {
+      "given": "Anubhav",
+      "family": "Jain",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Shyue Ping",
+      "family": "Ong",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Geoffroy",
+      "family": "Hautier",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Universit\u00e9 catholique de Louvain 3 , Louvain-la-Neuve, Belgium"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wei",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "William Davidson",
+      "family": "Richards",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Stephen",
+      "family": "Dacek",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Shreyas",
+      "family": "Cholia",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Dan",
+      "family": "Gunter",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David",
+      "family": "Skinner",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gerbrand",
+      "family": "Ceder",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kristin A.",
+      "family": "Persson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "317",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "2023062215572474800_c1",
+      "volume-title": "Department of Energy Workshop: Computational Materials Science and Chemistry for Innovation",
+      "author": "U.S.D. of Energy",
+      "year": "2010"
+    },
+    {
+      "key": "2023062215572474800_c2",
+      "volume-title": "The Advanced Materials Revolution: Technology and Economic Growth in the Age of Globalization",
+      "year": "2009"
+    },
+    {
+      "key": "2023062215572474800_c3",
+      "year": "2011"
+    },
+    {
+      "key": "2023062215572474800_c4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1049",
+      "DOI": "10.1103/PhysRev.28.1049",
+      "volume": "22",
+      "year": "1926",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "2023062215572474800_c5",
+      "doi-asserted-by": "publisher",
+      "first-page": "A1133",
+      "DOI": "10.1103/PhysRev.140.A1133",
+      "volume": "140",
+      "year": "1965",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "2023062215572474800_c6",
+      "doi-asserted-by": "publisher",
+      "first-page": "B864",
+      "DOI": "10.1103/PhysRev.136.B864",
+      "volume": "136",
+      "year": "1964",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "2023062215572474800_c7",
+      "doi-asserted-by": "publisher",
+      "first-page": "659",
+      "DOI": "10.1557/mrs2006.174",
+      "volume": "31",
+      "year": "2006",
+      "journal-title": "MRS Bull."
+    },
+    {
+      "key": "2023062215572474800_c8",
+      "doi-asserted-by": "publisher",
+      "first-page": "7317",
+      "DOI": "10.1007/s10853-012-6424-0",
+      "volume": "47",
+      "year": "2012",
+      "journal-title": "J. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c9",
+      "doi-asserted-by": "publisher",
+      "first-page": "9034",
+      "DOI": "10.1039/c2ee22341d",
+      "volume": "5",
+      "year": "2012",
+      "journal-title": "Energy Environ. Sci."
+    },
+    {
+      "key": "2023062215572474800_c10",
+      "doi-asserted-by": "publisher",
+      "first-page": "5814",
+      "DOI": "10.1039/c1ee02717d",
+      "volume": "5",
+      "year": "2012",
+      "journal-title": "Energy Environ. Sci."
+    },
+    {
+      "key": "2023062215572474800_c11",
+      "doi-asserted-by": "publisher",
+      "first-page": "068701",
+      "DOI": "10.1103/PhysRevLett.108.068701",
+      "volume": "108",
+      "year": "2012",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c12",
+      "doi-asserted-by": "publisher",
+      "first-page": "614",
+      "DOI": "10.1038/nmat3332",
+      "volume": "11",
+      "year": "2012",
+      "journal-title": "Nature Mater."
+    },
+    {
+      "key": "2023062215572474800_c13",
+      "doi-asserted-by": "publisher",
+      "first-page": "1042",
+      "DOI": "10.1016/j.commatsci.2008.07.016",
+      "volume": "44",
+      "year": "2009",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c14",
+      "doi-asserted-by": "publisher",
+      "first-page": "382",
+      "DOI": "10.1021/co200012w",
+      "volume": "13",
+      "year": "2011",
+      "journal-title": "ACS Comb. Sci."
+    },
+    {
+      "key": "2023062215572474800_c15",
+      "doi-asserted-by": "publisher",
+      "first-page": "633",
+      "DOI": "10.1038/nmat3336",
+      "volume": "11",
+      "year": "2012",
+      "journal-title": "Nature Mater."
+    },
+    {
+      "key": "2023062215572474800_c16",
+      "doi-asserted-by": "publisher",
+      "first-page": "014103",
+      "DOI": "10.1103/PhysRevB.84.014103",
+      "volume": "84",
+      "year": "2011",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c17",
+      "doi-asserted-by": "publisher",
+      "first-page": "021012",
+      "DOI": "10.1103/PhysRevX.1.021012",
+      "volume": "1",
+      "year": "2011",
+      "journal-title": "Phys. Rev. X"
+    },
+    {
+      "key": "2023062215572474800_c18",
+      "doi-asserted-by": "publisher",
+      "first-page": "227",
+      "DOI": "10.1016/j.commatsci.2012.02.002",
+      "volume": "58",
+      "year": "2012",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c19",
+      "doi-asserted-by": "publisher",
+      "first-page": "909",
+      "DOI": "10.1038/nmat1752",
+      "volume": "5",
+      "year": "2006",
+      "journal-title": "Nature Mater."
+    },
+    {
+      "key": "2023062215572474800_c20",
+      "doi-asserted-by": "publisher",
+      "first-page": "8769",
+      "DOI": "10.1021/jp060482m",
+      "volume": "110",
+      "year": "2006",
+      "journal-title": "J. Phys. Chem. B"
+    },
+    {
+      "key": "2023062215572474800_c21",
+      "doi-asserted-by": "publisher",
+      "first-page": "12129",
+      "DOI": "10.1021/jp0733724",
+      "volume": "111",
+      "year": "2007",
+      "journal-title": "J. Phys. Chem. C"
+    },
+    {
+      "key": "2023062215572474800_c22",
+      "doi-asserted-by": "publisher",
+      "first-page": "A309",
+      "DOI": "10.1149/1.3536532",
+      "volume": "158",
+      "year": "2011",
+      "journal-title": "J. Electrochem. Soc."
+    },
+    {
+      "key": "2023062215572474800_c23",
+      "doi-asserted-by": "publisher",
+      "first-page": "2009",
+      "DOI": "10.1021/cm203243x",
+      "volume": "24",
+      "year": "2012",
+      "journal-title": "Chemistry of Materials"
+    },
+    {
+      "key": "2023062215572474800_c24",
+      "doi-asserted-by": "publisher",
+      "first-page": "A622",
+      "DOI": "10.1149/2.080205jes",
+      "volume": "159",
+      "year": "2012",
+      "journal-title": "J. Electrochem. Soc."
+    },
+    {
+      "key": "2023062215572474800_c25",
+      "doi-asserted-by": "publisher",
+      "first-page": "17147",
+      "DOI": "10.1039/c1jm12216a",
+      "volume": "21",
+      "year": "2011",
+      "journal-title": "J. Mater. Chem."
+    },
+    {
+      "key": "2023062215572474800_c26",
+      "doi-asserted-by": "publisher",
+      "first-page": "19619",
+      "DOI": "10.1021/ja3040834",
+      "volume": "134",
+      "year": "2012",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "2023062215572474800_c27",
+      "doi-asserted-by": "publisher",
+      "first-page": "2241",
+      "DOI": "10.1021/jz200866s",
+      "volume": "2",
+      "year": "2011",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "2023062215572474800_c28",
+      "doi-asserted-by": "publisher",
+      "first-page": "272",
+      "DOI": "10.1002/anie.201107947",
+      "volume": "51",
+      "year": "2012",
+      "journal-title": "Angew. Chem., Int. Ed. Engl."
+    },
+    {
+      "key": "2023062215572474800_c29"
+    },
+    {
+      "key": "2023062215572474800_c30",
+      "doi-asserted-by": "publisher",
+      "first-page": "15",
+      "DOI": "10.1016/0927-0256(96)00008-0",
+      "volume": "6",
+      "year": "1996",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c31",
+      "doi-asserted-by": "publisher",
+      "first-page": "11169",
+      "DOI": "10.1103/PhysRevB.54.11169",
+      "volume": "54",
+      "year": "1996",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c32",
+      "doi-asserted-by": "publisher",
+      "first-page": "364",
+      "DOI": "10.1107/S0108768102006948",
+      "volume": "58",
+      "year": "2002",
+      "journal-title": "Acta Crystallogr., Sect. B: Struct. Sci."
+    },
+    {
+      "key": "2023062215572474800_c33",
+      "doi-asserted-by": "publisher",
+      "first-page": "66",
+      "DOI": "10.1021/ci00038a003",
+      "volume": "23",
+      "year": "1983",
+      "journal-title": "J. Chem. Inf. Comput. Sci."
+    },
+    {
+      "key": "2023062215572474800_c34",
+      "doi-asserted-by": "publisher",
+      "first-page": "937",
+      "DOI": "10.1038/nmat2321",
+      "volume": "7",
+      "year": "2008",
+      "journal-title": "Nature Mater."
+    },
+    {
+      "key": "2023062215572474800_c35",
+      "doi-asserted-by": "publisher",
+      "first-page": "244704",
+      "DOI": "10.1063/1.2210932",
+      "volume": "124",
+      "year": "2006",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "2023062215572474800_c36",
+      "doi-asserted-by": "publisher",
+      "first-page": "027401",
+      "DOI": "10.1103/PhysRevLett.108.027401",
+      "volume": "108",
+      "year": "2012",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c37",
+      "doi-asserted-by": "publisher",
+      "first-page": "046401",
+      "DOI": "10.1103/PhysRevLett.97.046401",
+      "volume": "97",
+      "year": "2006",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c38",
+      "doi-asserted-by": "publisher",
+      "first-page": "656",
+      "DOI": "10.1021/ic102031h",
+      "volume": "50",
+      "year": "2011",
+      "journal-title": "Inorg. Chem."
+    },
+    {
+      "key": "2023062215572474800_c39",
+      "doi-asserted-by": "publisher",
+      "first-page": "3762",
+      "DOI": "10.1021/cm100795d",
+      "volume": "22",
+      "year": "2010",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "2023062215572474800_c40",
+      "doi-asserted-by": "publisher",
+      "first-page": "641",
+      "DOI": "10.1038/nmat1691",
+      "volume": "5",
+      "year": "2006",
+      "journal-title": "Nature Mater."
+    },
+    {
+      "key": "2023062215572474800_c41",
+      "doi-asserted-by": "publisher",
+      "first-page": "195107",
+      "DOI": "10.1103/PhysRevB.73.195107",
+      "volume": "73",
+      "year": "2006",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c42",
+      "doi-asserted-by": "publisher",
+      "first-page": "075150",
+      "DOI": "10.1103/PhysRevB.87.075150",
+      "volume": "87",
+      "year": "2013",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c43",
+      "doi-asserted-by": "publisher",
+      "first-page": "245207",
+      "DOI": "10.1103/PhysRevB.78.245207",
+      "volume": "78",
+      "year": "2008",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c44",
+      "doi-asserted-by": "publisher",
+      "first-page": "075207",
+      "DOI": "10.1103/PhysRevB.87.075207",
+      "volume": "87",
+      "year": "2013",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c45",
+      "doi-asserted-by": "publisher",
+      "first-page": "045115",
+      "DOI": "10.1103/PhysRevB.84.045115",
+      "volume": "84",
+      "year": "2011",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c46",
+      "doi-asserted-by": "publisher",
+      "first-page": "235438",
+      "DOI": "10.1103/PhysRevB.85.235438",
+      "volume": "85",
+      "year": "2012",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c47",
+      "doi-asserted-by": "publisher",
+      "first-page": "A796",
+      "DOI": "10.1103/PhysRev.139.A796",
+      "volume": "139",
+      "year": "1965",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "2023062215572474800_c48",
+      "doi-asserted-by": "publisher",
+      "first-page": "174101",
+      "DOI": "10.1063/1.2085170",
+      "volume": "123",
+      "year": "2005",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "2023062215572474800_c49",
+      "doi-asserted-by": "publisher",
+      "first-page": "196403",
+      "DOI": "10.1103/PhysRevLett.105.196403",
+      "volume": "105",
+      "year": "2010",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c50",
+      "doi-asserted-by": "publisher",
+      "first-page": "997",
+      "DOI": "10.1103/PhysRevLett.52.997",
+      "volume": "52",
+      "year": "1984",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c51",
+      "doi-asserted-by": "publisher",
+      "first-page": "5",
+      "DOI": "10.1103/PhysRevLett.102.226401",
+      "volume": "102",
+      "year": "2009",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c52",
+      "doi-asserted-by": "publisher",
+      "first-page": "195131",
+      "DOI": "10.1103/PhysRevB.83.195131",
+      "volume": "83",
+      "year": "2011",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023062215572474800_c53",
+      "doi-asserted-by": "publisher",
+      "first-page": "126402",
+      "DOI": "10.1103/PhysRevLett.91.126402",
+      "volume": "91",
+      "year": "2003",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023062215572474800_c54",
+      "doi-asserted-by": "publisher",
+      "first-page": "247",
+      "DOI": "10.1002/qua.560560410",
+      "volume": "56",
+      "year": "1995",
+      "journal-title": "Int. J. Quantum Chem."
+    },
+    {
+      "key": "2023062215572474800_c55",
+      "doi-asserted-by": "publisher",
+      "first-page": "427",
+      "DOI": "10.1016/j.elecom.2010.01.010",
+      "volume": "12",
+      "year": "2010",
+      "journal-title": "Electrochem. Commun."
+    },
+    {
+      "key": "2023062215572474800_c56",
+      "doi-asserted-by": "publisher",
+      "first-page": "1798",
+      "DOI": "10.1021/cm702327g",
+      "volume": "20",
+      "year": "2008",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "2023062215572474800_c57",
+      "volume-title": "Proceedings of the 5th Workshop on Many-Task Computing on Grids and Supercomputers (MTAGS)",
+      "year": "2012"
+    },
+    {
+      "key": "2023062215572474800_c58",
+      "doi-asserted-by": "publisher",
+      "first-page": "314",
+      "DOI": "10.1016/j.commatsci.2012.10.028",
+      "volume": "68",
+      "year": "2013",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c59",
+      "doi-asserted-by": "publisher",
+      "first-page": "621",
+      "DOI": "10.1103/RevModPhys.72.621",
+      "volume": "72",
+      "year": "2000",
+      "journal-title": "Rev. Mod. Phys."
+    },
+    {
+      "key": "2023062215572474800_c60",
+      "doi-asserted-by": "publisher",
+      "first-page": "478",
+      "DOI": "10.1016/S0927-0256(02)00325-7",
+      "volume": "25",
+      "year": "2002",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023062215572474800_c61"
+    },
+    {
+      "key": "2023062215572474800_c62",
+      "doi-asserted-by": "publisher",
+      "first-page": "791",
+      "DOI": "10.2138/am.2012.3948",
+      "volume": "97",
+      "year": "2012",
+      "journal-title": "Am. Mineral."
+    },
+    {
+      "key": "2023062215572474800_c63",
+      "doi-asserted-by": "publisher",
+      "first-page": "A1411",
+      "DOI": "10.1149/2.083112jes",
+      "volume": "158",
+      "year": "2011",
+      "journal-title": "J. Electrochem. Soc."
+    },
+    {
+      "key": "2023062215572474800_c64",
+      "doi-asserted-by": "publisher",
+      "first-page": "72",
+      "DOI": "10.1016/j.jmmm.2013.04.025",
+      "volume": "341",
+      "year": "2013",
+      "journal-title": "J. Magn. Magn. Mater."
+    },
+    {
+      "key": "2023062215572474800_c65"
+    },
+    {
+      "key": "2023062215572474800_c66",
+      "first-page": "202",
+      "volume": "2",
+      "year": "1984",
+      "journal-title": "Russ. Metall."
+    }
+  ],
+  "container-title": [
+    "APL Materials"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.aip.org/aip/apm/article-pdf/doi/10.1063/1.4812323/13163869/011002_1_online.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://pubs.aip.org/aip/apm/article-pdf/doi/10.1063/1.4812323/13163869/011002_1_online.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        24
+      ]
+    ],
+    "date-time": "2023-06-24T09:43:22Z",
+    "timestamp": 1687599802000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.aip.org/apm/article/1/1/011002/119685/Commentary-The-Materials-Project-A-materials"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        1
+      ]
+    ]
+  },
+  "references-count": 66,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1063/1.4812323",
+  "relation": {
+    "is-referenced-by": [
+      {
+        "id-type": "doi",
+        "id": "10.1007/s41207-026-01073-4",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "2166-532X"
+  ],
+  "issn-type": [
+    {
+      "value": "2166-532X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published-other": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        1
+      ]
+    ]
+  },
+  "article-number": "011002"
+}

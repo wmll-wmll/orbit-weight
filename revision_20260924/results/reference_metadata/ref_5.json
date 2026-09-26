@@ -1,0 +1,1268 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2026-09-23T15:11:03Z",
+    "timestamp": 1790176263142,
+    "version": "4.1.0"
+  },
+  "reference-count": 99,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "7715",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2018-07-01T00:00:00Z",
+        "timestamp": 1530403200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://www.springer.com/tdm"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nature"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1038/s41586-018-0337-2",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        7,
+        17
+      ]
+    ],
+    "date-time": "2018-07-17T11:38:12Z",
+    "timestamp": 1531827492000
+  },
+  "page": "547-555",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 4620,
+  "title": [
+    "Machine learning for molecular and materials science"
+  ],
+  "prefix": "10.1038",
+  "volume": "559",
+  "author": [
+    {
+      "given": "Keith T.",
+      "family": "Butler",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel W.",
+      "family": "Davies",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hugh",
+      "family": "Cartwright",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Olexandr",
+      "family": "Isayev",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Aron",
+      "family": "Walsh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        7,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "337_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "714",
+      "DOI": "10.1098/rspa.1929.0094",
+      "volume": "123",
+      "author": "PAM Dirac",
+      "year": "1929",
+      "unstructured": "Dirac, P. A. M. Quantum mechanics of many-electron systems. Proc. R. Soc. Lond. A 123, 714\u2013733 (1929).",
+      "journal-title": "Proc. R. Soc. Lond. A"
+    },
+    {
+      "key": "337_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "1894",
+      "DOI": "10.1002/(SICI)1521-3773(19990712)38:13/14<1894::AID-ANIE1894>3.0.CO;2-H",
+      "volume": "38",
+      "author": "JA Pople",
+      "year": "1999",
+      "unstructured": "Pople, J. A. Quantum chemical models (Nobel lecture). Angew. Chem. Int. Ed. 38, 1894\u20131902 (1999).",
+      "journal-title": "Angew. Chem. Int. Ed."
+    },
+    {
+      "key": "337_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "221",
+      "DOI": "10.1021/bk-2013-1122.ch008",
+      "volume": "1122",
+      "author": "DB Boyd",
+      "year": "2013",
+      "unstructured": "Boyd, D. B. Quantum chemistry program exchange, facilitator of theoretical and computational chemistry in pre-internet history. ACS Symp. Ser. 1122, 221\u2013273 (2013).",
+      "journal-title": "ACS Symp. Ser."
+    },
+    {
+      "key": "337_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "5419",
+      "DOI": "10.1021/ct500847y",
+      "volume": "10",
+      "author": "M Arita",
+      "year": "2014",
+      "unstructured": "Arita, M., Bowler, D. R. & Miyazaki, T. Stable and efficient linear scaling first-principles molecular dynamics for 10000+ atoms. J. Chem. Theory Comput. 10, 5419\u20135425 (2014).",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "337_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "4782",
+      "DOI": "10.1021/ct500686r",
+      "volume": "10",
+      "author": "KA Wilkinson",
+      "year": "2014",
+      "unstructured": "Wilkinson, K. A., Hine, N. D. M. & Skylaris, C.-K. Hybrid mpi-openmp parallelism in the Onetep linear-scaling electronic structure code: application to the delamination of cellulose nanofibrils. J. Chem. Theory Comput. 10, 4782\u20134794 (2014).",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "337_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "8367",
+      "DOI": "10.1016/j.jcp.2009.08.008",
+      "volume": "228",
+      "author": "V Havu",
+      "year": "2009",
+      "unstructured": "Havu, V., Blum, V., Havu, P. & Scheffler, M. Efficient O(N) integration for all-electron electronic structure calculation using numeric basis functions. J. Comput. Phys. 228, 8367\u20138379 (2009).",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "337_CR7",
+      "volume-title": "Computational Approaches to Energy Materials",
+      "author": "CRA Catlow",
+      "year": "2013",
+      "unstructured": "Catlow, C. R. A., Sokol, A. A. & Walsh, A. Computational Approaches to Energy Materials (Wiley-Blackwell, New York, 2013)."
+    },
+    {
+      "key": "337_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "B864",
+      "DOI": "10.1103/PhysRev.136.B864",
+      "volume": "136",
+      "author": "P Hohenberg",
+      "year": "1964",
+      "unstructured": "Hohenberg, P. & Kohn, W. Inhomogeneous electron gas. Phys. Rev. 136, B864\u2013B871 (1964).",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "337_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "A1133",
+      "DOI": "10.1103/PhysRev.140.A1133",
+      "volume": "140",
+      "author": "W Kohn",
+      "year": "1965",
+      "unstructured": "Kohn, W. & Sham, L. J. Self-consistent equations including exchange and correlation effects. Phys. Rev. 140, A1133\u2013A1138 (1965).",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "337_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "aad3000",
+      "DOI": "10.1126/science.aad3000",
+      "volume": "351",
+      "author": "K Lejaeghere",
+      "year": "2016",
+      "unstructured": "Lejaeghere, K. et al. Reproducibility in density functional theory calculations of solids. Science 351, aad3000 (2016).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "2241",
+      "DOI": "10.1021/jz200866s",
+      "volume": "2",
+      "author": "J Hachmann",
+      "year": "2011",
+      "unstructured": "Hachmann, J. et al. The Harvard clean energy project: large-scale computational screening and design of organic photovoltaics on the world community grid. J. Phys. Chem. Lett. 2, 2241\u20132251 (2011).",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "337_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "011002",
+      "DOI": "10.1063/1.4812323",
+      "volume": "1",
+      "author": "A Jain",
+      "year": "2013",
+      "unstructured": "Jain, A. et al. Commentary: the materials project: a materials genome approach to accelerating materials innovation. APL Mater. 1, 011002 (2013).",
+      "journal-title": "APL Mater."
+    },
+    {
+      "key": "337_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "233",
+      "DOI": "10.1016/j.commatsci.2015.07.019",
+      "volume": "108",
+      "author": "CE Calderon",
+      "year": "2015",
+      "unstructured": "Calderon, C. E. et al. The AFLOW standard for high-throughput materials science calculations. Comput. Mater. Sci. 108, 233\u2013238 (2015).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "337_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "053208",
+      "DOI": "10.1063/1.4946894",
+      "volume": "4",
+      "author": "A Agrawal",
+      "year": "2016",
+      "unstructured": "Agrawal, A. & Choudhary, A. Perspective: Materials informatics and big data: realization of the \u2018fourth paradigm\u2019 of science in materials science. APL Mater. 4, 053208 (2016).",
+      "journal-title": "APL Mater."
+    },
+    {
+      "key": "337_CR15",
+      "unstructured": "Schwab, K. The fourth industrial revolution. Foreign Affairs \n                    https://www.foreignaffairs.com/articles/2015-12-12/fourth-industrial-revolution\n                    \n                   (2015)."
+    },
+    {
+      "key": "337_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "1189",
+      "DOI": "10.1021/ci100176x",
+      "volume": "50",
+      "author": "D Fourches",
+      "year": "2010",
+      "unstructured": "Fourches, D., Muratov, E. & Tropsha, A. Trust, but verify: on the importance of chemical structure curation in cheminformatics and QSAR modeling research. J. Chem. Inf. Model. 50, 1189\u20131204 (2010).",
+      "journal-title": "J. Chem. Inf. Model."
+    },
+    {
+      "key": "337_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "301",
+      "DOI": "10.1002/minf.201100163",
+      "volume": "31",
+      "author": "N Kireeva",
+      "year": "2012",
+      "unstructured": "Kireeva, N. et al. Generative topographic mapping (GTM): universal tool for data visualization, structure-activity modeling and dataset comparison. Mol. Inform. 31, 301\u2013312 (2012).",
+      "journal-title": "Mol. Inform."
+    },
+    {
+      "key": "337_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "5255",
+      "DOI": "10.1021/acs.jctc.7b00577",
+      "volume": "13",
+      "author": "FA Faber",
+      "year": "2017",
+      "unstructured": "Faber, F. A. et al. Prediction errors of molecular machine learning models lower than hybrid DFT error. J. Chem. Theory Comput. 13, 5255\u20135264 (2017).",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "337_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "058301",
+      "DOI": "10.1103/PhysRevLett.108.058301",
+      "volume": "108",
+      "author": "M Rupp",
+      "year": "2012",
+      "unstructured": "Rupp, M., Tkatchenko, A., M\u00fcller, K.-R. & von Lilienfeld, O. A. Fast and accurate modeling of molecular atomization energies with machine learning. Phys. Rev. Lett. 108, 058301 (2012).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR20",
+      "volume-title": "Chemical Graph Theory: Introduction and Fundamentals",
+      "author": "D Bonchev",
+      "year": "1991",
+      "unstructured": "Bonchev, D. & Rouvray, D. H. Chemical Graph Theory: Introduction and Fundamentals (Abacus Press, New York, 1991)."
+    },
+    {
+      "key": "337_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "205118",
+      "DOI": "10.1103/PhysRevB.89.205118",
+      "volume": "89",
+      "author": "KT Sch\u00fctt",
+      "year": "2014",
+      "unstructured": "Sch\u00fctt, K. T. et al. How to represent crystal structures for machine learning: towards fast prediction of electronic properties. Phys. Rev. B 89, 205118 (2014). A radial-distribution-function description of periodic solids is adapted for machine-learning models and applied to predict the electronic density of states for a range of materials.",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "337_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "024104",
+      "DOI": "10.1103/PhysRevB.96.024104",
+      "volume": "96",
+      "author": "L Ward",
+      "year": "2017",
+      "unstructured": "Ward, L. et al. Including crystal structure attributes in machine learning models of formation energies via Voronoi tessellations. Phys. Rev. B 96, 024104 (2017).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "337_CR23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms15679",
+      "volume": "8",
+      "author": "O Isayev",
+      "year": "2017",
+      "unstructured": "Isayev, O. et al. Universal fragment descriptors for predicting electronic properties of inorganic crystals. Nat. Commun. 8, 15679 (2017).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "337_CR24",
+      "first-page": "385",
+      "volume": "69",
+      "author": "DJ Hand",
+      "year": "2001",
+      "unstructured": "Hand, D. J. & Yu, K. Idiot\u2019s Bayes\u2014not so stupid after all? Int. Stat. Rev. 69, 385\u2013398 (2001).",
+      "journal-title": "Int. Stat. Rev."
+    },
+    {
+      "key": "337_CR25",
+      "volume-title": "Nearest-Neighbor Methods in Learning and Vision: Theory and Practice",
+      "author": "G Shakhnarovich",
+      "year": "2005",
+      "unstructured": "Shakhnarovich, G., Darrell, T. & Indyk, P. Nearest-Neighbor Methods in Learning and Vision: Theory and Practice (MIT Press, Boston, 2005)."
+    },
+    {
+      "key": "337_CR26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rokach, L. & Maimon, O. in Data Mining and Knowledge Discovery Handbook (eds Maimon, O. & Rokach, L.) 149\u2013174 (Springer, New York, 2010).",
+      "DOI": "10.1007/978-0-387-09823-4_9"
+    },
+    {
+      "key": "337_CR27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1017/CBO9780511809682",
+      "volume-title": "Kernel Methods for Pattern Analysis",
+      "author": "J Shawe-Taylor",
+      "year": "2004",
+      "unstructured": "Shawe-Taylor, J. & Cristianini, N. Kernel Methods for Pattern Analysis (Cambridge Univ. Press, Cambridge, 2004)."
+    },
+    {
+      "key": "337_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "85",
+      "DOI": "10.1016/j.neunet.2014.09.003",
+      "volume": "61",
+      "author": "J Schmidhuber",
+      "year": "2015",
+      "unstructured": "Schmidhuber, J. Deep learning in neural networks: an overview. Neural Netw. 61, 85\u2013117 (2015).",
+      "journal-title": "Neural Netw."
+    },
+    {
+      "key": "337_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "178",
+      "DOI": "10.1126/science.166.3902.178",
+      "volume": "166",
+      "author": "EJ Corey",
+      "year": "1969",
+      "unstructured": "Corey, E. J. & Wipke, W. T. Computer-assisted design of complex organic synthesis. Science 166, 178\u2013192 (1969).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "604",
+      "DOI": "10.1038/nature25978",
+      "volume": "555",
+      "author": "MHS Segler",
+      "year": "2018",
+      "unstructured": "Segler, M. H. S., Preuss, M. & Waller, M. P. Planning chemical syntheses with deep neural networks and symbolic AI. Nature 555, 604\u2013610 (2018). A computer-driven retrosynthesis tool was trained on most published reactions in organic chemistry.",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "337_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "5904",
+      "DOI": "10.1002/anie.201506101",
+      "volume": "55",
+      "author": "S Szymku\u0107",
+      "year": "2016",
+      "unstructured": "Szymku\u0107, S. et al. Computer-assisted synthetic planning: the end of the beginning. Angew. Chem. Int. Ed. 55, 5904\u20135937 (2016).",
+      "journal-title": "Angew. Chem. Int. Ed."
+    },
+    {
+      "key": "337_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "522",
+      "DOI": "10.1016/j.chempr.2018.02.002",
+      "volume": "4",
+      "author": "T Klucznik",
+      "year": "2018",
+      "unstructured": "Klucznik, T. et al. Efficient syntheses of diverse, medicinally relevant targets planned by computer and executed in the laboratory. Chem 4, 522\u2013532 (2018).",
+      "journal-title": "Chem"
+    },
+    {
+      "key": "337_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "5966",
+      "DOI": "10.1002/chem.201605499",
+      "volume": "23",
+      "author": "MHS Segler",
+      "year": "2017",
+      "unstructured": "Segler, M. H. S. & Waller, M. P. Neural-symbolic machine learning for retrosynthesis and reaction prediction. Chem. Eur. J. 23, 5966\u20135971 (2017).",
+      "journal-title": "Chem. Eur. J."
+    },
+    {
+      "key": "337_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "530",
+      "DOI": "10.1107/S2052520616006533",
+      "volume": "72",
+      "author": "JC Cole",
+      "year": "2016",
+      "unstructured": "Cole, J. C. et al. Generation of crystal structures using known crystal structures as analogues. Acta Crystallogr. B 72, 530\u2013541 (2016).",
+      "journal-title": "Acta Crystallogr. B"
+    },
+    {
+      "key": "337_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "1120",
+      "DOI": "10.1038/nmat4717",
+      "volume": "15",
+      "author": "R G\u00f3mez-Bombarelli",
+      "year": "2016",
+      "unstructured": "G\u00f3mez-Bombarelli, R. et al. Design of efficient molecular organic light-emitting diodes by a high-throughput virtual screening and experimental approach. Nat. Mater. 15, 1120\u20131127 (2016). This study uses machine learning to guide all stages of a materials discovery workflow from quantum-chemical calculations to materials synthesis.",
+      "journal-title": "Nat. Mater."
+    },
+    {
+      "key": "337_CR36",
+      "unstructured": "Jastrz\u0119bski, S., Le\u015bniak, D. & Czarnecki, W. M. Learning to SMILE(S). Preprint at \n                    https://arxiv.org/abs/1602.06289\n                    \n                   (2016)."
+    },
+    {
+      "key": "337_CR37",
+      "unstructured": "Nam, J. & Kim, J. Linking the neural machine translation and the prediction of organic chemistry reactions. Preprint at \n                    https://arxiv.org/abs/1612.09529\n                    \n                   (2016)."
+    },
+    {
+      "key": "337_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "1103",
+      "DOI": "10.1021/acscentsci.7b00303",
+      "volume": "3",
+      "author": "B Liu",
+      "year": "2017",
+      "unstructured": "Liu, B. et al. Retrosynthetic reaction prediction using neural sequence-to-sequence models. ACS Cent. Sci. 3, 1103\u20131113 (2017).",
+      "journal-title": "ACS Cent. Sci."
+    },
+    {
+      "key": "337_CR39",
+      "doi-asserted-by": "publisher",
+      "first-page": "283",
+      "DOI": "10.1021/acscentsci.6b00367",
+      "volume": "3",
+      "author": "H Altae-Tran",
+      "year": "2017",
+      "unstructured": "Altae-Tran, H., Ramsundar, B., Pappu, A. S. & Pande, V. Low data drug discovery with one-shot learning. ACS Cent. Sci. 3, 283\u2013293 (2017).",
+      "journal-title": "ACS Cent. Sci."
+    },
+    {
+      "key": "337_CR40",
+      "doi-asserted-by": "publisher",
+      "first-page": "1927",
+      "DOI": "10.1039/C4CE01912A",
+      "volume": "17",
+      "author": "JGP Wicker",
+      "year": "2015",
+      "unstructured": "Wicker, J. G. P. & Cooper, R. I. Will it crystallise? Predicting crystallinity of molecular materials. CrystEngComm 17, 1927\u20131934 (2015). This paper presents a crystal engineering application of machine learning to assess the probability of a given molecule forming a high-quality crystal.",
+      "journal-title": "CrystEngComm"
+    },
+    {
+      "key": "337_CR41",
+      "doi-asserted-by": "publisher",
+      "first-page": "3737",
+      "DOI": "10.1039/C7CE00738H",
+      "volume": "19",
+      "author": "M Pillong",
+      "year": "2017",
+      "unstructured": "Pillong, M. et al. A publicly available crystallisation data set and its application in machine learning. CrystEngComm 19, 3737\u20133745 (2017).",
+      "journal-title": "CrystEngComm"
+    },
+    {
+      "key": "337_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "73",
+      "DOI": "10.1038/nature17439",
+      "volume": "533",
+      "author": "P Raccuglia",
+      "year": "2016",
+      "unstructured": "Raccuglia, P. et al. Machine-learning-assisted materials discovery using failed experiments. Nature 533, 73\u201376 (2016). The study trains a machine-learning model to predict the success of a chemical reaction, incorporating the results of unsuccessful attempts as well as known (successful) reactions.",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "337_CR43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms15733",
+      "volume": "8",
+      "author": "V Dragone",
+      "year": "2017",
+      "unstructured": "Dragone, V., Sans, V., Henson, A. B., Granda, J. M. & Cronin, L. An autonomous organic reaction search engine for chemical reactivity. Nat. Commun. 8, 15733 (2017).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "337_CR44",
+      "doi-asserted-by": "publisher",
+      "first-page": "561",
+      "DOI": "10.1126/science.1135080",
+      "volume": "316",
+      "author": "SJL Billinge",
+      "year": "2007",
+      "unstructured": "Billinge, S. J. L. & Levin, I. The problem with determining atomic structure at the nanoscale. Science 316, 561\u2013565 (2007).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "973",
+      "DOI": "10.1038/nmat4395",
+      "volume": "14",
+      "author": "SV Kalinin",
+      "year": "2015",
+      "unstructured": "Kalinin, S. V., Sumpter, B. G. & Archibald, R. K. Big\u2013deep\u2013smart data in imaging for guiding materials design. Nat. Mater. 14, 973\u2013980 (2015).",
+      "journal-title": "Nat. Mater."
+    },
+    {
+      "key": "337_CR46",
+      "doi-asserted-by": "publisher",
+      "first-page": "31",
+      "DOI": "10.1038/s41524-017-0038-7",
+      "volume": "3",
+      "author": "M Ziatdinov",
+      "year": "2017",
+      "unstructured": "Ziatdinov, M., Maksov, A. & Kalinin, S. V. Learning surface molecular structures via machine vision. npj Comput. Mater. 3, 31 (2017).",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "337_CR47",
+      "doi-asserted-by": "publisher",
+      "first-page": "273",
+      "DOI": "10.1080/10589750802258986",
+      "volume": "23",
+      "author": "VHC Albuquerque de",
+      "year": "2008",
+      "unstructured": "de Albuquerque, V. H. C., Cortez, P. C., de Alexandria, A. R. & Tavares, J. M. R. S. A new solution for automatic microstructures analysis from images based on a backpropagation artificial neural network. Nondestruct. Test. Eval. 23, 273\u2013283 (2008).",
+      "journal-title": "Nondestruct. Test. Eval."
+    },
+    {
+      "key": "337_CR48",
+      "unstructured": "Hui, Y. & Liu, Y. Volumetric data exploration with machine learning-aided visualization in neutron science. Preprint at \n                    https://arxiv.org/abs/1710.05994\n                    \n                   (2017)."
+    },
+    {
+      "key": "337_CR49",
+      "doi-asserted-by": "publisher",
+      "first-page": "431",
+      "DOI": "10.1038/nphys4035",
+      "volume": "13",
+      "author": "J Carrasquilla",
+      "year": "2017",
+      "unstructured": "Carrasquilla, J. & Melko, R. G. Machine learning phases of matter. Nat. Phys. 13, 431\u2013434 (2017).",
+      "journal-title": "Nat. Phys."
+    },
+    {
+      "key": "337_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "4946",
+      "DOI": "10.1039/C5CY01332A",
+      "volume": "5",
+      "author": "R Christensen",
+      "year": "2015",
+      "unstructured": "Christensen, R., Hansen, H. A. & Vegge, T. Identifying systematic DFT errors in catalytic reactions. Catal. Sci. Technol. 5, 4946\u20134949 (2015).",
+      "journal-title": "Catal. Sci. Technol."
+    },
+    {
+      "key": "337_CR51",
+      "doi-asserted-by": "publisher",
+      "first-page": "253002",
+      "DOI": "10.1103/PhysRevLett.108.253002",
+      "volume": "108",
+      "author": "JC Snyder",
+      "year": "2012",
+      "unstructured": "Snyder, J. C., Rupp, M., Hansen, K., M\u00fcller, K.-R. & Burke, K. Finding density functionals with machine learning. Phys. Rev. Lett. 108, 253002 (2012).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "235149",
+      "DOI": "10.1103/PhysRevB.85.235149",
+      "volume": "85",
+      "author": "J Wellendorff",
+      "year": "2012",
+      "unstructured": "Wellendorff, J. et al. Density functionals for surface science: exchange-correlation model development with Bayesian error estimation. Phys. Rev. B 85, 235149 (2012).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "337_CR53",
+      "doi-asserted-by": "publisher",
+      "first-page": "214110",
+      "DOI": "10.1063/1.4952647",
+      "volume": "144",
+      "author": "N Mardirossian",
+      "year": "2016",
+      "unstructured": "Mardirossian, N. & Head-Gordon, M. \u03c9B97M-V a combinatorially optimized, range-separated hybrid, meta-GGA density functional with VV10 nonlocal correlation. J. Chem. Phys. 144, 214110 (2016).",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "337_CR54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-017-00839-3",
+      "volume": "8",
+      "author": "F Brockherde",
+      "year": "2017",
+      "unstructured": "Brockherde, F. et al. Bypassing the Kohn-Sham equations with machine learning. Nat. Commun. 8, 872 (2017). This study transcends the standard approach to DFT by providing a direct mapping from density to energy, paving the way for higher-accuracy approaches.",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "337_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "12828",
+      "DOI": "10.1002/anie.201703114",
+      "volume": "56",
+      "author": "J Behler",
+      "year": "2017",
+      "unstructured": "Behler, J. First principles neural network potentials for reactive simulations of large molecular and condensed systems. Angew. Chem. Int. Ed. 56, 12828\u201312840 (2017).",
+      "journal-title": "Angew. Chem. Int. Ed."
+    },
+    {
+      "key": "337_CR56",
+      "doi-asserted-by": "publisher",
+      "first-page": "3192",
+      "DOI": "10.1039/C6SC05720A",
+      "volume": "8",
+      "author": "JS Smith",
+      "year": "2017",
+      "unstructured": "Smith, J. S., Isayev, O. & Roitberg, A. E. Ani-1: an extensible neural network potential with DFT accuracy at force field computational cost. Chem. Sci. 8, 3192\u20133203 (2017).",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "337_CR57",
+      "doi-asserted-by": "publisher",
+      "first-page": "136403",
+      "DOI": "10.1103/PhysRevLett.104.136403",
+      "volume": "104",
+      "author": "AP Bart\u00f3k",
+      "year": "2010",
+      "unstructured": "Bart\u00f3k, A. P., Payne, M. C., Kondor, R. & Cs\u00e1nyi, G. Gaussian approximation potentials: the accuracy of quantum mechanics, without the electrons. Phys. Rev. Lett. 104, 136403 (2010). In this study, machine learning is used to fit interatomic potentials that reproduce the total energy and energy derivatives from quantum-mechanical calculations and enable accurate low-cost simulations.",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR58",
+      "doi-asserted-by": "publisher",
+      "first-page": "3371",
+      "DOI": "10.1021/jp9105585",
+      "volume": "114",
+      "author": "CM Handley",
+      "year": "2010",
+      "unstructured": "Handley, C. M. & Popelier, P. L. A. Potential energy surfaces fitted by artificial neural networks. J. Phys. Chem. A 114, 3371\u20133383 (2010).",
+      "journal-title": "J. Phys. Chem. A"
+    },
+    {
+      "key": "337_CR59",
+      "doi-asserted-by": "publisher",
+      "first-page": "657",
+      "DOI": "10.1038/nature21419",
+      "volume": "543",
+      "author": "A Pulido",
+      "year": "2017",
+      "unstructured": "Pulido, A. et al. Functional materials discovery using energy\u2013structure\u2013function maps. Nature 543, 657\u2013664 (2017).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "337_CR60",
+      "doi-asserted-by": "publisher",
+      "first-page": "399",
+      "DOI": "10.1557/mrs.2016.93",
+      "volume": "41",
+      "author": "J Hill",
+      "year": "2016",
+      "unstructured": "Hill, J. et al. Materials science with large-scale data and informatics: unlocking new opportunities. MRS Bull. 41, 399\u2013409 (2016).",
+      "journal-title": "MRS Bull."
+    },
+    {
+      "key": "337_CR61",
+      "doi-asserted-by": "publisher",
+      "first-page": "8",
+      "DOI": "10.1016/S0925-8388(98)00606-9",
+      "volume": "279",
+      "author": "NN Kiselyova",
+      "year": "1998",
+      "unstructured": "Kiselyova, N. N., Gladun, V. P. & Vashchenko, N. D. Computational materials design using artificial intelligence methods. J. Alloys Compd. 279, 8\u201313 (1998).",
+      "journal-title": "J. Alloys Compd."
+    },
+    {
+      "key": "337_CR62",
+      "doi-asserted-by": "publisher",
+      "first-page": "1501",
+      "DOI": "10.1007/s11837-013-0755-4",
+      "volume": "65",
+      "author": "JE Saal",
+      "year": "2013",
+      "unstructured": "Saal, J. E., Kirklin, S., Aykol, M., Meredig, B. & Wolverton, C. Materials design and discovery with high-throughput density functional theory: the open quantum materials database (OQMD). JOM 65, 1501\u20131509 (2013).",
+      "journal-title": "JOM"
+    },
+    {
+      "key": "337_CR63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep02810",
+      "volume": "3",
+      "author": "G Pilania",
+      "year": "2013",
+      "unstructured": "Pilania, G., Wang, C., Jiang, X., Rajasekaran, S. & Ramprasad, R. Accelerating materials property predictions using machine learning. Sci. Rep. 3, 2810 (2013).",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "337_CR64",
+      "doi-asserted-by": "publisher",
+      "first-page": "3762",
+      "DOI": "10.1021/cm100795d",
+      "volume": "22",
+      "author": "G Hautier",
+      "year": "2010",
+      "unstructured": "Hautier, G., Fischer, C. C., Jain, A., Mueller, T. & Ceder, G. Finding nature's missing ternary oxide compounds using machine learning and density functional theory. Chem. Mater. 22, 3762\u20133767 (2010). In an early example of harnessing materials databases, information on known compounds is used to construct a machine-learning model to predict the viability of previously unreported chemistries.",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "337_CR65",
+      "doi-asserted-by": "publisher",
+      "first-page": "274",
+      "DOI": "10.1038/nchem.2213",
+      "volume": "7",
+      "author": "A Walsh",
+      "year": "2015",
+      "unstructured": "Walsh, A. The quest for new functionality. Nat. Chem. 7, 274\u2013275 (2015).",
+      "journal-title": "Nat. Chem."
+    },
+    {
+      "key": "337_CR66",
+      "doi-asserted-by": "publisher",
+      "first-page": "617",
+      "DOI": "10.1016/j.chempr.2016.09.010",
+      "volume": "1",
+      "author": "DW Davies",
+      "year": "2016",
+      "unstructured": "Davies, D. W. et al. Computational screening of all stoichiometric inorganic materials. Chem 1, 617\u2013627 (2016).",
+      "journal-title": "Chem"
+    },
+    {
+      "key": "337_CR67",
+      "doi-asserted-by": "publisher",
+      "first-page": "60",
+      "DOI": "10.1038/46995",
+      "volume": "402",
+      "author": "A Franceschetti",
+      "year": "1999",
+      "unstructured": "Franceschetti, A. & Zunger, A. The inverse band-structure problem of finding an atomic configuration with given electronic properties. Nature 402, 60\u201363 (1999).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "337_CR68",
+      "doi-asserted-by": "publisher",
+      "first-page": "10595",
+      "DOI": "10.1021/jp960518i",
+      "volume": "100",
+      "author": "C Kuhn",
+      "year": "1996",
+      "unstructured": "Kuhn, C. & Beratan, D. N. Inverse strategies for molecular design. J. Phys. Chem. 100, 10595\u201310599 (1996).",
+      "journal-title": "J. Phys. Chem."
+    },
+    {
+      "key": "337_CR69",
+      "doi-asserted-by": "publisher",
+      "first-page": "7324",
+      "DOI": "10.1021/acs.chemmater.6b02724",
+      "volume": "28",
+      "author": "AO Oliynyk",
+      "year": "2016",
+      "unstructured": "Oliynyk, A. O. et al. High-throughput machine-learning-driven synthesis of full-Heusler compounds. Chem. Mater. 28, 7324\u20137331 (2016).",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "337_CR70",
+      "doi-asserted-by": "publisher",
+      "first-page": "625",
+      "DOI": "10.1021/acs.jpcb.7b05296",
+      "volume": "122",
+      "author": "F Legrain",
+      "year": "2018",
+      "unstructured": "Legrain, F., Carrete, J., van Roekeghem, A., Madsen, G. K. H. & Mingo, N. Materials screening for the discovery of new half-heuslers: machine learning versus ab initio methods. J. Phys. Chem. B 122, 625\u2013632 (2018).",
+      "journal-title": "J. Phys. Chem. B"
+    },
+    {
+      "key": "337_CR71",
+      "doi-asserted-by": "publisher",
+      "first-page": "9",
+      "DOI": "10.1016/j.md.2017.04.001",
+      "volume": "6",
+      "author": "T Moot",
+      "year": "2016",
+      "unstructured": "Moot, T. et al. Material informatics driven design and experimental validation of lead titanate as an aqueous solar photocathode. Mater. Discov. 6, 9\u201316 (2016).",
+      "journal-title": "Mater. Discov."
+    },
+    {
+      "key": "337_CR72",
+      "doi-asserted-by": "publisher",
+      "first-page": "135502",
+      "DOI": "10.1103/PhysRevLett.117.135502",
+      "volume": "117",
+      "author": "FA Faber",
+      "year": "2016",
+      "unstructured": "Faber, F. A., Lindmaa, A., Von Lilienfeld, O. A. & Armiento, R. Machine learning energies of 2 million elpasolite (ABC\n                           2\n                           D\n                           6) crystals. Phys. Rev. Lett. 117, 135502 (2016).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR73",
+      "doi-asserted-by": "publisher",
+      "first-page": "357",
+      "DOI": "10.1016/j.ddtec.2006.12.003",
+      "volume": "3",
+      "author": "TI Oprea",
+      "year": "2006",
+      "unstructured": "Oprea, T. I. & Tropsha, A. Target, chemical and bioactivity databases \u2013 integration is key. Drug Discov. Today. Technol. 3, 357\u2013365 (2006).",
+      "journal-title": "Drug Discov. Today. Technol."
+    },
+    {
+      "key": "337_CR74",
+      "doi-asserted-by": "publisher",
+      "first-page": "2324",
+      "DOI": "10.1021/acs.jcim.5b00559",
+      "volume": "55",
+      "author": "T Sterling",
+      "year": "2015",
+      "unstructured": "Sterling, T. & Irwin, J. J. ZINC 15 \u2013 ligand discovery for everyone. J. Chem. Inf. Model. 55, 2324\u20132337 (2015).",
+      "journal-title": "J. Chem. Inf. Model."
+    },
+    {
+      "key": "337_CR75",
+      "doi-asserted-by": "publisher",
+      "first-page": "476",
+      "DOI": "10.1002/minf.201000061",
+      "volume": "29",
+      "author": "A Tropsha",
+      "year": "2010",
+      "unstructured": "Tropsha, A. Best practices for QSAR model development, validation, and exploitation. Mol. Inform. 29, 476\u2013488 (2010).",
+      "journal-title": "Mol. Inform."
+    },
+    {
+      "key": "337_CR76",
+      "doi-asserted-by": "publisher",
+      "first-page": "1616",
+      "DOI": "10.1021/ja01062a035",
+      "volume": "86",
+      "author": "C Hansch",
+      "year": "1964",
+      "unstructured": "Hansch, C. & Fujita, T. p-\u03c3-\u03c0 analysis. A method for the correlation of biological activity and chemical structure. J. Am. Chem. Soc. 86, 1616\u20131626 (1964).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "337_CR77",
+      "unstructured": "Goodfellow, I. J. et al. Generative adversarial networks. Preprint at \n                    https://arxiv.org/abs/1406.2661\n                    \n                   (2014)."
+    },
+    {
+      "key": "337_CR78",
+      "unstructured": "Guimaraes, G. L., Sanchez-Lengeling, B., Outeiral, C., Farias, P. L. C. & Aspuru-Guzik, A. Objective-reinforced generative adversarial networks (ORGAN) for sequence generation models. Preprint at \n                    https://arxiv.org/abs/1705.10843\n                    \n                   (2017)."
+    },
+    {
+      "key": "337_CR79",
+      "doi-asserted-by": "publisher",
+      "first-page": "97",
+      "DOI": "10.1016/j.ymeth.2015.01.015",
+      "volume": "74",
+      "author": "WWM Fleuren",
+      "year": "2015",
+      "unstructured": "Fleuren, W. W. M. & Alkema, W. Application of text mining in the biomedical domain. Methods 74, 97\u2013106 (2015).",
+      "journal-title": "Methods"
+    },
+    {
+      "key": "337_CR80",
+      "doi-asserted-by": "publisher",
+      "first-page": "9436",
+      "DOI": "10.1021/acs.chemmater.7b03500",
+      "volume": "29",
+      "author": "E Kim",
+      "year": "2017",
+      "unstructured": "Kim, E. et al. Materials synthesis insights from scientific literature via text extraction and machine learning. Chem. Mater. 29, 9436\u20139444 (2017).",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "337_CR81",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jankowski, N., Duch, W. & Gra\u0327bczewski, K. (eds) Meta-Learning in Computational Intelligence (Springer, Berlin, 2011).",
+      "DOI": "10.1007/978-3-642-20980-2"
+    },
+    {
+      "key": "337_CR82",
+      "unstructured": "Graves, A., Wayne, G. & Danihelka, I. Neural Turing machines. Preprint at \n                    https://arxiv.org/abs/1410.5401\n                    \n                   (2014)."
+    },
+    {
+      "key": "337_CR83",
+      "unstructured": "Duan, Y. et al. One-shot imitation learning. Preprint at \n                    https://arxiv.org/abs/1703.07326\n                    \n                   (2017)."
+    },
+    {
+      "key": "337_CR84",
+      "doi-asserted-by": "publisher",
+      "first-page": "1332",
+      "DOI": "10.1126/science.aab3050",
+      "volume": "350",
+      "author": "BM Lake",
+      "year": "2015",
+      "unstructured": "Lake, B. M., Salakhutdinov, R. & Tenenbaum, J. B. Human-level concept learning through probabilistic program induction. Science 350, 1332\u20131338 (2015).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR85",
+      "doi-asserted-by": "publisher",
+      "first-page": "105503",
+      "DOI": "10.1103/PhysRevLett.114.105503",
+      "volume": "114",
+      "author": "LM Ghiringhelli",
+      "year": "2015",
+      "unstructured": "Ghiringhelli, L. M., Vybiral, J., Levchenko, S. V., Draxl, C. & Scheffler, M. Big data of materials science: critical role of the descriptor. Phys. Rev. Lett. 114, 105503 (2015).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR86",
+      "doi-asserted-by": "publisher",
+      "first-page": "191",
+      "DOI": "10.1038/nmat3568",
+      "volume": "12",
+      "author": "S Curtarolo",
+      "year": "2013",
+      "unstructured": "Curtarolo, S. et al. The high-throughput highway to computational materials design. Nat. Mater. 12, 191\u2013201 (2013).",
+      "journal-title": "Nat. Mater."
+    },
+    {
+      "key": "337_CR87",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Seko, A., Togo, A. & Tanaka, I. in Nanoinformatics\u00a0(ed. Tanaka, I.) 3\u201323 (Springer, Singapore, 2018).",
+      "DOI": "10.1007/978-981-10-7617-6_1"
+    },
+    {
+      "key": "337_CR88",
+      "unstructured": "Duvenaud, D. et al. Convolutional networks on graphs for learning molecular fingerprints. Preprint at \n                    https://arxiv.org/abs/1509.09292\n                    \n                   (2015)."
+    },
+    {
+      "key": "337_CR89",
+      "doi-asserted-by": "publisher",
+      "first-page": "117",
+      "DOI": "10.1088/0034-4885/61/2/002",
+      "volume": "61",
+      "author": "A Steane",
+      "year": "1998",
+      "unstructured": "Steane, A. Quantum computing. Rep. Prog. Phys. 61, 117 (1998).",
+      "journal-title": "Rep. Prog. Phys."
+    },
+    {
+      "key": "337_CR90",
+      "doi-asserted-by": "publisher",
+      "first-page": "150502",
+      "DOI": "10.1103/PhysRevLett.103.150502",
+      "volume": "103",
+      "author": "AW Harrow",
+      "year": "2009",
+      "unstructured": "Harrow, A. W., Hassidim, A. & Lloyd, S. Quantum algorithm for linear systems of equations. Phys. Rev. Lett. 103, 150502 (2009).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR91",
+      "doi-asserted-by": "publisher",
+      "first-page": "1704",
+      "DOI": "10.1126/science.1113479",
+      "volume": "309",
+      "author": "A Aspuru-Guzik",
+      "year": "2005",
+      "unstructured": "Aspuru-Guzik, A., Dutoi, A. D., Love, P. J. & Head-Gordon, M. Simulated quantum computation of molecular energies. Science 309, 1704\u20131707 (2005). In an early application of quantum computing to molecular problems, a quantum algorithm that scales linearly with the number of basis functions is demonstrated for calculating properties of chemical interest.",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR92",
+      "doi-asserted-by": "publisher",
+      "first-page": "7555",
+      "DOI": "10.1073/pnas.1619152114",
+      "volume": "114",
+      "author": "M Reiher",
+      "year": "2017",
+      "unstructured": "Reiher, M., Wiebe, N., Svore, K. M., Wecker, D. & Troyer, M. Elucidating reaction mechanisms on quantum computers. Proc. Natl Acad. Sci. USA 114, 7555\u20137560 (2017).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "337_CR93",
+      "doi-asserted-by": "publisher",
+      "first-page": "130501",
+      "DOI": "10.1103/PhysRevLett.117.130501",
+      "volume": "117",
+      "author": "V Dunjko",
+      "year": "2016",
+      "unstructured": "Dunjko, V., Taylor, J. M. & Briegel, H. J. Quantum-enhanced machine learning. Phys. Rev. Lett. 117, 130501 (2016).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "337_CR94",
+      "doi-asserted-by": "publisher",
+      "first-page": "195",
+      "DOI": "10.1038/nature23474",
+      "volume": "549",
+      "author": "J Biamonte",
+      "year": "2017",
+      "unstructured": "Biamonte, J. et al. Quantum machine learning. Nature 549, 195\u2013202 (2017).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "337_CR95",
+      "doi-asserted-by": "publisher",
+      "first-page": "81",
+      "DOI": "10.1126/science.1165893",
+      "volume": "324",
+      "author": "M Schmidt",
+      "year": "2009",
+      "unstructured": "Schmidt, M. & Lipson, H. Distilling free-form natural laws from experimental data. Science 324, 81\u201385 (2009).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "337_CR96",
+      "doi-asserted-by": "publisher",
+      "first-page": "e1602614",
+      "DOI": "10.1126/sciadv.1602614",
+      "volume": "3",
+      "author": "SH Rudy",
+      "year": "2017",
+      "unstructured": "Rudy, S. H., Brunton, S. L., Proctor, J. L. & Kutz, J. N. Data-driven discovery of partial differential equations. Sci. Adv. 3, e1602614 (2017).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "337_CR97",
+      "volume-title": "The Master Algorithm",
+      "author": "P Domingos",
+      "year": "2015",
+      "unstructured": "Domingos, P. The Master Algorithm (Basic Books, New York, 2015)."
+    },
+    {
+      "key": "337_CR98",
+      "doi-asserted-by": "publisher",
+      "first-page": "2615",
+      "DOI": "10.1021/acs.chemmater.7b00799",
+      "volume": "29",
+      "author": "F-X Coudert",
+      "year": "2017",
+      "unstructured": "Coudert, F.-X. Reproducible research in computational chemistry of materials. Chem. Mater. 29, 2615\u20132617 (2017).",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "337_CR99",
+      "doi-asserted-by": "publisher",
+      "first-page": "1600082",
+      "DOI": "10.1002/minf.201600082",
+      "volume": "36",
+      "author": "IV Tetko",
+      "year": "2017",
+      "unstructured": "Tetko, I. V., Maran, U. & Tropsha, A. Public (Q)SAR services, integrated modeling environments, and model repositories on the web: state of the art and perspectives for future development. Mol. Inform. 36, 1600082 (2017).",
+      "journal-title": "Mol. Inform."
+    }
+  ],
+  "container-title": [
+    "Nature"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://www.nature.com/articles/s41586-018-0337-2",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://www.nature.com/articles/s41586-018-0337-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "http://www.nature.com/articles/s41586-018-0337-2.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        20
+      ]
+    ],
+    "date-time": "2023-05-20T17:47:46Z",
+    "timestamp": 1684604866000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41586-018-0337-2"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        7
+      ]
+    ]
+  },
+  "references-count": 99,
+  "journal-issue": {
+    "issue": "7715",
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "337"
+  ],
+  "URL": "https://doi.org/10.1038/s41586-018-0337-2",
+  "relation": {},
+  "ISSN": [
+    "0028-0836",
+    "1476-4687"
+  ],
+  "issn-type": [
+    {
+      "value": "0028-0836",
+      "type": "print"
+    },
+    {
+      "value": "1476-4687",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        7
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "20 October 2017",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "9 May 2018",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "25 July 2018",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

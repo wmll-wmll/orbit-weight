@@ -1,0 +1,91 @@
+{
+  "created_before_training": "2026-09-24T21:24:00+0800",
+  "models": [
+    "standard",
+    "wide",
+    "cube4",
+    "geo4",
+    "occupancy4",
+    "random4",
+    "sym4",
+    "struct",
+    "hierarchy"
+  ],
+  "formation_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "band_gap_models": [
+    "standard",
+    "wide",
+    "cube4",
+    "sym4"
+  ],
+  "band_gap_seeds": [
+    42,
+    123,
+    456
+  ],
+  "transfer_models": [
+    "standard",
+    "wide",
+    "cube4",
+    "sym4"
+  ],
+  "transfer_seeds": [
+    42,
+    123,
+    456
+  ],
+  "sym4_rule": "site stabilizer order: 1 | 2 | 3-4 | >=6; species-preserving spglib orbits, symprec=1e-3 A",
+  "primary_pairwise_contrasts": [
+    [
+      "cube4",
+      "standard"
+    ],
+    [
+      "cube4",
+      "wide"
+    ],
+    [
+      "cube4",
+      "geo4"
+    ],
+    [
+      "cube4",
+      "occupancy4"
+    ],
+    [
+      "cube4",
+      "random4"
+    ],
+    [
+      "cube4",
+      "sym4"
+    ],
+    [
+      "sym4",
+      "standard"
+    ],
+    [
+      "struct",
+      "standard"
+    ],
+    [
+      "hierarchy",
+      "struct"
+    ]
+  ],
+  "no_hyperparameter_search": true,
+  "post_review_supplemental_study": true,
+  "existing_test_data_previously_examined": true,
+  "inference_scope": "conditional on fixed cohort and split; supplemental results not an untouched external replication",
+  "batch_size": 256,
+  "epochs": 200,
+  "device": "cpu",
+  "torch": "2.14.0+cpu",
+  "source_data_sha256": "27c4024c74f1c2ec87fe477f7cda45aee03ae7766e0eefc5f4ab9cba39017132"
+}

@@ -1,0 +1,73 @@
+{
+  "device": "CPU",
+  "torch_threads": 4,
+  "warmup": 20,
+  "repetitions": 100,
+  "timing_scope": "sitewise cached-feature forward only; batch latency, not per-crystal latency; excludes preprocessing",
+  "models": {
+    "standard": {
+      "site_permutation_max_eV": 5.245078114057833e-07,
+      "nuisance_padding_max_eV": 3.9338084434348275e-07,
+      "cpu_batch_1_median_ms": 0.35754999771597795,
+      "cpu_batch_64_median_ms": 13.463600000250153
+    },
+    "wide": {
+      "site_permutation_max_eV": 3.9338084434348275e-07,
+      "nuisance_padding_max_eV": 2.6225390570289164e-07,
+      "cpu_batch_1_median_ms": 0.671650002914248,
+      "cpu_batch_64_median_ms": 4.199199996946845
+    },
+    "cube4": {
+      "site_permutation_max_eV": 2.6225390570289164e-07,
+      "nuisance_padding_max_eV": 2.950356474684668e-07,
+      "cpu_batch_1_median_ms": 1.005750000331318,
+      "cpu_batch_64_median_ms": 22.87014999819803
+    },
+    "geo4": {
+      "site_permutation_max_eV": 3.9338084434348275e-07,
+      "nuisance_padding_max_eV": 2.6225390570289164e-07,
+      "cpu_batch_1_median_ms": 0.9989499958464876,
+      "cpu_batch_64_median_ms": 22.424699996918207
+    },
+    "occupancy4": {
+      "site_permutation_max_eV": 3.4420824590597476e-07,
+      "nuisance_padding_max_eV": 2.6225390570289164e-07,
+      "cpu_batch_1_median_ms": 1.1264500026300084,
+      "cpu_batch_64_median_ms": 22.84325000437093
+    },
+    "random4": {
+      "site_permutation_max_eV": 3.9338084434348275e-07,
+      "nuisance_padding_max_eV": 3.278173892340419e-07,
+      "cpu_batch_1_median_ms": 1.0103500026161782,
+      "cpu_batch_64_median_ms": 22.81454999683774
+    },
+    "sym4": {
+      "site_permutation_max_eV": 5.245078114057833e-07,
+      "nuisance_padding_max_eV": 3.278173892340419e-07,
+      "cpu_batch_1_median_ms": 1.1097499991592485,
+      "cpu_batch_64_median_ms": 23.834550000174204
+    },
+    "struct": {
+      "site_permutation_max_eV": 2.6225390570289164e-07,
+      "nuisance_padding_max_eV": 1.3112695285144582e-07,
+      "cpu_batch_1_median_ms": 0.656899999739835,
+      "cpu_batch_64_median_ms": 2.1195500012254342
+    },
+    "hierarchy": {
+      "site_permutation_max_eV": 2.6225390570289164e-07,
+      "nuisance_padding_max_eV": 1.3112695285144582e-07,
+      "cpu_batch_1_median_ms": 0.6641500003752299,
+      "cpu_batch_64_median_ms": 1.991900000575697
+    }
+  },
+  "raw_structure": {
+    "cube4_permutation_pass": 2741,
+    "sym4_permutation_pass": 2738,
+    "cube4_origin_changed": 2741,
+    "sym4_origin_changed": 0,
+    "cube4_origin_prediction_max_eV": 1.0705838203430176,
+    "cube4_origin_prediction_mean_eV": 0.11253958940505981,
+    "sym4_origin_prediction_max_eV": 0.0,
+    "sym4_origin_prediction_mean_eV": 0.0
+  }
+}

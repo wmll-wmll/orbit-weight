@@ -1,0 +1,815 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        19
+      ]
+    ],
+    "date-time": "2026-09-19T14:10:15Z",
+    "timestamp": 1789827015377,
+    "version": "4.0.1"
+  },
+  "reference-count": 34,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2026-10-01T00:00:00Z",
+        "timestamp": 1790812800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2026-10-01T00:00:00Z",
+        "timestamp": 1790812800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "52375394"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "52375394"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "52275390"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "52275390"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "52205429"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "52205429"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "52201146"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "52201146"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "52074246"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "52074246"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012335",
+      "name": "National Defense Basic Scientific Research Program of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "JCKY2020408B002"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "JCKY2020408B002"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012335",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100013317",
+      "name": "Shanxi Provincial Key Research and Development Project",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "202202050201014"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "202202050201014"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100013317",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100013317",
+      "name": "Shanxi Provincial Key Research and Development Project",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "202102050201011"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "202102050201011"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100013317",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Scripta Materialia"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.scriptamat.2026.117432",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        4
+      ]
+    ],
+    "date-time": "2026-06-04T23:53:02Z",
+    "timestamp": 1780617182000
+  },
+  "page": "117432",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 9,
+  "special_numbering": "C",
+  "title": [
+    "Nano-steps induce instability at \u03a33{111} twin boundaries and promote dislocation cell strengthening: An experimental and phase field crystal study"
+  ],
+  "prefix": "10.1016",
+  "volume": "283",
+  "author": [
+    {
+      "given": "Huanqing",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3333-0869",
+      "authenticated-orcid": false,
+      "given": "Yuhong",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ning",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xinyu",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zhuo",
+      "family": "Song",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hua",
+      "family": "Hou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0001",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.pmatsci.2018.11.001",
+      "article-title": "Significance of stacking fault energy in bulk nanostructured materials: insights from Cu and its binary alloys as model systems",
+      "volume": "101",
+      "author": "An",
+      "year": "2019",
+      "journal-title": "Prog. Mater. Sci."
+    },
+    {
+      "issue": "6570",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0002",
+      "doi-asserted-by": "crossref",
+      "first-page": "984",
+      "DOI": "10.1126/science.abj8114",
+      "article-title": "Gradient cell\u2013structured high-entropy alloy with exceptional strength and ductility",
+      "volume": "374",
+      "author": "Pan",
+      "year": "2021",
+      "journal-title": "Science"
+    },
+    {
+      "issue": "6667",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0003",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1126/science.adj3974",
+      "article-title": "Atomic faulting induced exceptional cryogenic strain hardening in gradient cell\u2013structured alloy",
+      "volume": "382",
+      "author": "Pan",
+      "year": "2023",
+      "journal-title": "Science"
+    },
+    {
+      "issue": "6742",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0004",
+      "doi-asserted-by": "crossref",
+      "first-page": "82",
+      "DOI": "10.1126/science.adt6666",
+      "article-title": "Superior resistance to cyclic creep in a gradient structured steel",
+      "volume": "388",
+      "author": "Pan",
+      "year": "2025",
+      "journal-title": "Science"
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0005",
+      "article-title": "In-situ nano-reprecipitation enables superior cryogenic mechanical properties in a 3D printable medium-entropy alloy",
+      "author": "Lu",
+      "year": "2025",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0006",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2024.120059",
+      "article-title": "Microstructure and evolution of gradient dislocation cells in multi-principal element alloy subjected to cyclic torsion",
+      "volume": "275",
+      "author": "Zhang",
+      "year": "2024",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0007",
+      "article-title": "High-strength and high-conductivity additively manufactured Cu-O alloy enabled by cellular microstructure",
+      "volume": "88",
+      "author": "Liu",
+      "year": "2024",
+      "journal-title": "Addit. Manuf."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0008",
+      "doi-asserted-by": "crossref",
+      "first-page": "31",
+      "DOI": "10.1038/s41529-021-00177-2",
+      "article-title": "Tribo-corrosion response of additively manufactured high-entropy alloy",
+      "volume": "5",
+      "author": "Shittu",
+      "year": "2021",
+      "journal-title": "NPJ Mater. Degrad."
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0009",
+      "doi-asserted-by": "crossref",
+      "first-page": "290",
+      "DOI": "10.1080/21663831.2019.1604442",
+      "article-title": "Response of solidification cellular structures in additively manufactured 316 stainless steel to heavy ion irradiation: an in situ study",
+      "volume": "7",
+      "author": "Shang",
+      "year": "2019",
+      "journal-title": "Mater. Res. Lett."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0010",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scriptamat.2025.117049",
+      "article-title": "Strain hardening in high-entropy alloy with GPa flow stress: early deformation twins from dislocation cells",
+      "volume": "272",
+      "author": "Li",
+      "year": "2026",
+      "journal-title": "Scripta Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0011",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2025.121415",
+      "article-title": "Enhanced high-cycle fatigue resistance of gradient structured 304 stainless steel",
+      "volume": "298",
+      "author": "Guo",
+      "year": "2025",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0012",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ijplas.2024.104079",
+      "article-title": "Achieving excellent uniform tensile ductility and strength in dislocation-cell-structured high-entropy alloys",
+      "volume": "181",
+      "author": "Huang",
+      "year": "2024",
+      "journal-title": "Int. J. Plasticity"
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0013",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ijmachtools.2025.104332",
+      "article-title": "The typical cellular microstructures developed in powder-based additively manufactured metallic materials: formation mechanisms, properties, outlooks and challenges",
+      "volume": "212",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "Int. J. Mach. Tool. Manu."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0014",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2023.119413",
+      "article-title": "Delineating dislocation structures and residual stresses in additively manufactured alloys",
+      "volume": "262",
+      "author": "Tekumalla",
+      "year": "2024",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "issue": "6773",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "617",
+      "DOI": "10.1126/science.aea4299",
+      "article-title": "Strengthening Ni alloys with nanoscale interfaces of negative excess energy",
+      "volume": "390",
+      "author": "Li",
+      "year": "2025",
+      "journal-title": "Science"
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0016",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ijplas.2024.104188",
+      "article-title": "Simultaneously enhanced strength and ductility of W-Cu bimetallic composites assisted by continuous cellular dislocation structure",
+      "volume": "184",
+      "author": "Cai",
+      "year": "2025",
+      "journal-title": "Int. J. Plasticity"
+    },
+    {
+      "issue": "24",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0017",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1103/PhysRevLett.88.245701",
+      "article-title": "Modeling elasticity in crystal growth",
+      "volume": "88",
+      "author": "Elder",
+      "year": "2002",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0018",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1103/PhysRevLett.105.045702",
+      "article-title": "Free energy functionals for efficient phase field crystal modeling of structural phase transformations",
+      "volume": "105",
+      "author": "Greenwood",
+      "year": "2010",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0019",
+      "doi-asserted-by": "crossref",
+      "first-page": "94",
+      "DOI": "10.1038/s41524-023-01038-z",
+      "article-title": "Understanding and design of metallic alloys guided by phase-field simulations",
+      "volume": "9",
+      "author": "Zhao",
+      "year": "2023",
+      "journal-title": "NPJ Comput. Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0020",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.pmatsci.2021.100868",
+      "article-title": "From classical thermodynamics to phase-field method",
+      "volume": "124",
+      "author": "Chen",
+      "year": "2022",
+      "journal-title": "Prog. Mater. Sci."
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0021",
+      "doi-asserted-by": "crossref",
+      "first-page": "613",
+      "DOI": "10.1557/s43577-024-00720-x",
+      "article-title": "Applications of unified phase-field methods to designing microstructures and mechanical properties of alloys",
+      "volume": "49",
+      "author": "Zhao",
+      "year": "2024",
+      "journal-title": "MRS Bulletin"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0022",
+      "doi-asserted-by": "crossref",
+      "first-page": "e44",
+      "DOI": "10.1002/mgea.44",
+      "article-title": "Integrated unified phase-field modeling (UPFM)",
+      "volume": "2",
+      "author": "Zhao",
+      "year": "2024",
+      "journal-title": "Mater. Genome Eng. Adv."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0023",
+      "article-title": "Arrangement and decomposition of grain boundary dislocations: two-mode phase-field crystal simulation",
+      "volume": "9",
+      "author": "Li",
+      "year": "2022",
+      "journal-title": "Front. Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0024",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2023.119143",
+      "article-title": "Superior strength\u2013ductility synergy in three-dimensional heterogeneous-nanostructured metals",
+      "volume": "256",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "917",
+      "DOI": "10.1080/21663831.2025.2531071",
+      "article-title": "Heterostructure enables new deformation mechanisms to enhance strength and work hardening",
+      "volume": "13",
+      "author": "Gao",
+      "year": "2025",
+      "journal-title": "Mater. Res. Lett."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0026",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ijplas.2020.102846",
+      "article-title": "Quantifying the influence of grain boundary activities on hall-Petch relation in nanocrystalline Cu by using phase field and atomistic simulations",
+      "volume": "135",
+      "author": "Zhang",
+      "year": "2020",
+      "journal-title": "Int. J. Plasticity"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0027",
+      "doi-asserted-by": "crossref",
+      "first-page": "465",
+      "DOI": "10.1080/21663831.2025.2471961",
+      "article-title": "Excellent strength-ductility balance of fully recrystallized fine-grained Mg-Y-Zn-Ni extrusion alloy with 14H-LPSO lamellas",
+      "volume": "13",
+      "author": "Liu",
+      "year": "2025",
+      "journal-title": "Mater. Res. Lett."
+    },
+    {
+      "issue": "15",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0028",
+      "doi-asserted-by": "crossref",
+      "first-page": "6229",
+      "DOI": "10.1021/acs.nanolett.2c01763",
+      "article-title": "Observing dislocations transported by twin boundaries in Al thin film: unusual pathways for dislocation\u2013Twin boundary interactions",
+      "volume": "22",
+      "author": "Kou",
+      "year": "2022",
+      "journal-title": "Nano Lett."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0029",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2025.121573",
+      "article-title": "Serrated grain boundary modulation inhibits nano cracks propagation in pure magnesium: a phase field crystal and quasi in-situ EBSD study",
+      "volume": "301",
+      "author": "Li",
+      "year": "2025",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0030",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2025.121475",
+      "article-title": "Highly nanotwinned transition metal nitride film enabled by negative stacking fault energy",
+      "volume": "299",
+      "author": "Huang",
+      "year": "2025",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "issue": "13",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0031",
+      "doi-asserted-by": "crossref",
+      "first-page": "3763",
+      "DOI": "10.1016/j.actamat.2009.04.020",
+      "article-title": "Formation of single and multiple deformation twins in nanocrystalline fcc metals",
+      "volume": "57",
+      "author": "Zhu",
+      "year": "2009",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0032",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.actamat.2022.118256",
+      "article-title": "Effects of stacking fault energy on deformation induced grain boundary relaxation in nanograined Cu alloys",
+      "volume": "239",
+      "author": "Sun",
+      "year": "2022",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.scriptamat.2026.117432_bib0033",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.pmatsci.2011.05.001",
+      "article-title": "Deformation twinning in nanocrystalline materials",
+      "volume": "57",
+      "author": "Zhu",
+      "year": "2012",
+      "journal-title": "Prog. Mater. Sci."
+    },
+    {
+      "key": "10.1016/j.scriptamat.2026.117432_bib0034",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jallcom.2026.186122",
+      "article-title": "Dislocation and orientation responses to different forms of loading in heterogeneous-grain copper: a phase field crystal and quasi in-situ EBSD study",
+      "volume": "1053",
+      "author": "Li",
+      "year": "2026",
+      "journal-title": "J. Alloy. Compd."
+    }
+  ],
+  "container-title": [
+    "Scripta Materialia"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1359646226002691?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1359646226002691?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        4
+      ]
+    ],
+    "date-time": "2026-07-04T06:28:14Z",
+    "timestamp": 1783146494000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1359646226002691"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        10
+      ]
+    ]
+  },
+  "references-count": 34,
+  "alternative-id": [
+    "S1359646226002691"
+  ],
+  "URL": "https://doi.org/10.1016/j.scriptamat.2026.117432",
+  "relation": {},
+  "ISSN": [
+    "1359-6462"
+  ],
+  "issn-type": [
+    {
+      "value": "1359-6462",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        10
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Nano-steps induce instability at \u03a33{111} twin boundaries and promote dislocation cell strengthening: An experimental and phase field crystal study",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Scripta Materialia",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.scriptamat.2026.117432",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2026 Acta Materialia Inc. Published by Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "117432"
+}

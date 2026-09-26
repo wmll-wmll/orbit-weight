@@ -9,6 +9,45 @@ A principled approach to neural network weight sharing based on group-theoretic 
 
 ---
 
+## Revision status - COMMAT-D-26-03017R1 (updated 2026-09-24)
+
+**The crystallography evidence released under `revision_v3/` is superseded.** The corrected
+release that accompanies the rebuttal is mirrored in
+[`revision_20260924/`](revision_20260924/): the executable code and all JSON evidence of the
+`Data_and_code_20260924` archive.
+
+| Quantity | `revision_v3/` (superseded) | `revision_20260924/` (current) |
+|---|---|---|
+| StructMLP formation-energy MAE (eV/atom) | 0.2576 | **0.2486** |
+| HierarchyMLP formation-energy MAE (eV/atom) | 0.2488 | **0.2452** |
+| Distinct space groups in the cohort | 158 | **160** |
+| Site-permutation max deviation (eV) | 3.58e-7 | **5.25e-7** |
+| Site-stabilizer encoding `Sym4` | not present | **0.1962 eV/atom** |
+| Archived-projection diagnostic | not present | **0.1917 -> 0.9655 eV/atom** |
+
+What changed: space-group metadata was re-derived from the exported structures (spglib,
+`symprec = 1e-3 A`; the 133 mismatching records are itemised in
+`revision_20260924/results/structure_audit.json`), and the pair-distance cache was rebuilt with
+correct minimum-image conventions (1,495 structures affected, maximum 19.39 A). The `Sym4`
+stabilizer-order control, the archived-projection diagnostic and the resource / robustness
+re-checks were added. The corrected release was produced on CPU with batch size 256, Python
+3.12.14 and PyTorch 2.14.0; see `revision_20260924/results/PROTOCOL_BEFORE_TRAINING.json`.
+
+Scope of this mirror: code, manifests and JSON only. Checkpoints, prepared feature arrays and
+per-crystal predictions (`.pt`, `.npz`, `.npy`, `.jsonl`) as well as the 2.4 MB
+`site_symmetry_records.json` ship with the manuscript's `Data_and_code_20260924` archive and are
+not duplicated here; `revision_20260924/MANIFEST.json` is the verbatim manifest of that full
+archive, so the files mirrored here can be checked file-by-file against it.
+`revision_20260924/code/audit_grid_action.py` is self-contained (NumPy only) and reproduces the
+corrected four-orbit audit directly.
+
+The historical source of the originally archived implementation remains pinned to commit
+[`cb3715fe37ce`](https://github.com/wmll-wmll/orbit-weight/tree/cb3715fe37ce48f5efd20edba09fcf0669f4e979),
+the commit referenced in the response letter. `revision/` and `revision_v3/` are retained
+unmodified as the historical record.
+
+---
+
 ## Quick Start
 
 ```bash

@@ -1,0 +1,2442 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2026-09-12T08:23:51Z",
+    "timestamp": 1789201431800,
+    "version": "build-2803163510"
+  },
+  "reference-count": 227,
+  "publisher": "Royal Society of Chemistry (RSC)",
+  "issue": "30",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2027,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2027-07-10T00:00:00Z",
+        "timestamp": 1815177600000
+      },
+      "content-version": "am",
+      "delay-in-days": 555,
+      "URL": "http://rsc.li/journals-terms-of-use"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100007957",
+      "name": "Chongqing Municipal Education Commission",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "KJQN202401108"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "KJQN202401108"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100007957",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "rsc.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Phys. Chem. Chem. Phys."
+  ],
+  "abstract": "<jats:p>Machine learning force fields (MLFFs) combine the high accuracy of first-principles methods with the high efficiency of classical force fields, offering new opportunities for atomic-level studies of inorganic crystalline materials.</jats:p>",
+  "DOI": "10.1039/d6cp01826b",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        10
+      ]
+    ],
+    "date-time": "2026-07-10T10:23:01Z",
+    "timestamp": 1783678981000
+  },
+  "page": "18284-18310",
+  "update-policy": "https://doi.org/10.1039/rsc_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 6,
+  "title": [
+    "Machine learning force fields for inorganic crystalline materials: principles, advances, and emerging applications"
+  ],
+  "prefix": "10.1039",
+  "volume": "28",
+  "author": [
+    {
+      "given": "Jing",
+      "family": "Yi",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0003-9418-9261",
+      "authenticated-orcid": false,
+      "given": "Yuxin",
+      "family": "Zhan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Interdisciplinary Graduate School of Engineering Sciences, Department of Interdisciplinary Engineering Sciences, Kyushu University, Fukuoka 819-0395, Japan"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yuanmao",
+      "family": "Hu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Interdisciplinary Graduate School of Engineering Sciences, Department of Interdisciplinary Engineering Sciences, Kyushu University, Fukuoka 819-0395, Japan"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8197-2255",
+      "authenticated-orcid": false,
+      "given": "Shuai",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Huanhuan",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "292",
+  "published-online": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "D6CP01826B/cit1/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2071",
+      "DOI": "10.1021/acsenergylett.7b00547",
+      "volume": "2",
+      "author": "Huang",
+      "year": "2017",
+      "journal-title": "ACS Energy Lett."
+    },
+    {
+      "key": "D6CP01826B/cit2/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1039",
+      "DOI": "10.1039/D3SC03538G",
+      "volume": "15",
+      "author": "Kim",
+      "year": "2023",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit3/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3887",
+      "DOI": "10.1038/s41467-018-06169-2",
+      "volume": "9",
+      "author": "Chmiela",
+      "year": "2018",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit4/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "953",
+      "DOI": "10.1557/s43577-022-00407-1",
+      "volume": "47",
+      "author": "Sarupria",
+      "year": "2022",
+      "journal-title": "MRS Bull."
+    },
+    {
+      "key": "D6CP01826B/cit5/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3262",
+      "DOI": "10.3390/ijms26073262",
+      "volume": "26",
+      "author": "Guan",
+      "year": "2025",
+      "journal-title": "Int. J. Mol. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit6/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "itae002",
+      "DOI": "10.1093/oxfmat/itae002",
+      "volume": "4",
+      "author": "Kumar",
+      "year": "2024",
+      "journal-title": "Oxford Open Mater. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit7/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "100683",
+      "DOI": "10.1016/j.nxmate.2025.100683",
+      "volume": "8",
+      "author": "Nyangiwe",
+      "year": "2025",
+      "journal-title": "Next Mater."
+    },
+    {
+      "key": "D6CP01826B/cit8/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "015023",
+      "DOI": "10.1088/2632-2153/ac3149",
+      "volume": "3",
+      "author": "Gedeon",
+      "year": "2022",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit9/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "20130270",
+      "DOI": "10.1098/rsta.2013.0270",
+      "volume": "372",
+      "author": "Hasnip",
+      "year": "2014",
+      "journal-title": "Philos. Trans. R. Soc., A"
+    },
+    {
+      "key": "D6CP01826B/cit10/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e0141850",
+      "DOI": "10.1371/journal.pone.0141850",
+      "volume": "10",
+      "author": "Mart\u00edn-Garc\u00eda",
+      "year": "2015",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "D6CP01826B/cit11/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "755",
+      "DOI": "10.1021/acscentsci.8b00913",
+      "volume": "5",
+      "author": "Wang",
+      "year": "2019",
+      "journal-title": "ACS Cent. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit12/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2355",
+      "DOI": "10.1021/acs.jctc.3c00148",
+      "volume": "19",
+      "author": "Sarthak",
+      "year": "2023",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit13/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.1016/0263-7855(96)00018-5",
+      "volume": "14",
+      "author": "Humphrey",
+      "year": "1996",
+      "journal-title": "J. Mol. Graph."
+    },
+    {
+      "key": "D6CP01826B/cit14/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1781",
+      "DOI": "10.1002/jcc.20289",
+      "volume": "26",
+      "author": "Phillips",
+      "year": "2005",
+      "journal-title": "J. Comput. Chem."
+    },
+    {
+      "key": "D6CP01826B/cit15/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "044115",
+      "DOI": "10.1063/5.0076588",
+      "volume": "156",
+      "author": "Bin How",
+      "year": "2022",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit16/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "109463",
+      "DOI": "10.1016/j.mssp.2025.109463",
+      "volume": "192",
+      "author": "Li",
+      "year": "2025",
+      "journal-title": "Mater. Sci. Semicond. Process."
+    },
+    {
+      "key": "D6CP01826B/cit17/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "112525",
+      "DOI": "10.1016/j.commatsci.2023.112525",
+      "volume": "230",
+      "author": "Bajpai",
+      "year": "2023",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit18/1",
+      "first-page": "2406219",
+      "volume": "4",
+      "author": "Ozawa",
+      "year": "2024",
+      "journal-title": "Sci. Technol. Adv. Mater. Methods"
+    },
+    {
+      "key": "D6CP01826B/cit19/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1943",
+      "DOI": "10.1063/1.446956",
+      "volume": "80",
+      "author": "Bader",
+      "year": "1983",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit20/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1030",
+      "DOI": "10.1021/acs.jctc.4c01424",
+      "volume": "21",
+      "author": "Esders",
+      "year": "2025",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit21/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "10142",
+      "DOI": "10.1021/acs.chemrev.0c01111",
+      "volume": "121",
+      "author": "Unke",
+      "year": "2021",
+      "journal-title": "Chem. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit22/1",
+      "first-page": "1297",
+      "volume": "60",
+      "author": "Li",
+      "year": "2024",
+      "journal-title": "Acta Metall. Sin."
+    },
+    {
+      "key": "D6CP01826B/cit23/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "025001",
+      "DOI": "10.1088/1361-651X/adf56d",
+      "volume": "33",
+      "author": "Leimeroth",
+      "year": "2025",
+      "journal-title": "Model. Simul. Mater. Sci. Eng."
+    },
+    {
+      "key": "D6CP01826B/cit24/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "911",
+      "DOI": "10.1016/j.jechem.2025.02.051",
+      "volume": "106",
+      "author": "Zhang",
+      "year": "2025",
+      "journal-title": "J. Energy Chem."
+    },
+    {
+      "key": "D6CP01826B/cit25/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "025017",
+      "DOI": "10.1088/2632-2153/abd51e",
+      "volume": "2",
+      "author": "Allen",
+      "year": "2021",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit26/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104",
+      "DOI": "10.1038/s41524-020-00367-7",
+      "volume": "6",
+      "author": "Sivaraman",
+      "year": "2020",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit27/1",
+      "first-page": "100487",
+      "volume": "13",
+      "author": "Manzhos",
+      "year": "2023",
+      "journal-title": "Mach. Learn. Appl."
+    },
+    {
+      "key": "D6CP01826B/cit28/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "10037",
+      "DOI": "10.1021/acs.chemrev.0c00868",
+      "volume": "121",
+      "author": "Behler",
+      "year": "2021",
+      "journal-title": "Chem. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit29/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e71046",
+      "DOI": "10.1002/aenm.71046",
+      "volume": "16",
+      "author": "Park",
+      "year": "2026",
+      "journal-title": "Adv. Energy Mater."
+    },
+    {
+      "key": "D6CP01826B/cit30/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e202501219",
+      "DOI": "10.1002/aisy.202501219",
+      "volume": "8",
+      "author": "Maevskiy",
+      "year": "2026",
+      "journal-title": "Adv. Intell. Syst."
+    },
+    {
+      "key": "D6CP01826B/cit31/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1080/21663831.2026.2684721",
+      "volume": "14",
+      "author": "Kokane",
+      "year": "2026",
+      "journal-title": "Mater. Res. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit32/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1241",
+      "DOI": "10.1007/s12551-025-01351-5",
+      "volume": "17",
+      "author": "Kobchikova",
+      "year": "2025",
+      "journal-title": "Biophys. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit33/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "126873",
+      "DOI": "10.1016/j.jpowsour.2026.239478",
+      "volume": "671",
+      "author": "Jyothirmai",
+      "year": "2026",
+      "journal-title": "J. Power Sources"
+    },
+    {
+      "key": "D6CP01826B/cit34/1",
+      "first-page": "1743",
+      "volume": "63",
+      "author": "Siyu",
+      "year": "2026",
+      "journal-title": "J. Comput. Res. Dev."
+    },
+    {
+      "key": "D6CP01826B/cit35/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "128417",
+      "DOI": "10.1016/j.molliq.2025.128417",
+      "volume": "437",
+      "author": "Isaev",
+      "year": "2025",
+      "journal-title": "J. Mol. Liq."
+    },
+    {
+      "key": "D6CP01826B/cit36/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "9472",
+      "DOI": "10.1039/D3CP00253E",
+      "volume": "25",
+      "author": "Ksenofontov",
+      "year": "2023",
+      "journal-title": "Phys. Chem. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit37/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "75",
+      "DOI": "10.1038/s41524-025-01650-1",
+      "volume": "11",
+      "author": "Loew",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit38/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2403956",
+      "DOI": "10.1002/smll.202408137",
+      "volume": "21",
+      "author": "Berger",
+      "year": "2025",
+      "journal-title": "Small"
+    },
+    {
+      "key": "D6CP01826B/cit39/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "127416",
+      "DOI": "10.1016/j.polymer.2024.127416",
+      "volume": "308",
+      "author": "Long",
+      "year": "2024",
+      "journal-title": "Polymer"
+    },
+    {
+      "key": "D6CP01826B/cit40/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e202401148",
+      "DOI": "10.1002/chem.202401148",
+      "volume": "30",
+      "author": "Tang",
+      "year": "2024",
+      "journal-title": "Chem. \u2013 Eur. J."
+    },
+    {
+      "key": "D6CP01826B/cit41/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "121501",
+      "DOI": "10.1063/5.0139611",
+      "volume": "158",
+      "author": "Morrow",
+      "year": "2023",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit42/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "932",
+      "DOI": "10.1038/s41467-024-45840-9",
+      "volume": "15",
+      "author": "Erhard",
+      "year": "2024",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit43/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "34",
+      "DOI": "10.1038/s41524-021-00496-7",
+      "volume": "7",
+      "author": "Sun",
+      "year": "2021",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit44/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "36",
+      "DOI": "10.1038/s41557-023-01339-2",
+      "volume": "16",
+      "author": "Nicholas",
+      "year": "2024",
+      "journal-title": "Nat. Chem."
+    },
+    {
+      "key": "D6CP01826B/cit45/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2305758",
+      "DOI": "10.1002/adma.202305758",
+      "volume": "36",
+      "author": "Wan",
+      "year": "2024",
+      "journal-title": "Adv. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit46/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1080",
+      "DOI": "10.1002/med.22008",
+      "volume": "44",
+      "author": "Chen",
+      "year": "2024",
+      "journal-title": "Med. Res. Rev."
+    },
+    {
+      "issue": "25",
+      "key": "D6CP01826B/cit47/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "22600",
+      "DOI": "10.1021/acsnano.5c05553",
+      "volume": "19",
+      "author": "Jinnouchi",
+      "year": "2025",
+      "journal-title": "ACS Nano"
+    },
+    {
+      "key": "D6CP01826B/cit48/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "651",
+      "DOI": "10.1039/D2DD00137C",
+      "volume": "2",
+      "author": "Gardner",
+      "year": "2023",
+      "journal-title": "Digital Discovery"
+    },
+    {
+      "key": "D6CP01826B/cit49/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "116980",
+      "DOI": "10.1016/j.actamat.2021.116980",
+      "volume": "214",
+      "author": "Mishin",
+      "year": "2021",
+      "journal-title": "Acta Mater."
+    },
+    {
+      "key": "D6CP01826B/cit50/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "146401",
+      "DOI": "10.1103/PhysRevLett.98.146401",
+      "volume": "98",
+      "author": "Behler",
+      "year": "2007",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit51/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "184115",
+      "DOI": "10.1103/PhysRevB.87.184115",
+      "volume": "87",
+      "author": "Bart\u00f3k",
+      "year": "2013",
+      "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit52/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "045017",
+      "DOI": "10.1088/2632-2153/aca005",
+      "volume": "3",
+      "author": "Huo",
+      "year": "2022",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit53/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e1603015",
+      "DOI": "10.1126/sciadv.1603015",
+      "volume": "3",
+      "author": "Chmiela",
+      "year": "2017",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "D6CP01826B/cit54/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "136403",
+      "DOI": "10.1103/PhysRevLett.104.136403",
+      "volume": "104",
+      "author": "Bart\u00f3k",
+      "year": "2010",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit55/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "241722",
+      "DOI": "10.1063/1.5019779",
+      "volume": "148",
+      "author": "Sch\u00fctt",
+      "year": "2017",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit56/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "170193",
+      "DOI": "10.1038/sdata.2017.193",
+      "volume": "4",
+      "author": "Smith",
+      "year": "2017",
+      "journal-title": "Sci. Data"
+    },
+    {
+      "key": "D6CP01826B/cit57/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "178",
+      "DOI": "10.1016/j.cpc.2018.03.016",
+      "volume": "228",
+      "author": "Wang",
+      "year": "2018",
+      "journal-title": "Comput. Phys. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit58/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "579",
+      "DOI": "10.1038/s41467-023-36329-y",
+      "volume": "14",
+      "author": "Musaelian",
+      "year": "2023",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit59/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2453",
+      "DOI": "10.1038/s41467-022-29939-5",
+      "volume": "13",
+      "author": "Batzner",
+      "year": "2022",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit60/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "233",
+      "DOI": "10.1021/jacs.5c09558",
+      "volume": "147",
+      "author": "Kabylda",
+      "year": "2025",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "D6CP01826B/cit61/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "172",
+      "DOI": "10.1038/s41524-023-01124-2",
+      "volume": "9",
+      "author": "Schaaf",
+      "year": "2023",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit62/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1902765",
+      "DOI": "10.1002/adma.201902765",
+      "volume": "31",
+      "author": "Deringer",
+      "year": "2019",
+      "journal-title": "Adv. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit63/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "174201",
+      "DOI": "10.1103/PhysRevB.102.174201",
+      "volume": "102",
+      "author": "Caro",
+      "year": "2020",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit64/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "022601",
+      "DOI": "10.1088/2752-5724/ac681d",
+      "volume": "1",
+      "author": "Wen",
+      "year": "2022",
+      "journal-title": "Mater. Futures"
+    },
+    {
+      "key": "D6CP01826B/cit65/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "283",
+      "DOI": "10.1007/s00894-024-06084-y",
+      "volume": "30",
+      "author": "Wu",
+      "year": "2024",
+      "journal-title": "J. Mol. Model."
+    },
+    {
+      "key": "D6CP01826B/cit66/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "17413",
+      "DOI": "10.1021/acs.jpcc.3c07216",
+      "volume": "128",
+      "author": "Graupner",
+      "year": "2024",
+      "journal-title": "J. Phys. Chem. C"
+    },
+    {
+      "key": "D6CP01826B/cit67/1",
+      "volume-title": "arXiv",
+      "author": "Wang",
+      "year": "2025",
+      "unstructured": "Z.Wang ,  H.Hua ,  W.Lin ,  M.Yang  and  K. C.Tan ,  arXiv ,  2025 , arXiv:2408.08044"
+    },
+    {
+      "key": "D6CP01826B/cit68/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3192",
+      "DOI": "10.1039/C6SC05720A",
+      "volume": "8",
+      "author": "Smith",
+      "year": "2017",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit69/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "143001",
+      "DOI": "10.1103/PhysRevLett.120.143001",
+      "volume": "120",
+      "author": "Zhang",
+      "year": "2018",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit70/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "045131",
+      "DOI": "10.1103/PhysRevB.92.045131",
+      "volume": "92",
+      "author": "Ghasemi",
+      "year": "2015",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit71/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104309",
+      "DOI": "10.1103/PhysRevB.104.104309",
+      "volume": "104",
+      "author": "Fan",
+      "year": "2021",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit72/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "164105",
+      "DOI": "10.1063/5.0146803",
+      "volume": "158",
+      "author": "L\u00f3pez-Zorrilla",
+      "year": "2023",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit73/1",
+      "volume-title": "arXiv",
+      "author": "Srivastava",
+      "year": "2026",
+      "unstructured": "A.Srivastava ,  S.Agarwal ,  S.Shukla ,  H.Sahu  and  R.Ramprasad ,  arXiv ,  2026 , arXiv:2601.17137"
+    },
+    {
+      "key": "D6CP01826B/cit74/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "11423",
+      "DOI": "10.52202/068431-0830",
+      "volume": "35",
+      "author": "Batatia",
+      "year": "2022",
+      "journal-title": "Adv. Neural Inf. Process. Syst"
+    },
+    {
+      "key": "D6CP01826B/cit75/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "718",
+      "DOI": "10.1038/s43588-022-00349-3",
+      "volume": "2",
+      "author": "Chen",
+      "year": "2022",
+      "journal-title": "Nat. Comput. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit76/1",
+      "volume-title": "arXiv",
+      "author": "Ko",
+      "year": "2025",
+      "unstructured": "T. W.Ko ,  B.Deng ,  M.Nassar ,  L.Barroso-Luque ,  R.Liu ,  J.Qi ,  E.Liu ,  G.Ceder ,  S.Miret  and  S. P.Ong ,  arXiv ,  2025 , arXiv:2503.03837"
+    },
+    {
+      "key": "D6CP01826B/cit77/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1031",
+      "DOI": "10.1038/s42256-023-00716-3",
+      "volume": "5",
+      "author": "Deng",
+      "year": "2023",
+      "journal-title": "Nat. Mach. Intell."
+    },
+    {
+      "key": "D6CP01826B/cit78/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4857",
+      "DOI": "10.1021/acs.jctc.4c00190",
+      "volume": "20",
+      "author": "Park",
+      "year": "2024",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit79/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1038/s41524-021-00543-3",
+      "volume": "7",
+      "author": "Park",
+      "year": "2021",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit80/1",
+      "first-page": "117211",
+      "volume": "64",
+      "author": "Wang",
+      "year": "2021",
+      "journal-title": "Sci. China: Phys., Mech. Astron."
+    },
+    {
+      "key": "D6CP01826B/cit81/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "111280",
+      "DOI": "10.1016/j.commatsci.2022.111280",
+      "volume": "207",
+      "author": "Takamoto",
+      "year": "2022",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit82/1",
+      "volume-title": "arXiv",
+      "author": "Gasteiger",
+      "year": "2024",
+      "unstructured": "J.Gasteiger ,  F.Becker  and  S.G\u00fcnnemann ,  arXiv ,  2024 , arXiv:2106.08903"
+    },
+    {
+      "key": "D6CP01826B/cit83/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1038/s41524-022-00739-1",
+      "volume": "8",
+      "author": "Wang",
+      "year": "2022",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit84/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "543",
+      "DOI": "10.1038/s42256-025-01009-7",
+      "volume": "7",
+      "author": "Gong",
+      "year": "2025",
+      "journal-title": "Nat. Mach. Intell."
+    },
+    {
+      "key": "D6CP01826B/cit85/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2453",
+      "DOI": "10.1038/s41467-022-29939-5",
+      "volume": "13",
+      "author": "Batzner",
+      "year": "2022",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit86/1",
+      "volume-title": "arXiv",
+      "author": "Wang",
+      "year": "2026",
+      "unstructured": "C.Wang ,  L.Huang ,  X.Wei ,  T.Qin ,  A.Jiang ,  L.Cheng  and  J.Zhang ,  arXiv ,  2026 , arXiv:2601.03774"
+    },
+    {
+      "key": "D6CP01826B/cit87/1",
+      "volume-title": "arXiv",
+      "author": "Leonardi",
+      "year": "2026",
+      "unstructured": "F.Leonardi ,  B.Bonev  and  K.Riesen ,  arXiv ,  2026 , arXiv:2602.02671"
+    },
+    {
+      "key": "D6CP01826B/cit88/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1153",
+      "DOI": "10.1137/15M1054183",
+      "volume": "14",
+      "author": "Shapeev",
+      "year": "2016",
+      "journal-title": "Multiscale Model. Simul."
+    },
+    {
+      "key": "D6CP01826B/cit89/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "027001",
+      "DOI": "10.1088/2632-2153/abc940",
+      "volume": "2",
+      "author": "Yanxon",
+      "year": "2021",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit90/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "014104",
+      "DOI": "10.1103/PhysRevB.99.014104",
+      "volume": "99",
+      "author": "Drautz",
+      "year": "2019",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit91/1",
+      "doi-asserted-by": "publisher",
+      "first-page": "arXiv:2204.12573",
+      "DOI": "10.48550/arXiv.2204.12573",
+      "author": "Johansson",
+      "year": "2022",
+      "journal-title": "arXiv"
+    },
+    {
+      "key": "D6CP01826B/cit92/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "214102",
+      "DOI": "10.1103/PhysRevB.103.214102",
+      "volume": "103",
+      "author": "Hajibabaei",
+      "year": "2021",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit93/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "26010",
+      "DOI": "10.1039/D4CP01801J",
+      "volume": "26",
+      "author": "Willow",
+      "year": "2024",
+      "journal-title": "Phys. Chem. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit94/1",
+      "volume-title": "arXiv",
+      "author": "Riebesell",
+      "year": "2024",
+      "unstructured": "J.Riebesell ,  R. E. A.Goodall ,  P.Benner ,  Y.Chiang ,  B.Deng ,  G.Ceder ,  M.Asta ,  A. A.Lee ,  A.Jain  and  K. A.Persson ,  arXiv ,  2024 , arXiv:2308.14920"
+    },
+    {
+      "key": "D6CP01826B/cit95/1",
+      "volume-title": "arXiv",
+      "author": "Chiang",
+      "year": "2025",
+      "unstructured": "Y.Chiang ,  T.Kreiman ,  C.Zhang ,  M. C.Kuner ,  E.Weaver ,  I.Amin ,  H.Park ,  Y.Lim ,  J.Kim ,  D.Chrzan ,  A.Walsh ,  S. M.Blau ,  M.Asta  and  A. S.Krishnapriyan ,  arXiv ,  2025 , arXiv:2501.09009"
+    },
+    {
+      "key": "D6CP01826B/cit96/1",
+      "first-page": "835",
+      "volume": "7",
+      "author": "Wines",
+      "year": "2025",
+      "journal-title": "ACS Mater. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit97/1",
+      "first-page": "1741",
+      "volume": "21",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit98/1",
+      "first-page": "4930",
+      "volume": "20",
+      "author": "Fu",
+      "year": "2024",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit99/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "10228",
+      "DOI": "10.1039/D4SC08572H",
+      "volume": "16",
+      "author": "Anstine",
+      "year": "2025",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit100/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1575",
+      "DOI": "10.1021/acs.accounts.0c00868",
+      "volume": "54",
+      "author": "Zubatiuk",
+      "year": "2021",
+      "journal-title": "Acc. Chem. Res."
+    },
+    {
+      "key": "D6CP01826B/cit101/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2154",
+      "DOI": "10.1002/jcc.27022",
+      "volume": "44",
+      "author": "Temel",
+      "year": "2023",
+      "journal-title": "J. Comput. Chem."
+    },
+    {
+      "key": "D6CP01826B/cit102/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "101",
+      "DOI": "10.31603/mesi.12742",
+      "volume": "4",
+      "author": "Nanlohy",
+      "year": "2024",
+      "journal-title": "Mech. Eng. Soc. Ind."
+    },
+    {
+      "key": "D6CP01826B/cit103/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4601",
+      "DOI": "10.1007/s11581-023-05265-8",
+      "volume": "30",
+      "author": "Gegentana",
+      "year": "2024",
+      "journal-title": "Ionics"
+    },
+    {
+      "key": "D6CP01826B/cit104/1",
+      "first-page": "15785",
+      "volume": "25",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Phys. Chem. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit105/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "103710",
+      "DOI": "10.1016/j.ensm.2024.103710",
+      "volume": "72",
+      "author": "Xu",
+      "year": "2024",
+      "journal-title": "Energy Storage Mater."
+    },
+    {
+      "key": "D6CP01826B/cit106/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "144106",
+      "DOI": "10.1103/PhysRevB.105.144106",
+      "volume": "105",
+      "author": "Khajehpasha",
+      "year": "2022",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit107/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "123603",
+      "DOI": "10.1103/PhysRevMaterials.5.123603",
+      "volume": "5",
+      "author": "Rostami",
+      "year": "2021",
+      "journal-title": "Phys. Rev. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit108/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "808",
+      "DOI": "10.1021/acs.accounts.0c00689",
+      "volume": "54",
+      "author": "Ko",
+      "year": "2021",
+      "journal-title": "Acc. Chem. Res."
+    },
+    {
+      "key": "D6CP01826B/cit109/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104105",
+      "DOI": "10.1103/PhysRevB.95.104105",
+      "volume": "95",
+      "author": "Faraji",
+      "year": "2017",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit110/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2021",
+      "DOI": "10.1002/jcc.26490",
+      "volume": "42",
+      "author": "Rahmatizad Khajehpasha",
+      "year": "2021",
+      "journal-title": "J. Comput. Chem."
+    },
+    {
+      "key": "D6CP01826B/cit111/1",
+      "first-page": "245101",
+      "volume": "36",
+      "author": "Ying",
+      "year": "2024",
+      "journal-title": "J. Phys.: Condens. Matter"
+    },
+    {
+      "key": "D6CP01826B/cit112/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "096301",
+      "DOI": "10.1088/1674-1056/ade59f",
+      "volume": "34",
+      "author": "Li",
+      "year": "2025",
+      "journal-title": "Chin. Phys. B"
+    },
+    {
+      "key": "D6CP01826B/cit113/1",
+      "first-page": "245101",
+      "volume": "36",
+      "author": "Fan",
+      "year": "2024",
+      "journal-title": "J. Phys.: Condens. Matter"
+    },
+    {
+      "key": "D6CP01826B/cit114/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2401058",
+      "DOI": "10.1002/adts.202401058",
+      "volume": "8",
+      "author": "Mohanty",
+      "year": "2025",
+      "journal-title": "Adv. Theory Simul."
+    },
+    {
+      "key": "D6CP01826B/cit115/1",
+      "first-page": "764",
+      "volume": "20",
+      "author": "Zhang",
+      "year": "2024",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit116/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1186/s12868-023-00841-0",
+      "volume": "25",
+      "author": "Sunil",
+      "year": "2024",
+      "journal-title": "BMC Neurosci."
+    },
+    {
+      "key": "D6CP01826B/cit117/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4105",
+      "DOI": "10.1021/acs.jpclett.0c00527",
+      "volume": "11",
+      "author": "Westermayr",
+      "year": "2020",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit118/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "448",
+      "DOI": "10.1021/acs.jctc.8b00908",
+      "volume": "15",
+      "author": "Sch\u00fctt",
+      "year": "2019",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit119/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3750",
+      "DOI": "10.1021/acs.jcim.2c01662",
+      "volume": "63",
+      "author": "McNaughton",
+      "year": "2023",
+      "journal-title": "J. Chem. Inf. Model."
+    },
+    {
+      "key": "D6CP01826B/cit120/1",
+      "first-page": "980",
+      "volume": "7",
+      "author": "Du",
+      "year": "2025",
+      "journal-title": "ACS Mater. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit121/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "094102",
+      "DOI": "10.1063/5.0234287",
+      "volume": "161",
+      "author": "Kang",
+      "year": "2024",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit122/1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.48550/arXiv.2204.02782",
+      "volume-title": "arXiv",
+      "author": "Gasteiger",
+      "year": "2022",
+      "unstructured": "J.Gasteiger ,  M.Shuaibi ,  A.Sriram ,  S.G\u00fcnnemann ,  Z.Ulissi ,  C.Lawrence Zitnick  and  A.Das ,  arXiv ,  2022 , arXiv:2204.02782 10.48550/arXiv.2204.02782"
+    },
+    {
+      "key": "D6CP01826B/cit123/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "025011",
+      "DOI": "10.1088/2632-2153/ac9955",
+      "volume": "3",
+      "author": "Stocker",
+      "year": "2022",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit124/1",
+      "first-page": "563",
+      "volume": "16",
+      "author": "Poltavsky",
+      "year": "2025",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit125/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "044118",
+      "DOI": "10.1063/5.0155322",
+      "volume": "159",
+      "author": "Kov\u00e1cs",
+      "year": "2023",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit126/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "126106",
+      "DOI": "10.1016/j.ijheatmasstransfer.2024.126106",
+      "volume": "234",
+      "author": "Shimamura",
+      "year": "2024",
+      "journal-title": "Int. J. Heat Mass Transf"
+    },
+    {
+      "key": "D6CP01826B/cit127/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "10198",
+      "DOI": "10.1039/D4NR00929K",
+      "volume": "16",
+      "author": "Nikidis",
+      "year": "2024",
+      "journal-title": "Nanoscale"
+    },
+    {
+      "key": "D6CP01826B/cit128/1",
+      "first-page": "18",
+      "volume": "4",
+      "author": "Wang",
+      "year": "2024",
+      "journal-title": "J. Mater. Inform."
+    },
+    {
+      "key": "D6CP01826B/cit129/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "116171",
+      "DOI": "10.1016/j.jcat.2025.116171",
+      "volume": "450",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "D6CP01826B/cit130/1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00268976.2025.2585898",
+      "author": "Shi",
+      "year": "2025",
+      "journal-title": "Mol. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit131/1",
+      "first-page": "18394",
+      "volume": "12",
+      "author": "Kwon",
+      "year": "2024",
+      "journal-title": "J. Mater. Chem. A"
+    },
+    {
+      "key": "D6CP01826B/cit132/1",
+      "first-page": "31218",
+      "volume": "12",
+      "author": "Ojih",
+      "year": "2024",
+      "journal-title": "J. Mater. Chem. A"
+    },
+    {
+      "key": "D6CP01826B/cit133/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "035001",
+      "DOI": "10.1088/1361-651X/add283",
+      "volume": "33",
+      "author": "An",
+      "year": "2025",
+      "journal-title": "Model. Simul. Mater. Sci. Eng."
+    },
+    {
+      "key": "D6CP01826B/cit134/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1544",
+      "DOI": "10.1039/D5DD00025D",
+      "volume": "4",
+      "author": "Ju",
+      "year": "2025",
+      "journal-title": "Digital Discovery"
+    },
+    {
+      "key": "D6CP01826B/cit135/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "346",
+      "DOI": "10.1039/D2DD00096B",
+      "volume": "2",
+      "author": "Choudhary",
+      "year": "2023",
+      "journal-title": "Digital Discovery"
+    },
+    {
+      "key": "D6CP01826B/cit136/1",
+      "first-page": "372",
+      "volume": "21",
+      "author": "Liao",
+      "year": "2025",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit137/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "024119",
+      "DOI": "10.1063/5.0026133",
+      "volume": "153",
+      "author": "Husic",
+      "year": "2020",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit138/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "024101",
+      "DOI": "10.1063/5.0073234",
+      "volume": "156",
+      "author": "Li",
+      "year": "2022",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit139/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "164102",
+      "DOI": "10.1063/5.0156203",
+      "volume": "159",
+      "author": "Ishiai",
+      "year": "2023",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit140/1",
+      "first-page": "2345",
+      "volume": "235",
+      "author": "Karczewski",
+      "year": "2024",
+      "journal-title": "Proc. Mach. Learn. Res."
+    },
+    {
+      "key": "D6CP01826B/cit141/1",
+      "first-page": "1234",
+      "volume": "238",
+      "author": "Trang",
+      "year": "2024",
+      "journal-title": "Proc. Mach. Learn. Res."
+    },
+    {
+      "key": "D6CP01826B/cit142/1",
+      "first-page": "456",
+      "volume": "13413",
+      "author": "Unyi",
+      "year": "2022",
+      "journal-title": "Lect. Notes Comput. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit143/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "192",
+      "DOI": "10.1038/s42256-024-00956-x",
+      "volume": "7",
+      "author": "Batatia",
+      "year": "2025",
+      "journal-title": "Nat. Mach. Intell."
+    },
+    {
+      "key": "D6CP01826B/cit144/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "8235",
+      "DOI": "10.1021/acs.jctc.3c01292",
+      "volume": "20",
+      "author": "Jestil\u00e4",
+      "year": "2024",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit145/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2301",
+      "DOI": "10.1007/s11427-021-2080-x",
+      "volume": "65",
+      "author": "Wu",
+      "year": "2022",
+      "journal-title": "Sci. China: Technol. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit146/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2202279",
+      "DOI": "10.1002/aenm.202202279",
+      "volume": "12",
+      "author": "Myung",
+      "year": "2022",
+      "journal-title": "Adv. Energy Mater."
+    },
+    {
+      "key": "D6CP01826B/cit147/1",
+      "first-page": "054001",
+      "volume": "6",
+      "author": "Lu",
+      "year": "2024",
+      "journal-title": "Adv. Photonics"
+    },
+    {
+      "key": "D6CP01826B/cit148/1",
+      "volume-title": "arXiv",
+      "author": "Ebrahimi",
+      "year": "2025",
+      "unstructured": "A.Ebrahimi ,  F.Pellegrini  and  S.De Gironcoli ,  arXiv ,  2025 , arXiv:2501.06060"
+    },
+    {
+      "key": "D6CP01826B/cit149/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "15893",
+      "DOI": "10.1038/ncomms15893",
+      "volume": "8",
+      "author": "He",
+      "year": "2017",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit150/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "023167",
+      "DOI": "10.1103/PhysRevResearch.7.023167",
+      "volume": "7",
+      "author": "Maevskiy",
+      "year": "2025",
+      "journal-title": "Phys. Rev. Res."
+    },
+    {
+      "key": "D6CP01826B/cit151/1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/aidi.70143",
+      "author": "Aghoghovbia",
+      "year": "2026",
+      "journal-title": "Adv. Intell. Discov."
+    },
+    {
+      "key": "D6CP01826B/cit152/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "093016",
+      "DOI": "10.1088/1367-2630/acf153",
+      "volume": "25",
+      "author": "Han",
+      "year": "2023",
+      "journal-title": "New J. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit153/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "105927",
+      "DOI": "10.1016/j.jmps.2024.105927",
+      "volume": "194",
+      "author": "Sharma",
+      "year": "2025",
+      "journal-title": "J. Mech. Phys. Solids"
+    },
+    {
+      "key": "D6CP01826B/cit154/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "085004",
+      "DOI": "10.1088/1361-651X/ad2d68",
+      "volume": "32",
+      "author": "Zotov",
+      "year": "2024",
+      "journal-title": "Model. Simul. Mater. Sci. Eng."
+    },
+    {
+      "key": "D6CP01826B/cit155/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "46",
+      "DOI": "10.1016/j.commatsci.2019.03.049",
+      "volume": "164",
+      "author": "Novoselov",
+      "year": "2019",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit156/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "125402",
+      "DOI": "10.1016/j.molliq.2024.125402",
+      "volume": "410",
+      "author": "Rybin",
+      "year": "2024",
+      "journal-title": "J. Mol. Liq."
+    },
+    {
+      "key": "D6CP01826B/cit157/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "120803",
+      "DOI": "10.1016/j.molliq.2022.120803",
+      "volume": "368",
+      "author": "Attarian",
+      "year": "2022",
+      "journal-title": "J. Mol. Liq."
+    },
+    {
+      "key": "D6CP01826B/cit158/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3724",
+      "DOI": "10.3390/molecules29163724",
+      "volume": "29",
+      "author": "Reicht",
+      "year": "2024",
+      "journal-title": "Molecules"
+    },
+    {
+      "key": "D6CP01826B/cit159/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "298",
+      "DOI": "10.1016/j.jechem.2024.09.043",
+      "volume": "101",
+      "author": "Jo",
+      "year": "2025",
+      "journal-title": "J. Energy Chem."
+    },
+    {
+      "key": "D6CP01826B/cit160/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "113084",
+      "DOI": "10.1016/j.jcp.2024.113073",
+      "volume": "510",
+      "author": "Goff",
+      "year": "2024",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit161/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2615",
+      "DOI": "10.1557/s43578-023-01123-5",
+      "volume": "38",
+      "author": "Liang",
+      "year": "2023",
+      "journal-title": "J. Mater. Res."
+    },
+    {
+      "key": "D6CP01826B/cit162/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "114801",
+      "DOI": "10.1063/5.0106617",
+      "volume": "157",
+      "author": "Fan",
+      "year": "2022",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit163/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "100239",
+      "DOI": "10.1016/j.cartre.2022.100239",
+      "volume": "10",
+      "author": "Ugwumadu",
+      "year": "2023",
+      "journal-title": "Carbon Trends"
+    },
+    {
+      "key": "D6CP01826B/cit164/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "025011",
+      "DOI": "10.1088/2632-2153/aca743",
+      "volume": "4",
+      "author": "Klawohn",
+      "year": "2023",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit165/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1051",
+      "DOI": "10.1002/qua.24927",
+      "volume": "115",
+      "author": "Bart\u00f3k",
+      "year": "2015",
+      "journal-title": "Int. J. Quantum Chem."
+    },
+    {
+      "key": "D6CP01826B/cit166/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "194103",
+      "DOI": "10.1063/5.0160898",
+      "volume": "159",
+      "author": "Klawohn",
+      "year": "2023",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit167/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "217",
+      "DOI": "10.1038/s41524-023-01174-6",
+      "volume": "9",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit168/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "126",
+      "DOI": "10.1038/s41524-024-01264-z",
+      "volume": "10",
+      "author": "Owen",
+      "year": "2024",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit169/1",
+      "first-page": "4530",
+      "volume": "24",
+      "author": "Chen",
+      "year": "2024",
+      "journal-title": "Cryst. Growth Des."
+    },
+    {
+      "key": "D6CP01826B/cit170/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "8115",
+      "DOI": "10.1021/acs.jpclett.1c01605",
+      "volume": "12",
+      "author": "Hajibabaei",
+      "year": "2021",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit171/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "9414",
+      "DOI": "10.1021/acs.jpca.1c05819",
+      "volume": "125",
+      "author": "Hajibabaei",
+      "year": "2021",
+      "journal-title": "J. Phys. Chem. A"
+    },
+    {
+      "key": "D6CP01826B/cit172/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "021301",
+      "DOI": "10.1063/5.0231265",
+      "volume": "5",
+      "author": "Willow",
+      "year": "2024",
+      "journal-title": "Chem. Phys. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit173/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "103",
+      "DOI": "10.1021/acs.accounts.5c00667",
+      "volume": "59",
+      "author": "Ha",
+      "year": "2026",
+      "journal-title": "Acc. Chem. Res."
+    },
+    {
+      "key": "D6CP01826B/cit174/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "021302",
+      "DOI": "10.1063/5.0261943",
+      "volume": "6",
+      "author": "Willow",
+      "year": "2025",
+      "journal-title": "Chem. Phys. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit175/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "731",
+      "DOI": "10.1021/acs.jpca.9b08723",
+      "volume": "124",
+      "author": "Zuo",
+      "year": "2020",
+      "journal-title": "J. Phys. Chem. A"
+    },
+    {
+      "key": "D6CP01826B/cit176/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1023",
+      "DOI": "10.1038/s42256-025-01067-x",
+      "volume": "7",
+      "author": "Li",
+      "year": "2025",
+      "journal-title": "Nat. Mach. Intell."
+    },
+    {
+      "key": "D6CP01826B/cit177/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1038/s41524-025-01575-9",
+      "volume": "11",
+      "author": "Yin",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit178/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "109",
+      "DOI": "10.1073/pnas.1406211111",
+      "volume": "111",
+      "author": "Shoemaker",
+      "year": "2014",
+      "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+    },
+    {
+      "key": "D6CP01826B/cit179/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "364",
+      "DOI": "10.1107/S0108768102006948",
+      "volume": "58",
+      "author": "Belkly",
+      "year": "2002",
+      "journal-title": "Acta Crystallogr., Sect. B"
+    },
+    {
+      "key": "D6CP01826B/cit180/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "101828",
+      "DOI": "10.1016/j.progpolymsci.2024.101828",
+      "volume": "153",
+      "author": "Lu",
+      "year": "2024",
+      "journal-title": "Prog. Polym. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit181/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "101742",
+      "DOI": "10.1016/j.mtener.2024.101742",
+      "volume": "47",
+      "author": "Mao",
+      "year": "2025",
+      "journal-title": "Mater. Today Energy"
+    },
+    {
+      "key": "D6CP01826B/cit182/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "746",
+      "DOI": "10.1038/s41928-023-01030-x",
+      "volume": "6",
+      "author": "Zhou",
+      "year": "2023",
+      "journal-title": "Nat. Electron."
+    },
+    {
+      "key": "D6CP01826B/cit183/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4513",
+      "DOI": "10.1021/cr020733x",
+      "volume": "104",
+      "author": "Reed",
+      "year": "2004",
+      "journal-title": "Chem. Rev."
+    },
+    {
+      "key": "D6CP01826B/cit184/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "419",
+      "DOI": "10.1038/s41563-019-0572-4",
+      "volume": "19",
+      "author": "Eum",
+      "year": "2020",
+      "journal-title": "Nat. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit185/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "113271",
+      "DOI": "10.1016/j.jcp.2024.113271",
+      "volume": "515",
+      "author": "Ho",
+      "year": "2024",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit186/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "081101",
+      "DOI": "10.1063/5.0251119",
+      "volume": "137",
+      "author": "Guo",
+      "year": "2025",
+      "journal-title": "J. Appl. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit187/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "134301",
+      "DOI": "10.1103/PhysRevB.103.134301",
+      "volume": "103",
+      "author": "Faraji",
+      "year": "2021",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "D6CP01826B/cit188/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6059",
+      "DOI": "10.1021/acscatal.0c04525",
+      "volume": "11",
+      "author": "Chanussot",
+      "year": "2021",
+      "journal-title": "ACS Catal."
+    },
+    {
+      "key": "D6CP01826B/cit189/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "114114",
+      "DOI": "10.1016/j.inoche.2025.114114",
+      "volume": "174",
+      "author": "Maoucha",
+      "year": "2025",
+      "journal-title": "Inorg. Chem. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit190/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "128",
+      "DOI": "10.1016/j.jechem.2023.04.015",
+      "volume": "83",
+      "author": "Liu",
+      "year": "2023",
+      "journal-title": "J. Energy Chem."
+    },
+    {
+      "key": "D6CP01826B/cit191/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "100143",
+      "DOI": "10.1016/j.mtelec.2025.100143",
+      "volume": "12",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "Mater. Today Electron."
+    },
+    {
+      "key": "D6CP01826B/cit192/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3057",
+      "DOI": "10.1038/s41467-024-48192-6",
+      "volume": "15",
+      "author": "Owen",
+      "year": "2024",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit193/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2102807",
+      "DOI": "10.1002/adma.202102807",
+      "volume": "33",
+      "author": "Mortazavi",
+      "year": "2021",
+      "journal-title": "Adv. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit194/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "34918",
+      "DOI": "10.1039/D5TA05355B",
+      "volume": "13",
+      "author": "Lian",
+      "year": "2025",
+      "journal-title": "J. Mater. Chem. A"
+    },
+    {
+      "key": "D6CP01826B/cit195/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "075704",
+      "DOI": "10.1063/5.0309059",
+      "volume": "139",
+      "author": "Reza",
+      "year": "2026",
+      "journal-title": "J. Appl. Phys."
+    },
+    {
+      "key": "D6CP01826B/cit196/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "23284",
+      "DOI": "10.1016/j.ceramint.2024.04.052",
+      "volume": "50",
+      "author": "Huang",
+      "year": "2024",
+      "journal-title": "Ceram. Int."
+    },
+    {
+      "key": "D6CP01826B/cit197/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "113865",
+      "DOI": "10.1016/j.matdes.2025.113865",
+      "volume": "253",
+      "author": "Mukhamedov",
+      "year": "2025",
+      "journal-title": "Mater. Des."
+    },
+    {
+      "key": "D6CP01826B/cit198/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "100481",
+      "DOI": "10.1016/j.taml.2023.100481",
+      "volume": "13",
+      "author": "Deng",
+      "year": "2023",
+      "journal-title": "Theor. Appl. Mech. Lett."
+    },
+    {
+      "key": "D6CP01826B/cit199/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "106857",
+      "DOI": "10.1016/j.isci.2023.106857",
+      "volume": "26",
+      "author": "Wang",
+      "year": "2023",
+      "journal-title": "iScience"
+    },
+    {
+      "key": "D6CP01826B/cit200/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "116540",
+      "DOI": "10.1016/j.est.2025.116540",
+      "volume": "121",
+      "author": "Benzaama",
+      "year": "2025",
+      "journal-title": "J. Energy Storage"
+    },
+    {
+      "key": "D6CP01826B/cit201/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "122859",
+      "DOI": "10.1016/j.ijheatmasstransfer.2022.122859",
+      "volume": "192",
+      "author": "Ouyang",
+      "year": "2022",
+      "journal-title": "Int. J. Heat Mass Transfer"
+    },
+    {
+      "key": "D6CP01826B/cit202/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "8998",
+      "DOI": "10.1021/acs.jpcb.8b06476",
+      "volume": "122",
+      "author": "Mocanu",
+      "year": "2018",
+      "journal-title": "J. Phys. Chem. B"
+    },
+    {
+      "key": "D6CP01826B/cit203/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "101214",
+      "DOI": "10.1016/j.cossms.2025.101214",
+      "volume": "35",
+      "author": "Jacobs",
+      "year": "2025",
+      "journal-title": "Curr. Opin. Solid State Mater. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit204/1",
+      "first-page": "03660",
+      "volume": "2502",
+      "author": "Miret",
+      "year": "2025",
+      "journal-title": "arXiv"
+    },
+    {
+      "key": "D6CP01826B/cit205/1",
+      "first-page": "330",
+      "volume": "44",
+      "author": "Yixi",
+      "year": "2025",
+      "journal-title": "Mater. China"
+    },
+    {
+      "key": "D6CP01826B/cit206/1",
+      "first-page": "746",
+      "volume": "70",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "Chin. Sci. Bull."
+    },
+    {
+      "key": "D6CP01826B/cit207/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1956",
+      "DOI": "10.1039/D3MH00125C",
+      "volume": "10",
+      "author": "Mortazavi",
+      "year": "2023",
+      "journal-title": "Mater. Horiz."
+    },
+    {
+      "key": "D6CP01826B/cit208/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "986",
+      "DOI": "10.1016/j.joule.2023.03.011",
+      "volume": "7",
+      "author": "Chen",
+      "year": "2023",
+      "journal-title": "Joule"
+    },
+    {
+      "key": "D6CP01826B/cit209/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104",
+      "DOI": "10.1038/s41524-025-01599-1",
+      "volume": "11",
+      "author": "Shuang",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit210/1",
+      "first-page": "100487",
+      "volume": "13",
+      "author": "Manzhos",
+      "year": "2023",
+      "journal-title": "Mach. Learn. Appl."
+    },
+    {
+      "key": "D6CP01826B/cit211/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "157947",
+      "DOI": "10.1016/j.apsusc.2023.157947",
+      "volume": "638",
+      "author": "Wu",
+      "year": "2023",
+      "journal-title": "Appl. Surf. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit212/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "112",
+      "DOI": "10.1038/s41524-025-01601-w",
+      "volume": "11",
+      "author": "Guo",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit213/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "120",
+      "DOI": "10.1038/s41524-025-01669-4",
+      "volume": "11",
+      "author": "Poul",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit214/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "136",
+      "DOI": "10.1038/s41524-022-00903-7",
+      "volume": "8",
+      "author": "Ramzan",
+      "year": "2022",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit215/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "025001",
+      "DOI": "10.1088/2515-7639/ab713b",
+      "volume": "3",
+      "author": "Mortazavi",
+      "year": "2020",
+      "journal-title": "JPhys Mater."
+    },
+    {
+      "key": "D6CP01826B/cit216/1",
+      "volume-title": "arXiv",
+      "author": "Han",
+      "year": "2025",
+      "unstructured": "K.Han ,  B.Deng ,  A. B.Farimani  and  G.Ceder ,  arXiv ,  2025 , arXiv:2506.02023"
+    },
+    {
+      "key": "D6CP01826B/cit217/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5183",
+      "DOI": "10.1038/s41467-022-32294-0",
+      "volume": "13",
+      "author": "Vandermause",
+      "year": "2022",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "D6CP01826B/cit218/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "035066",
+      "DOI": "10.1088/2632-2153/ae040b",
+      "volume": "6",
+      "author": "Messerly",
+      "year": "2025",
+      "journal-title": "Mach. Learn. Sci. Technol."
+    },
+    {
+      "key": "D6CP01826B/cit219/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "95",
+      "DOI": "10.1038/s41524-025-01573-x",
+      "volume": "11",
+      "author": "Yang",
+      "year": "2025",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "D6CP01826B/cit220/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "998",
+      "DOI": "10.1038/s43588-023-00561-9",
+      "volume": "3",
+      "author": "Ko",
+      "year": "2023",
+      "journal-title": "Nat. Comput. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit221/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "116202",
+      "DOI": "10.1016/j.jcat.2025.116202",
+      "volume": "448",
+      "author": "Olajide",
+      "year": "2025",
+      "journal-title": "J. Catal."
+    },
+    {
+      "key": "D6CP01826B/cit222/1",
+      "first-page": "1734",
+      "volume": "55",
+      "author": "Hu",
+      "year": "2025",
+      "journal-title": "Sci. Sin.: Chim."
+    },
+    {
+      "key": "D6CP01826B/cit223/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2261",
+      "DOI": "10.1039/C7SC04934J",
+      "volume": "9",
+      "author": "Yao",
+      "year": "2018",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "D6CP01826B/cit224/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3678",
+      "DOI": "10.1021/acs.jctc.9b00181",
+      "volume": "15",
+      "author": "Unke",
+      "year": "2019",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "D6CP01826B/cit225/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "24724",
+      "DOI": "10.1021/acs.jpcc.3c07110",
+      "volume": "127",
+      "author": "Wang",
+      "year": "2023",
+      "journal-title": "J. Phys. Chem. C"
+    },
+    {
+      "key": "D6CP01826B/cit226/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6893",
+      "DOI": "10.1021/acs.jpcc.5c00302",
+      "volume": "129",
+      "author": "Gupta",
+      "year": "2025",
+      "journal-title": "J. Phys. Chem. C"
+    },
+    {
+      "key": "D6CP01826B/cit227/1",
+      "doi-asserted-by": "crossref",
+      "first-page": "e2205221119",
+      "DOI": "10.1073/pnas.2205221119",
+      "volume": "119",
+      "author": "Qiao",
+      "year": "2022",
+      "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+    }
+  ],
+  "container-title": [
+    "Physical Chemistry Chemical Physics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://pubs.rsc.org/CP/article-pdf/doi/10.1039/D6CP01826B/0/D6CP01826B.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        5
+      ]
+    ],
+    "date-time": "2026-08-05T18:09:14Z",
+    "timestamp": 1785953354000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://pubs.rsc.org/CP/article-lookup/doi/10.1039/D6CP01826B"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  },
+  "references-count": 227,
+  "journal-issue": {
+    "issue": "30",
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          5
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1039/d6cp01826b",
+  "relation": {},
+  "ISSN": [
+    "1463-9076",
+    "1463-9084"
+  ],
+  "issn-type": [
+    {
+      "value": "1463-9076",
+      "type": "print"
+    },
+    {
+      "value": "1463-9084",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026
+      ]
+    ]
+  }
+}

@@ -1,0 +1,883 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T03:13:34Z",
+    "timestamp": 1790219614968,
+    "version": "4.1.0"
+  },
+  "reference-count": 65,
+  "publisher": "AIP Publishing",
+  "issue": "24",
+  "funder": [
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "MU 987/20-1"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "MU 987/20-1"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001659",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003725",
+      "name": "National Research Foundation of Korea",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2012-005741"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2012-005741"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003725",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003621",
+      "name": "Ministry of Science, ICT and Future Planning",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2017-0-00451"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2017-0-00451"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003621",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002347",
+      "name": "Bundesministerium f\u00fcr Bildung und Forschung",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "01IS14013A"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "01IS14013A"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002347",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100010663",
+      "name": "H2020 European Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "BeStMo"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "BeStMo"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100010663",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100010665",
+      "name": "H2020 Marie Sk\u0142odowska-Curie Actions",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "657679"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "657679"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100010665",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "pubs.aip.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2018,
+        6,
+        28
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Deep learning has led to a paradigm shift in artificial intelligence, including web, text, and image search, speech recognition, as well as bioinformatics, with growing impact in chemical physics. Machine learning, in general, and deep learning, in particular, are ideally suitable for representing quantum-mechanical interactions, enabling us to model nonlinear potential-energy surfaces or enhancing the exploration of chemical compound space. Here we present the deep learning architecture SchNet that is specifically designed to model atomistic systems by making use of continuous-filter convolutional layers. We demonstrate the capabilities of SchNet by accurately predicting a range of properties across chemical space for molecules and materials, where our model learns chemically plausible embeddings of atom types across the periodic table. Finally, we employ SchNet to predict potential-energy surfaces and energy-conserving force fields for molecular dynamics simulations of small molecules and perform an exemplary study on the quantum-mechanical properties of C20-fullerene that would have been infeasible with regular ab initio molecular dynamics.</jats:p>",
+  "DOI": "10.1063/1.5019779",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        3,
+        29
+      ]
+    ],
+    "date-time": "2018-03-29T10:20:49Z",
+    "timestamp": 1522318849000
+  },
+  "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "Crossref",
+  "is-referenced-by-count": 1986,
+  "title": [
+    "SchNet \u2013 A deep learning architecture for molecules and materials"
+  ],
+  "prefix": "10.1063",
+  "volume": "148",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-8342-0964",
+      "authenticated-orcid": false,
+      "given": "K. T.",
+      "family": "Sch\u00fctt",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "H. E.",
+      "family": "Sauceda",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Fritz-Haber-Institut der Max-Planck-Gesellschaft 2 , 14195 Berlin, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "P.-J.",
+      "family": "Kindermans",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "A.",
+      "family": "Tkatchenko",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Physics and Materials Science Research Unit, University of Luxembourg 3 , L-1511 Luxembourg, Luxembourg"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "K.-R.",
+      "family": "M\u00fcller",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+        },
+        {
+          "name": "Max-Planck-Institut f\u00fcr Informatik 4 , Saarbr\u00fccken, Germany"
+        },
+        {
+          "name": "Department of Brain and Cognitive Engineering, Korea University 5 , Anam-dong, Seongbuk-gu, Seoul 136-713, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "317",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        3,
+        29
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "2023080301102866800_c1",
+      "doi-asserted-by": "publisher",
+      "first-page": "058301",
+      "DOI": "10.1103/physrevlett.108.058301",
+      "volume": "108",
+      "year": "2012",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c2",
+      "doi-asserted-by": "publisher",
+      "first-page": "095003",
+      "DOI": "10.1088/1367-2630/15/9/095003",
+      "volume": "15",
+      "year": "2013",
+      "journal-title": "New J. Phys."
+    },
+    {
+      "key": "2023080301102866800_c3",
+      "doi-asserted-by": "publisher",
+      "first-page": "3404",
+      "DOI": "10.1021/ct400195d",
+      "volume": "9",
+      "year": "2013",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "2023080301102866800_c4",
+      "doi-asserted-by": "publisher",
+      "first-page": "205118",
+      "DOI": "10.1103/physrevb.89.205118",
+      "volume": "89",
+      "year": "2014",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023080301102866800_c5",
+      "doi-asserted-by": "publisher",
+      "first-page": "1094",
+      "DOI": "10.1002/qua.24917",
+      "volume": "115",
+      "year": "2015",
+      "journal-title": "Int. J. Quantum Chem."
+    },
+    {
+      "key": "2023080301102866800_c6",
+      "doi-asserted-by": "publisher",
+      "first-page": "2087",
+      "DOI": "10.1021/acs.jctc.5b00099",
+      "volume": "11",
+      "year": "2015",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "2023080301102866800_c7",
+      "doi-asserted-by": "publisher",
+      "first-page": "2326",
+      "DOI": "10.1021/acs.jpclett.5b00831",
+      "volume": "6",
+      "year": "2015",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "2023080301102866800_c8",
+      "doi-asserted-by": "publisher",
+      "first-page": "135502",
+      "DOI": "10.1103/physrevlett.117.135502",
+      "volume": "117",
+      "year": "2016",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c9",
+      "doi-asserted-by": "publisher",
+      "first-page": "827",
+      "DOI": "10.1137/16m1075454",
+      "volume": "15",
+      "year": "2017",
+      "journal-title": "Multiscale Model. Simul."
+    },
+    {
+      "issue": "11",
+      "key": "2023080301102866800_c10",
+      "doi-asserted-by": "publisher",
+      "first-page": "5255",
+      "DOI": "10.1021/acs.jctc.7b00577",
+      "volume": "13",
+      "year": "2017",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "2023080301102866800_c11",
+      "unstructured": "H.\u2008Huo and M.\u2008Rupp, preprint arXiv:1704.06439 (2017)."
+    },
+    {
+      "key": "2023080301102866800_c12",
+      "first-page": "6522",
+      "volume-title": "Advances in Neural Information Processing Systems 30",
+      "year": "2017"
+    },
+    {
+      "key": "2023080301102866800_c13",
+      "doi-asserted-by": "publisher",
+      "first-page": "15679",
+      "DOI": "10.1038/ncomms15679",
+      "volume": "8",
+      "year": "2017",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "2023080301102866800_c14",
+      "unstructured": "K.\u2008Ryczko, K.\u2008Mills, I.\u2008Luchak, C.\u2008Homenick, and I.\u2008Tamblyn, preprint arXiv:1706.09496 (2017)."
+    },
+    {
+      "key": "2023080301102866800_c15",
+      "unstructured": "I.\u2008Luchak, K.\u2008Mills, K.\u2008Ryczko, A.\u2008Domurad, and I.\u2008Tamblyn, preprint arXiv:1708.06686 (2017)."
+    },
+    {
+      "key": "2023080301102866800_c16",
+      "doi-asserted-by": "publisher",
+      "first-page": "146401",
+      "DOI": "10.1103/physrevlett.98.146401",
+      "volume": "98",
+      "year": "2007",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c17",
+      "doi-asserted-by": "publisher",
+      "first-page": "074106",
+      "DOI": "10.1063/1.3553717",
+      "volume": "134",
+      "year": "2011",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "2023080301102866800_c18",
+      "doi-asserted-by": "publisher",
+      "first-page": "136403",
+      "DOI": "10.1103/physrevlett.104.136403",
+      "volume": "104",
+      "year": "2010",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c19",
+      "doi-asserted-by": "publisher",
+      "first-page": "184115",
+      "DOI": "10.1103/physrevb.87.184115",
+      "volume": "87",
+      "year": "2013",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023080301102866800_c20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1153",
+      "DOI": "10.1137/15m1054183",
+      "volume": "14",
+      "year": "2016",
+      "journal-title": "Multiscale Model. Simul."
+    },
+    {
+      "key": "2023080301102866800_c21",
+      "doi-asserted-by": "publisher",
+      "first-page": "e1603015",
+      "DOI": "10.1126/sciadv.1603015",
+      "volume": "3",
+      "year": "2017",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "2023080301102866800_c22",
+      "doi-asserted-by": "publisher",
+      "first-page": "872",
+      "DOI": "10.1038/s41467-017-00839-3",
+      "volume": "8",
+      "year": "2017",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "2023080301102866800_c23",
+      "doi-asserted-by": "publisher",
+      "first-page": "3192",
+      "DOI": "10.1039/c6sc05720a",
+      "volume": "8",
+      "year": "2017",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "2023080301102866800_c24",
+      "doi-asserted-by": "publisher",
+      "first-page": "171",
+      "DOI": "10.1016/j.commatsci.2017.08.031",
+      "volume": "140",
+      "year": "2017",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "issue": "5",
+      "key": "2023080301102866800_c25",
+      "doi-asserted-by": "publisher",
+      "first-page": "054303",
+      "DOI": "10.1103/PhysRevB.97.054303",
+      "volume": "97",
+      "year": "2018",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "2023080301102866800_c26",
+      "first-page": "2224",
+      "author": "Cortes",
+      "year": "2015"
+    },
+    {
+      "key": "2023080301102866800_c27",
+      "doi-asserted-by": "publisher",
+      "first-page": "595",
+      "DOI": "10.1007/s10822-016-9938-8",
+      "volume": "30",
+      "year": "2016",
+      "journal-title": "J. Comput.-Aided Mol. Des."
+    },
+    {
+      "key": "2023080301102866800_c28",
+      "doi-asserted-by": "publisher",
+      "first-page": "13890",
+      "DOI": "10.1038/ncomms13890",
+      "volume": "8",
+      "year": "2017",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "2023080301102866800_c29",
+      "first-page": "1263",
+      "year": "2017"
+    },
+    {
+      "key": "2023080301102866800_c30",
+      "first-page": "992",
+      "volume-title": "Advances in Neural Information Processing Systems 30",
+      "year": "2017"
+    },
+    {
+      "key": "2023080301102866800_c31",
+      "first-page": "1803",
+      "volume": "11",
+      "year": "2010",
+      "journal-title": "J. Mach. Learn. Res."
+    },
+    {
+      "key": "2023080301102866800_c32",
+      "unstructured": "K.\u2008Simonyan, A.\u2008Vedaldi, and A.\u2008Zisserman, eprint arXiv:1312.6034 (2013)."
+    },
+    {
+      "key": "2023080301102866800_c33",
+      "doi-asserted-by": "publisher",
+      "first-page": "e0130140",
+      "DOI": "10.1371/journal.pone.0130140",
+      "volume": "10",
+      "year": "2015",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "2023080301102866800_c34"
+    },
+    {
+      "key": "2023080301102866800_c35",
+      "doi-asserted-by": "publisher",
+      "first-page": "211",
+      "DOI": "10.1016/j.patcog.2016.11.008",
+      "volume": "65",
+      "year": "2017",
+      "journal-title": "Pattern Recognit."
+    },
+    {
+      "key": "2023080301102866800_c36",
+      "unstructured": "P.-J.\u2008Kindermans, K. T.\u2008Sch\u00fctt, M.\u2008Alber, K.-R.\u2008M\u00fcller, D.\u2008Erhan, B.\u2008Kim, and S.\u2008D\u00e4hne, eprint arXiv:1705.05598 (2017)."
+    },
+    {
+      "key": "2023080301102866800_c37",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/j.dsp.2017.10.011",
+      "volume": "73",
+      "year": "2018",
+      "journal-title": "Digital Signal Process."
+    },
+    {
+      "key": "2023080301102866800_c38",
+      "first-page": "2048",
+      "year": "2015"
+    },
+    {
+      "key": "2023080301102866800_c39",
+      "doi-asserted-by": "publisher",
+      "first-page": "3865",
+      "DOI": "10.1103/physrevlett.77.3865",
+      "volume": "77",
+      "year": "1996",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c40",
+      "doi-asserted-by": "publisher",
+      "first-page": "073005",
+      "DOI": "10.1103/physrevlett.102.073005",
+      "volume": "102",
+      "year": "2009",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "2023080301102866800_c41",
+      "doi-asserted-by": "publisher",
+      "first-page": "1368",
+      "DOI": "10.1039/c5sc03443d",
+      "volume": "7",
+      "year": "2016",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "2023080301102866800_c42",
+      "first-page": "1",
+      "year": "2009"
+    },
+    {
+      "key": "2023080301102866800_c43",
+      "doi-asserted-by": "publisher",
+      "first-page": "388",
+      "DOI": "10.1109/tasl.2012.2227738",
+      "volume": "21",
+      "year": "2013",
+      "journal-title": "IEEE Trans. Audio, Speech, Lang. Process."
+    },
+    {
+      "key": "2023080301102866800_c44",
+      "first-page": "1642",
+      "year": "2013"
+    },
+    {
+      "key": "2023080301102866800_c45",
+      "first-page": "667",
+      "volume-title": "Advances in Neural Information Processing Systems 29",
+      "author": "Lee",
+      "year": "2016"
+    },
+    {
+      "key": "2023080301102866800_c46",
+      "doi-asserted-by": "publisher",
+      "first-page": "541",
+      "DOI": "10.1162/neco.1989.1.4.541",
+      "volume": "1",
+      "year": "1989",
+      "journal-title": "Neural Comput."
+    },
+    {
+      "key": "2023080301102866800_c47",
+      "first-page": "1097",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "year": "2012"
+    },
+    {
+      "key": "2023080301102866800_c48",
+      "year": "2016"
+    },
+    {
+      "key": "2023080301102866800_c49",
+      "first-page": "1251",
+      "year": "2017"
+    },
+    {
+      "key": "2023080301102866800_c50",
+      "first-page": "770",
+      "year": "2016"
+    },
+    {
+      "key": "2023080301102866800_c51",
+      "doi-asserted-by": "publisher",
+      "first-page": "134101",
+      "DOI": "10.1063/1.3095491",
+      "volume": "130",
+      "year": "2009",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "2023080301102866800_c52"
+    },
+    {
+      "key": "2023080301102866800_c53",
+      "doi-asserted-by": "publisher",
+      "first-page": "140022",
+      "DOI": "10.1038/sdata.2014.22",
+      "volume": "1",
+      "year": "2014",
+      "journal-title": "Sci. Data"
+    },
+    {
+      "key": "2023080301102866800_c54",
+      "doi-asserted-by": "publisher",
+      "first-page": "8732",
+      "DOI": "10.1021/ja902302h",
+      "volume": "131",
+      "year": "2009",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "2023080301102866800_c55",
+      "doi-asserted-by": "publisher",
+      "first-page": "722",
+      "DOI": "10.1021/ar500432k",
+      "volume": "48",
+      "year": "2015",
+      "journal-title": "Acc. Chem. Res."
+    },
+    {
+      "key": "2023080301102866800_c56",
+      "unstructured": "O.\u2008Vinyals, S.\u2008Bengio, and M.\u2008Kudlur, eprint arXiv:1511.06391 (2015)."
+    },
+    {
+      "issue": "10",
+      "key": "2023080301102866800_c57",
+      "doi-asserted-by": "publisher",
+      "first-page": "6924",
+      "DOI": "10.1039/c7sc02267k",
+      "volume": "8",
+      "year": "2017",
+      "journal-title": "Chem. Sci."
+    },
+    {
+      "key": "2023080301102866800_c58",
+      "doi-asserted-by": "publisher",
+      "first-page": "011002",
+      "DOI": "10.1063/1.4812323",
+      "volume": "1",
+      "year": "2013",
+      "journal-title": "APL Mater."
+    },
+    {
+      "key": "2023080301102866800_c59",
+      "doi-asserted-by": "publisher",
+      "first-page": "314",
+      "DOI": "10.1016/j.commatsci.2012.10.028",
+      "volume": "68",
+      "year": "2013",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "2023080301102866800_c60",
+      "doi-asserted-by": "publisher",
+      "first-page": "40",
+      "DOI": "10.1109/mcse.2011.35",
+      "volume": "13",
+      "year": "2011",
+      "journal-title": "Comput. Sci. Eng."
+    },
+    {
+      "key": "2023080301102866800_c61",
+      "unstructured": "Code and trained models are available at: https://github.com/atomistic-machine-learning/SchNet."
+    },
+    {
+      "key": "2023080301102866800_c62",
+      "doi-asserted-by": "publisher",
+      "first-page": "102325",
+      "DOI": "10.1063/1.5006596",
+      "volume": "148",
+      "year": "2018",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "2023080301102866800_c63",
+      "doi-asserted-by": "publisher",
+      "first-page": "2175",
+      "DOI": "10.1016/j.cpc.2009.06.022",
+      "volume": "180",
+      "year": "2009",
+      "journal-title": "Comput. Phys. Commun."
+    },
+    {
+      "key": "2023080301102866800_c64",
+      "doi-asserted-by": "publisher",
+      "first-page": "1019",
+      "DOI": "10.1016/j.cpc.2013.10.027",
+      "volume": "185",
+      "year": "2014",
+      "journal-title": "Comput. Phys. Commun."
+    },
+    {
+      "key": "2023080301102866800_c65",
+      "doi-asserted-by": "publisher",
+      "first-page": "124104",
+      "DOI": "10.1063/1.3489925",
+      "volume": "133",
+      "year": "2010",
+      "journal-title": "J. Chem. Phys."
+    }
+  ],
+  "container-title": [
+    "The Journal of Chemical Physics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.5019779/16655678/241722_1_online.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.5019779/16655678/241722_1_online.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        8,
+        2
+      ]
+    ],
+    "date-time": "2023-08-02T21:10:45Z",
+    "timestamp": 1691010645000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.aip.org/jcp/article/148/24/241722/962591/SchNet-A-deep-learning-architecture-for-molecules"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        3,
+        29
+      ]
+    ]
+  },
+  "references-count": 65,
+  "journal-issue": {
+    "issue": "24",
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          28
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1063/1.5019779",
+  "relation": {},
+  "ISSN": [
+    "0021-9606",
+    "1089-7690"
+  ],
+  "issn-type": [
+    {
+      "value": "0021-9606",
+      "type": "print"
+    },
+    {
+      "value": "1089-7690",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published-other": {
+    "date-parts": [
+      [
+        2018,
+        6,
+        28
+      ]
+    ]
+  },
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        3,
+        29
+      ]
+    ]
+  },
+  "article-number": "241722"
+}

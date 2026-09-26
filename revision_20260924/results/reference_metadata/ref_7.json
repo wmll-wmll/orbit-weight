@@ -1,0 +1,417 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2026-09-23T01:25:58Z",
+    "timestamp": 1790126758139,
+    "version": "4.0.1"
+  },
+  "reference-count": 35,
+  "publisher": "American Physical Society (APS)",
+  "issue": "14",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2018-04-06T00:00:00Z",
+        "timestamp": 1522972800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://link.aps.org/licenses/aps-default-license"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100015599",
+      "name": "Toyota Research Institute",
+      "doi-asserted-by": "crossref",
+      "id": [
+        {
+          "id": "10.13039/100015599",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "National Energy Research Scientific Computing Center",
+      "award": [
+        "DE-AC02-05CH11231"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE-AC02-05CH11231"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extreme Science and Engineering Discovery Environment",
+      "award": [
+        "ACI-1053575"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "ACI-1053575"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "journals.aps.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Phys. Rev. Lett."
+  ],
+  "DOI": "10.1103/physrevlett.120.145301",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        6
+      ]
+    ],
+    "date-time": "2018-04-06T10:17:19Z",
+    "timestamp": 1523009839000
+  },
+  "update-policy": "https://doi.org/10.1103/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 2567,
+  "title": [
+    "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties"
+  ],
+  "prefix": "10.1103",
+  "volume": "120",
+  "author": [
+    {
+      "given": "Tian",
+      "family": "Xie",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jeffrey C.",
+      "family": "Grossman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "16",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        6
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "PhysRevLett.120.145301Cc1R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.115.205901"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc2R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.117.135502"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc3R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms11241"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc4R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms15679"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc5R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.114.105503"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc6R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/cm503507h"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc7R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevB.89.205118"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc8R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/qua.24917"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc9R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevB.95.144110"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc10R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature14539"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc11R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4812323"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc13R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/sdata.2015.9"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc14R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.114.2973.670"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc15R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ja01139a020"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc16R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/b801115j"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc17R1",
+      "volume-title": "Atomic Spectra Database",
+      "author": "A. Kramida",
+      "year": "2013"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc18R1",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1201/b17118",
+      "volume-title": "CRC Handbook of Chemistry and Physics",
+      "author": "W.\u2009M. Haynes",
+      "year": "2014"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc20R1",
+      "first-page": "1929",
+      "volume": "15",
+      "author": "N. Srivastava",
+      "year": "2014",
+      "journal-title": "J. Mach. Learn. Res.",
+      "ISSN": "https://id.crossref.org/issn/1532-4435",
+      "issn-type": "print"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc21R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/08893110412331323170"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc22R1",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "author": "A. Krizhevsky",
+      "year": "2012"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc23R1",
+      "volume-title": "Proceedings of the 25th International Conference on Machine Learning",
+      "author": "R. Collobert",
+      "year": "2008"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc24R1",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "author": "D.\u2009K. Duvenaud",
+      "year": "2015"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc26R1",
+      "volume-title": "Proceedings of the 34th International Conference on Machine Learning, 2017",
+      "author": "J. Gilmer"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc27R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/08893110410001664882"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc28R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/npjcompumats.2015.10"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc29R1",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "K. He",
+      "year": "2016"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc30R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevB.34.5390"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc31R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/RevModPhys.73.33"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc32R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.commatsci.2011.02.023"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc33R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep34256"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc34R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C1EE02717D"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc35R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/sciadv.1600225"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc36R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1143/JPSJ.7.12"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc37R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.matpr.2016.01.032"
+    },
+    {
+      "key": "PhysRevLett.120.145301Cc38R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevB.95.155105"
+    }
+  ],
+  "container-title": [
+    "Physical Review Letters"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.aps.org/article/10.1103/PhysRevLett.120.145301",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.120.145301/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        2
+      ]
+    ],
+    "date-time": "2025-01-02T16:37:35Z",
+    "timestamp": 1735835855000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevLett.120.145301"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        6
+      ]
+    ]
+  },
+  "references-count": 35,
+  "journal-issue": {
+    "issue": "14",
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1103/physrevlett.120.145301",
+  "relation": {},
+  "ISSN": [
+    "0031-9007",
+    "1079-7114"
+  ],
+  "issn-type": [
+    {
+      "value": "0031-9007",
+      "type": "print"
+    },
+    {
+      "value": "1079-7114",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        6
+      ]
+    ]
+  },
+  "article-number": "145301"
+}

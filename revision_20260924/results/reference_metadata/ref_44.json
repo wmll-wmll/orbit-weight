@@ -1,0 +1,775 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "date-time": "2026-09-21T20:51:21Z",
+    "timestamp": 1790023881101,
+    "version": "4.0.1"
+  },
+  "reference-count": 62,
+  "publisher": "Wiley",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            15
+          ]
+        ],
+        "date-time": "2026-06-15T00:00:00Z",
+        "timestamp": 1781481600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 14,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2026-06-01T00:00:00Z",
+        "timestamp": 1780272000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Rare Metals"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    NiTi shape memory alloys (SMAs) show excellent performance in vibration damping and corrosion resistance. However, due to low hardness and lack of self\u2010lubrication, they suffer severe friction and wear during service. Although various strategies including doping and heterostructure design have been proposed, the effects are unsatisfactory. In this work, we present a series of (Ni\n                    <jats:sub>40</jats:sub>\n                    Ti\n                    <jats:sub>40</jats:sub>\n                    Cu\n                    <jats:sub>20</jats:sub>\n                    )\n                    <jats:sub>\n                      100\u2010\n                      <jats:italic>x</jats:italic>\n                    </jats:sub>\n                    O\n                    <jats:sub>\n                      <jats:italic>x</jats:italic>\n                    </jats:sub>\n                    (\n                    <jats:italic>x</jats:italic>\n                    \u00a0=\u00a00.1, 0.5) alloys with B2, B19', and worm\u2010like amorphous phases. These alloys display extremely low wear rates (7.553\u00a0\u00d7\u00a010\n                    <jats:sup>\u22127</jats:sup>\n                    and 6.15667\u00a0\u00d7\u00a010\n                    <jats:sup>\u22127</jats:sup>\n                    \u00a0mm\n                    <jats:sup>3</jats:sup>\n                    \u00a0N\n                    <jats:sup>\u22121</jats:sup>\n                    \u00a0m\n                    <jats:sup>\u22121</jats:sup>\n                    ) under a load of 15\u00a0N, which are far lower than those of similar metallic structural materials (10\n                    <jats:sup>\u22124</jats:sup>\n                    to 10\n                    <jats:sup>\u22125</jats:sup>\n                    \u00a0mm\n                    <jats:sup>3</jats:sup>\n                    \u00a0N\n                    <jats:sup>\u22121</jats:sup>\n                    \u00a0m\n                    <jats:sup>\u22121</jats:sup>\n                    ). It should be noted that for the two alloys, the wear rate decreases with the increase of load, whereas the friction coefficient shows an opposite trend, and the wear rates are all in the range of 10\n                    <jats:sup>\u2010</jats:sup>\n                    6 to 10\n                    <jats:sup>\u22127</jats:sup>\n                    \u00a0mm\n                    <jats:sup>3</jats:sup>\n                    \u00a0N\n                    <jats:sup>\u22121</jats:sup>\n                    \u00a0m\n                    <jats:sup>\u22121</jats:sup>\n                    . The above\u2010mentioned excellent performance can be attributed to the following three aspects: (1) the B19' phase and the amorphous phase provide a very high level of hardness; (2) density functional theory (DFT) calculations prove that, under the action of frictional heat, B19' tends to precipitate metal cations, forming a dense oxide film that also has a certain lubricating effect. X\u2010ray photoelectron spectroscopy (XPS) analysis shows that both alloys contain Ti\n                    <jats:sub>2</jats:sub>\n                    O\n                    <jats:sub>3</jats:sub>\n                    , TiO\n                    <jats:sub>2</jats:sub>\n                    , NiO, CuO, etc.; (3) during the friction process, the phase transformation from B2 to B19' and the HDI heterogeneous hardening effect between the crystalline and amorphous phases can effectively relieve the micro\u2010cutting and micro\u2010plastic deformation of the friction pair. This design provides a new solution for NiTi SMAs to achieve both friction and wear performance and functional characteristics in engineering applications.\n                  </jats:p>",
+  "DOI": "10.1002/rar2.70319",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        16
+      ]
+    ],
+    "date-time": "2026-06-16T04:03:20Z",
+    "timestamp": 1781582600000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 22,
+  "title": [
+    "Oxygen Doping and Crystal\u2013Amorphous Multiphase Coupling Synergistically Improve the Wear Resistance of NiTiCu Alloy"
+  ],
+  "prefix": "10.1002",
+  "volume": "45",
+  "author": [
+    {
+      "given": "Huwen",
+      "family": "Ma",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yanchun",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Qingxin",
+      "family": "Xu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jiacheng",
+      "family": "Xiang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jichao",
+      "family": "Qiao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Mechanics and Transportation Engineering Northwestern Polytechnical University  Xi'an China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yu",
+      "family": "Su",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Shenshen",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        },
+        {
+          "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Haorong",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jinhui",
+      "family": "Yan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Fuling",
+      "family": "Tang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kaixiong",
+      "family": "Gao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter K.",
+      "family": "Liaw",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Materials Science and Engineering University of Tennessee  Knoxville Tennessee USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peiqing",
+      "family": "La",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yuan",
+      "family": "Wu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory for Advanced Metals and Materials University of Science and Technology Beijing  Beijing China"
+        },
+        {
+          "name": "Institute of Materials Intelligent Technology Liaoning Academy of Materials  Shenyang China"
+        },
+        {
+          "name": "School of Mathematics and Physics of University of Science University of Science and Technology  Beijing China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        15
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_10_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010023\u201002604\u20106"
+    },
+    {
+      "key": "e_1_2_10_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.msea.2024.146218"
+    },
+    {
+      "key": "e_1_2_10_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010025\u201003288\u2010w"
+    },
+    {
+      "key": "e_1_2_10_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmapro.2025.02.077"
+    },
+    {
+      "key": "e_1_2_10_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.mattod.2025.11.030"
+    },
+    {
+      "key": "e_1_2_10_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmrt.2021.09.088"
+    },
+    {
+      "key": "e_1_2_10_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.actamat.2015.04.006"
+    },
+    {
+      "key": "e_1_2_10_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2023.108974"
+    },
+    {
+      "key": "e_1_2_10_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2024.110154"
+    },
+    {
+      "key": "e_1_2_10_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2024.110300"
+    },
+    {
+      "key": "e_1_2_10_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scriptamat.2005.09.051"
+    },
+    {
+      "key": "e_1_2_10_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.pmatsci.2005.08.003"
+    },
+    {
+      "key": "e_1_2_10_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s42864\u2010024\u201000296\u20108"
+    },
+    {
+      "key": "e_1_2_10_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010024\u201002733\u20106"
+    },
+    {
+      "key": "e_1_2_10_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijengsci.2025.104394"
+    },
+    {
+      "key": "e_1_2_10_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/sciadv.1601942"
+    },
+    {
+      "key": "e_1_2_10_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4933036"
+    },
+    {
+      "key": "e_1_2_10_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.wear.2016.12.007"
+    },
+    {
+      "key": "e_1_2_10_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2021.107112"
+    },
+    {
+      "key": "e_1_2_10_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.actamat.2022.117934"
+    },
+    {
+      "key": "e_1_2_10_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.mattod.2023.08.012"
+    },
+    {
+      "key": "e_1_2_10_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.msea.2011.03.045"
+    },
+    {
+      "key": "e_1_2_10_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2024.109812"
+    },
+    {
+      "key": "e_1_2_10_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2024.109309"
+    },
+    {
+      "key": "e_1_2_10_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.actamat.2020.10.070"
+    },
+    {
+      "key": "e_1_2_10_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467\u2010024\u201045840\u20109"
+    },
+    {
+      "key": "e_1_2_10_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/0965\u20100393/18/1/015012"
+    },
+    {
+      "key": "e_1_2_10_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2320/matertrans.MJ200769"
+    },
+    {
+      "key": "e_1_2_10_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010025\u201003405\u20109"
+    },
+    {
+      "key": "e_1_2_10_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.77.3865"
+    },
+    {
+      "key": "e_1_2_10_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010023\u201002358\u20101"
+    },
+    {
+      "key": "e_1_2_10_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.actamat.2025.120941"
+    },
+    {
+      "key": "e_1_2_10_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/cryst9090483"
+    },
+    {
+      "key": "e_1_2_10_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586\u2010023\u201006894\u20109"
+    },
+    {
+      "key": "e_1_2_10_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/sciadv.abb3108"
+    },
+    {
+      "key": "e_1_2_10_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467\u2010023\u201036319\u20100"
+    },
+    {
+      "key": "e_1_2_10_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2320/matertrans.46.2817"
+    },
+    {
+      "key": "e_1_2_10_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11837\u2010012\u20100366\u20105"
+    },
+    {
+      "key": "e_1_2_10_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.matchemphys.2011.11.021"
+    },
+    {
+      "key": "e_1_2_10_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adem.200700240"
+    },
+    {
+      "key": "e_1_2_10_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.compositesb.2024.111222"
+    },
+    {
+      "key": "e_1_2_10_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2025.111393"
+    },
+    {
+      "key": "e_1_2_10_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmst.2018.11.023"
+    },
+    {
+      "key": "e_1_2_10_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmst.2020.08.065"
+    },
+    {
+      "key": "e_1_2_10_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.mattod.2025.04.014"
+    },
+    {
+      "key": "e_1_2_10_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12598\u2010025\u201003532\u20103"
+    },
+    {
+      "key": "e_1_2_10_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.corsci.2025.113375"
+    },
+    {
+      "key": "e_1_2_10_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.corsci.2025.113411"
+    },
+    {
+      "key": "e_1_2_10_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.triboint.2024.110306"
+    },
+    {
+      "key": "e_1_2_10_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.intermet.2024.108397"
+    },
+    {
+      "key": "e_1_2_10_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmapro.2024.06.031"
+    },
+    {
+      "key": "e_1_2_10_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/150197a0"
+    },
+    {
+      "key": "e_1_2_10_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.apsusc.2017.04.009"
+    },
+    {
+      "key": "e_1_2_10_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmst.2021.07.027"
+    },
+    {
+      "key": "e_1_2_10_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijplas.2018.04.012"
+    },
+    {
+      "key": "e_1_2_10_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scriptamat.2025.116990"
+    },
+    {
+      "key": "e_1_2_10_58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.msea.2022.143491"
+    },
+    {
+      "key": "e_1_2_10_59_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jnoncrysol.2023.122762"
+    },
+    {
+      "key": "e_1_2_10_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.intermet.2006.01.019"
+    },
+    {
+      "key": "e_1_2_10_61_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.wear.2025.206360"
+    },
+    {
+      "key": "e_1_2_10_62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.actamat.2010.04.005"
+    },
+    {
+      "key": "e_1_2_10_63_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1179/095066001225001067"
+    }
+  ],
+  "container-title": [
+    "Rare Metals"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rar2.70319",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/rar2.70319",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rar2.70319",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        29
+      ]
+    ],
+    "date-time": "2026-06-29T05:40:12Z",
+    "timestamp": 1782711612000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1002/rar2.70319"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "references-count": 62,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/rar2.70319"
+  ],
+  "URL": "https://doi.org/10.1002/rar2.70319",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1001-0521",
+    "1867-7185"
+  ],
+  "issn-type": [
+    {
+      "value": "1001-0521",
+      "type": "print"
+    },
+    {
+      "value": "1867-7185",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2026-01-12",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2026-03-13",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2026-06-15",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "e70319"
+}

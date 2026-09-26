@@ -1,0 +1,595 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T13:12:50Z",
+    "timestamp": 1790255570690,
+    "version": "4.1.0"
+  },
+  "reference-count": 35,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2013-02-01T00:00:00Z",
+        "timestamp": 1359676800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Computational Materials Science"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.commatsci.2012.10.028",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        12,
+        8
+      ]
+    ],
+    "date-time": "2012-12-08T06:30:19Z",
+    "timestamp": 1354948219000
+  },
+  "page": "314-319",
+  "source": "Crossref",
+  "is-referenced-by-count": 4212,
+  "special_numbering": "C",
+  "title": [
+    "Python Materials Genomics (pymatgen): A robust, open-source python library for materials analysis"
+  ],
+  "prefix": "10.1016",
+  "volume": "68",
+  "author": [
+    {
+      "given": "Shyue Ping",
+      "family": "Ong",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "William Davidson",
+      "family": "Richards",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anubhav",
+      "family": "Jain",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Geoffroy",
+      "family": "Hautier",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael",
+      "family": "Kocher",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Shreyas",
+      "family": "Cholia",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Dan",
+      "family": "Gunter",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Vincent L.",
+      "family": "Chevrier",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kristin A.",
+      "family": "Persson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gerbrand",
+      "family": "Ceder",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "11169",
+      "DOI": "10.1103/PhysRevB.54.11169",
+      "volume": "54",
+      "author": "Kresse",
+      "year": "1996",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0010",
+      "unstructured": "M.J. Frisch, G.W. Trucks, H.B. Schlegel, G.E. Scuseria, M.A. Robb, J.R. Cheeseman, J.A. Montgomery Jr., T. Vreven, K.N. Kudin, J.C. Burant, J.M. Millam, S.S. Iyengar, J. Tomasi, V. Barone, B. Mennucci, M. Cossi, G. Scalmani, N. Rega, G.A. Petersson, H. Nakatsuji, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, M. Klene, X. Li, J.E. Knox, H.P. Hratchian, J.B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R.E. Stratmann, O. Yazyev, A.J. Austin, R. Cammi, C. Pomelli, J.W. Ochterski, P.Y. Ayala, K. Morokuma, G.A. Voth, P. Salvador, J.J. Dannenberg, V.G. Zakrzewski, S. Dapprich, A.D. Daniels, M.C. Strain, O. Farkas, D.K. Malick, A.D. Rabuck, K. Raghavachari, J.B. Foresman, J.V. Ortiz, Q. Cui, A.G. Baboul, S. Clifford, J. Cioslowski, B.B. Stefanov, G. Liu, A. Liashenko, P. Piskorz, I. Komaromi, R.L. Martin, D.J. Fox, T. Keith, M.A. Al-Laham, C.Y. Peng, A. Nanayakkara, M. Challacombe, P.M.W. Gill, B. Johnson, W. Chen, M.W. Wong, C. Gonzalez, J.A. Pope, Gaussian 03 Revision C.02."
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "2582",
+      "DOI": "10.1016/j.cpc.2009.07.007",
+      "volume": "180",
+      "author": "Gonze",
+      "year": "2009",
+      "journal-title": "Computer Physics Communications"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "558",
+      "DOI": "10.1524/zkri.220.5.558.65066",
+      "volume": "220",
+      "author": "Gonze",
+      "year": "2005",
+      "journal-title": "Zeitschrift f\u00fcr Kristallographie"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0920",
+      "unstructured": "S.P. Ong, A. Jain, G. Hautier, M. Kocher, S. Cholia, D. Gunter, D. Bailey, D. Skinner, K. Persson, G. Ceder, The Materials Project, http://materialsproject.org/."
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "2295",
+      "DOI": "10.1016/j.commatsci.2011.02.023",
+      "volume": "50",
+      "author": "Jain",
+      "year": "2011",
+      "journal-title": "Computational Materials Science"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "3495",
+      "DOI": "10.1021/cm200949v",
+      "volume": "23",
+      "author": "Hautier",
+      "year": "2011",
+      "journal-title": "Chemistry of Materials"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "17147",
+      "DOI": "10.1039/c1jm12216a",
+      "volume": "21",
+      "author": "Hautier",
+      "year": "2011",
+      "journal-title": "Journal of Materials Chemistry"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1557/mrs.2011.31",
+      "volume": "36",
+      "author": "Ceder",
+      "year": "2011",
+      "journal-title": "MRS Bulletin"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "3680",
+      "DOI": "10.1039/c1ee01782a",
+      "volume": "4",
+      "author": "Ong",
+      "year": "2011",
+      "journal-title": "Energy & Environmental Science"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0050",
+      "doi-asserted-by": "crossref",
+      "first-page": "15",
+      "DOI": "10.1021/cm203303y",
+      "volume": "24",
+      "author": "Mo",
+      "year": "2012",
+      "journal-title": "Chemistry of Materials"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "218",
+      "DOI": "10.1016/j.commatsci.2012.02.005",
+      "volume": "58",
+      "author": "Curtarolo",
+      "year": "2012",
+      "journal-title": "Computational Materials Science"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "163",
+      "DOI": "10.1016/j.calphad.2005.01.002",
+      "volume": "29",
+      "author": "Curtarolo",
+      "year": "2005",
+      "journal-title": "Computer Coupling of Phase Diagrams and Thermochemistry"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1103/PhysRevB.78.094520",
+      "volume": "78",
+      "author": "Kolmogorov",
+      "year": "2008",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0070",
+      "doi-asserted-by": "crossref",
+      "first-page": "614",
+      "DOI": "10.1038/nmat3332",
+      "volume": "11",
+      "author": "Yang",
+      "year": "2012",
+      "journal-title": "Nature Materials"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "272",
+      "DOI": "10.1002/anie.201107947",
+      "volume": "51",
+      "author": "Hummelsh\u00f8j",
+      "year": "2012",
+      "journal-title": "Angewandte Chemie (International Ed. in English)"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0080",
+      "doi-asserted-by": "crossref",
+      "first-page": "2241",
+      "DOI": "10.1021/jz200866s",
+      "volume": "2",
+      "author": "Hachmann",
+      "year": "2011",
+      "journal-title": "The Journal of Physical Chemistry Letters"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0085",
+      "doi-asserted-by": "crossref",
+      "first-page": "437",
+      "DOI": "10.1038/ncomms1451",
+      "volume": "2",
+      "author": "Sokolov",
+      "year": "2011",
+      "journal-title": "Nature communications"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0090",
+      "doi-asserted-by": "crossref",
+      "first-page": "10",
+      "DOI": "10.1109/MCSE.2007.58",
+      "volume": "9",
+      "author": "Oliphant",
+      "year": "2007",
+      "journal-title": "Computing in Science & Engineering"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0095",
+      "doi-asserted-by": "crossref",
+      "first-page": "621",
+      "DOI": "10.1107/S0021889806015627",
+      "volume": "39",
+      "author": "Hester",
+      "year": "2006",
+      "journal-title": "Journal of Applied Crystallography"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0100",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.1186/1758-2946-3-33",
+      "volume": "3",
+      "author": "O\u2019Boyle",
+      "year": "2011",
+      "journal-title": "Journal of Cheminformatics"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0105",
+      "doi-asserted-by": "crossref",
+      "first-page": "56",
+      "DOI": "10.1109/5992.998641",
+      "volume": "4",
+      "author": "Bahn",
+      "year": "2002",
+      "journal-title": "Computer Science Engineering"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0110",
+      "volume": "656",
+      "author": "Hautier",
+      "year": "2010",
+      "journal-title": "Inorganic Chemistry"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0115",
+      "doi-asserted-by": "crossref",
+      "first-page": "943",
+      "DOI": "10.1103/PhysRevB.44.943",
+      "volume": "44",
+      "author": "Anisimov",
+      "year": "1991",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0120",
+      "doi-asserted-by": "crossref",
+      "first-page": "767",
+      "DOI": "10.1088/0953-8984/9/4/002",
+      "volume": "9",
+      "author": "Anisimov",
+      "year": "1997",
+      "journal-title": "Journal of Physics: Condensation Matter"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "R5467",
+      "DOI": "10.1103/PhysRevB.52.R5467",
+      "volume": "52",
+      "author": "Liechtenstein",
+      "year": "1995",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0130",
+      "doi-asserted-by": "crossref",
+      "first-page": "045115",
+      "DOI": "10.1103/PhysRevB.84.045115",
+      "volume": "84",
+      "author": "Jain",
+      "year": "2011",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0135",
+      "doi-asserted-by": "crossref",
+      "first-page": "235121",
+      "DOI": "10.1103/PhysRevB.70.235121",
+      "volume": "70",
+      "author": "Zhou",
+      "year": "2004",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0140",
+      "doi-asserted-by": "crossref",
+      "first-page": "195107",
+      "DOI": "10.1103/PhysRevB.73.195107",
+      "volume": "73",
+      "author": "Wang",
+      "year": "2006",
+      "journal-title": "Physical Review B"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0145",
+      "doi-asserted-by": "crossref",
+      "first-page": "1798",
+      "DOI": "10.1021/cm702327g",
+      "volume": "20",
+      "author": "Ong",
+      "year": "2008",
+      "journal-title": "Chemistry of Materials"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "427",
+      "DOI": "10.1016/j.elecom.2010.01.010",
+      "volume": "12",
+      "author": "Ong",
+      "year": "2010",
+      "journal-title": "Electrochemistry Communications"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "115",
+      "DOI": "10.1145/514183.514185",
+      "volume": "2",
+      "author": "Fielding",
+      "year": "2002",
+      "journal-title": "ACM Transactions on Internet Technology"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0160",
+      "first-page": "2",
+      "volume": "8",
+      "author": "Kaib",
+      "year": "2012",
+      "journal-title": "Chemistry of Materials"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0165",
+      "doi-asserted-by": "crossref",
+      "first-page": "66",
+      "DOI": "10.1021/ci00038a003",
+      "volume": "23",
+      "author": "Bergerhoff",
+      "year": "1983",
+      "journal-title": "Journal of Chemical Information and Computer Sciences"
+    },
+    {
+      "key": "10.1016/j.commatsci.2012.10.028_b0965",
+      "doi-asserted-by": "crossref",
+      "unstructured": "S.P. Ong, Y. Mo, W.D. Richards, L. Miara, H.S. Lee, G. Ceder. Energy & Environmental Science (2012), http://dx.doi.org/10.1039/c2ee23355j.",
+      "DOI": "10.1039/C2EE23355J"
+    }
+  ],
+  "container-title": [
+    "Computational Materials Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0927025612006295?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0927025612006295?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2019,
+        7,
+        6
+      ]
+    ],
+    "date-time": "2019-07-06T17:13:26Z",
+    "timestamp": 1562433206000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0927025612006295"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        2
+      ]
+    ]
+  },
+  "references-count": 35,
+  "alternative-id": [
+    "S0927025612006295"
+  ],
+  "URL": "https://doi.org/10.1016/j.commatsci.2012.10.028",
+  "relation": {},
+  "ISSN": [
+    "0927-0256"
+  ],
+  "issn-type": [
+    {
+      "value": "0927-0256",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        2
+      ]
+    ]
+  }
+}

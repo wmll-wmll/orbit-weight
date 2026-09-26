@@ -1,0 +1,20 @@
+{
+  "created_before_training": "2026-09-24T21:26:25+0800",
+  "arms": [
+    "shared_projection_masked_batch256",
+    "sample_projection_masked",
+    "sample_projection_unmasked",
+    "sample_projection_unmasked_fullbatch"
+  ],
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "purpose": "sequential diagnostic of archived implementation choices, not reproduction of old absolute scores",
+  "projection_seed": 0,
+  "projection_rule": "independent N(0,1/4) matrix for each crystal; one matrix fixed across model seeds",
+  "test_selection": "never; validation-selected checkpoint",
+  "epochs": 200,
+  "limitations": "sequence-dependent effects; original random projection/split states unavailable; test cohort already examined"
+}

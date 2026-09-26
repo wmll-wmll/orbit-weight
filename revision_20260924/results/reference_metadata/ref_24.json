@@ -1,0 +1,494 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2026-09-23T19:44:33Z",
+    "timestamp": 1790192673973,
+    "version": "4.1.0"
+  },
+  "reference-count": 34,
+  "publisher": "Informa UK Limited",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2024-10-16T00:00:00Z",
+        "timestamp": 1729036800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "JSPS KAKENHI",
+      "award": [
+        "JP21K04632"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "JP21K04632"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JSPS KAKENHI",
+      "award": [
+        "JP24K08021"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "JP24K08021"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.tandfonline.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Science and Technology of Advanced Materials: Methods"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        31
+      ]
+    ]
+  },
+  "DOI": "10.1080/27660400.2024.2384822",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        5
+      ]
+    ],
+    "date-time": "2024-08-05T06:20:49Z",
+    "timestamp": 1722838849000
+  },
+  "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+  "source": "Crossref",
+  "is-referenced-by-count": 132,
+  "title": [
+    "Spglib: a software library for crystal symmetry search"
+  ],
+  "prefix": "10.1080",
+  "volume": "4",
+  "author": [
+    {
+      "given": "Atsushi",
+      "family": "Togo",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "National Institute for Materials Science",
+          "place": [
+            "Tsukuba, Japan"
+          ]
+        },
+        {
+          "name": "Kyoto University",
+          "place": [
+            "Kyoto, Japan"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kohei",
+      "family": "Shinohara",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Preferred Networks, Inc",
+          "place": [
+            "Tokyo, Japan"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Isao",
+      "family": "Tanaka",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Kyoto University",
+          "place": [
+            "Kyoto, Japan"
+          ]
+        },
+        {
+          "name": "Kyoto University",
+          "place": [
+            "Kyoto, Japan"
+          ]
+        },
+        {
+          "name": "Japan Fine Ceramics Center",
+          "place": [
+            "Nagoya, Japan"
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "301",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        10,
+        16
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/97809553602060000114"
+    },
+    {
+      "key": "e_1_3_2_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0021889804031528"
+    },
+    {
+      "key": "e_1_3_2_4_1",
+      "unstructured": "FINDSYM. Available from: http://stokes.byu.edu/iso/findsym.php"
+    },
+    {
+      "key": "e_1_3_2_5_1",
+      "unstructured": "ISOTROPY Software Suite. Available from: http://stokes.byu.edu/iso/isotropy.php"
+    },
+    {
+      "key": "e_1_3_2_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0021889801017824"
+    },
+    {
+      "key": "e_1_3_2_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S010876730302186X"
+    },
+    {
+      "key": "e_1_3_2_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0108767301016658"
+    },
+    {
+      "key": "e_1_3_2_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0108767398010186"
+    },
+    {
+      "key": "e_1_3_2_10_1",
+      "unstructured": "Computational Crystallography Toolbox. Available from: https://cctbx.github.io/"
+    },
+    {
+      "key": "e_1_3_2_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S2053273318003066"
+    },
+    {
+      "key": "e_1_3_2_12_1",
+      "unstructured": "Spglib. version 2.3.1. https://github.com/spglib/spglib"
+    },
+    {
+      "key": "e_1_3_2_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0007045"
+    },
+    {
+      "key": "e_1_3_2_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.5142502"
+    },
+    {
+      "key": "e_1_3_2_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/1361-648X/acd831"
+    },
+    {
+      "key": "e_1_3_2_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.commatsci.2012.10.028"
+    },
+    {
+      "key": "e_1_3_2_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/1361-648X/aa680e"
+    },
+    {
+      "key": "e_1_3_2_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1758-2946-4-17"
+    },
+    {
+      "key": "e_1_3_2_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4812323"
+    },
+    {
+      "key": "e_1_3_2_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.21105/joss.05388"
+    },
+    {
+      "key": "e_1_3_2_21_1",
+      "volume-title": "Physical properties of crystals",
+      "author": "Nye JF",
+      "year": "1985",
+      "unstructured": "Nye JF. Physical properties of crystals. Oxford, UK: Oxford University Press; 1985."
+    },
+    {
+      "key": "e_1_3_2_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/acprof:oso/9780199669950.001.0001"
+    },
+    {
+      "key": "e_1_3_2_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1017/CBO9780511755736"
+    },
+    {
+      "key": "e_1_3_2_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S2053273323005016"
+    },
+    {
+      "key": "e_1_3_2_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0021889898008735"
+    },
+    {
+      "key": "e_1_3_2_26_1",
+      "unstructured": "Lamparski M. Large-scale atomistic computations of the phonons in twisted bilayer graphene [Phd thesis]. Troy (NY): Department of Physics Applied Physics and Astronomy Rens-selaer Polytechnic Institute; 2020. Available from: https://hdl.handle.net/20.500.13015/2605"
+    },
+    {
+      "key": "e_1_3_2_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1524/zkri.1933.84.1.109"
+    },
+    {
+      "key": "e_1_3_2_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0567739481001228"
+    },
+    {
+      "key": "e_1_3_2_29_1",
+      "volume-title": "International tables for crystallography, vol. B",
+      "author": "Shmueli U",
+      "year": "2008",
+      "unstructured": "Shmueli U. International tables for crystallography, vol. B. Hoboken, NJ: Wiley; 2008."
+    },
+    {
+      "key": "e_1_3_2_30_1",
+      "first-page": "108",
+      "volume-title": "Handbuch der Experimentalphysik",
+      "author": "Niggli P",
+      "year": "1928",
+      "unstructured": "Niggli P. Krystallographische und strukturtheoretische Grundbegriffe. In: Handbuch der Experimentalphysik. Vol. 7. Leipzig: Akademische Verlagsgesellschaft; 1928. p. 108\u2013176."
+    },
+    {
+      "key": "e_1_3_2_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0567739473001063"
+    },
+    {
+      "key": "e_1_3_2_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0567739476000636"
+    },
+    {
+      "key": "e_1_3_2_33_1",
+      "unstructured": "Niggli cell. Available from: http://atztogo.github.io/niggli/"
+    },
+    {
+      "key": "e_1_3_2_34_1",
+      "unstructured": "SageMath the Sage Mathematics Software System. Available from: http://www.sagemath.org"
+    },
+    {
+      "key": "e_1_3_2_35_1",
+      "unstructured": "Seto\u2019s Home Page. Available from: https://yseto.net/?page_id=29&lang=en"
+    }
+  ],
+  "container-title": [
+    "Science and Technology of Advanced Materials: Methods"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.tandfonline.com/doi/pdf/10.1080/27660400.2024.2384822",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        20
+      ]
+    ],
+    "date-time": "2025-05-20T07:13:03Z",
+    "timestamp": 1747725183000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.tandfonline.com/doi/full/10.1080/27660400.2024.2384822"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        10,
+        16
+      ]
+    ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1080/27660400.2024.2384822"
+  ],
+  "URL": "https://doi.org/10.1080/27660400.2024.2384822",
+  "relation": {},
+  "ISSN": [
+    "2766-0400"
+  ],
+  "issn-type": [
+    {
+      "value": "2766-0400",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        10,
+        16
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+      "order": 1,
+      "name": "peerreview_statement",
+      "label": "Peer Review Statement"
+    },
+    {
+      "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tstm20",
+      "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=tstm20",
+      "order": 2,
+      "name": "aims_and_scope_url",
+      "label": "Aim & Scope"
+    },
+    {
+      "value": "2024-03-15",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2024-07-18",
+      "order": 1,
+      "name": "revised",
+      "label": "Revised",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2024-07-22",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2024-10-16",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "2384822"
+}

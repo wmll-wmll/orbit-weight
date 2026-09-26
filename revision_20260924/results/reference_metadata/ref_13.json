@@ -1,0 +1,928 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T03:13:34Z",
+    "timestamp": 1790219614448,
+    "version": "4.1.0"
+  },
+  "reference-count": 64,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "11",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2022-11-28T00:00:00Z",
+        "timestamp": 1669593600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springer.com/tdm"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2022-11-28T00:00:00Z",
+        "timestamp": 1669593600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springer.com/tdm"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100006151",
+      "name": "DOE | SC | Basic Energy Sciences",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "DE-AC02-05-CH11231"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE-AC02-05-CH11231"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100006151",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100006151",
+      "name": "DOE | SC | Basic Energy Sciences",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "DE-AC02-05-CH11231"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE-AC02-05-CH11231"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100006151",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nat Comput Sci"
+  ],
+  "DOI": "10.1038/s43588-022-00349-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        28
+      ]
+    ],
+    "date-time": "2022-11-28T11:02:44Z",
+    "timestamp": 1669633364000
+  },
+  "page": "718-728",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 999,
+  "title": [
+    "A universal graph deep learning interatomic potential for the periodic table"
+  ],
+  "prefix": "10.1038",
+  "volume": "2",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-8008-7043",
+      "authenticated-orcid": false,
+      "given": "Chi",
+      "family": "Chen",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5726-2587",
+      "authenticated-orcid": false,
+      "given": "Shyue Ping",
+      "family": "Ong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        28
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "349_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "287",
+      "DOI": "10.1002/jcc.540020311",
+      "volume": "2",
+      "author": "PK Weiner",
+      "year": "1981",
+      "unstructured": "Weiner, P. K. & Kollman, P. A. AMBER: assisted model building with energy refinement. A general program for modeling molecules and their interactions. J. Comput. Chem. 2, 287\u2013303 (1981).",
+      "journal-title": "J. Comput. Chem."
+    },
+    {
+      "key": "349_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "1668",
+      "DOI": "10.1002/jcc.20290",
+      "volume": "26",
+      "author": "DA Case",
+      "year": "2005",
+      "unstructured": "Case, D. A. et al. The AMBER biomolecular simulation programs. J. Comput. Chem. 26, 1668\u20131688 (2005).",
+      "journal-title": "J. Comput. Chem."
+    },
+    {
+      "key": "349_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "10024",
+      "DOI": "10.1021/ja00051a040",
+      "volume": "114",
+      "author": "AK Rappe",
+      "year": "1992",
+      "unstructured": "Rappe, A. K., Casewit, C. J., Colwell, K. S., Goddard, W. A. & Skiff, W. M. UFF, a full periodic table force field for molecular mechanics and molecular dynamics simulations. J. Am. Chem. Soc. 114, 10024\u201310035 (1992).",
+      "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+      "key": "349_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "146401",
+      "DOI": "10.1103/PhysRevLett.98.146401",
+      "volume": "98",
+      "author": "J Behler",
+      "year": "2007",
+      "unstructured": "Behler, J. & Parrinello, M. Generalized neural-network representation of high-dimensional potential-energy surfaces. Phys. Rev. Lett. 98, 146401 (2007).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "136403",
+      "DOI": "10.1103/PhysRevLett.104.136403",
+      "volume": "104",
+      "author": "AP Bart\u00f3k",
+      "year": "2010",
+      "unstructured": "Bart\u00f3k, A. P., Payne, M. C., Kondor, R. & Cs\u00e1nyi, G. Gaussian approximation potentials: the accuracy of quantum mechanics, without the electrons. Phys. Rev. Lett. 104, 136403 (2010).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "316",
+      "DOI": "10.1016/j.jcp.2014.12.018",
+      "volume": "285",
+      "author": "AP Thompson",
+      "year": "2015",
+      "unstructured": "Thompson, A. P., Swiler, L. P., Trott, C. R., Foiles, S. M. & Tucker, G. J. Spectral neighbor analysis method for automated generation of quantum-accurate interatomic potentials. J. Comput. Phys. 285, 316\u2013330 (2015).",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "349_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "1153",
+      "DOI": "10.1137/15M1054183",
+      "volume": "14",
+      "author": "AV Shapeev",
+      "year": "2016",
+      "unstructured": "Shapeev, A. V. Moment tensor potentials: a class of systematically improvable interatomic potentials. Multiscale Model. Simul. 14, 1153\u20131173 (2016).",
+      "journal-title": "Multiscale Model. Simul."
+    },
+    {
+      "key": "349_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "143001",
+      "DOI": "10.1103/PhysRevLett.120.143001",
+      "volume": "120",
+      "author": "L Zhang",
+      "year": "2018",
+      "unstructured": "Zhang, L., Han, J., Wang, H., Car, R. & E, W. Deep potential molecular dynamics: a scalable model with the accuracy of quantum mechanics. Phys. Rev. Lett. 120, 143001 (2018).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "731",
+      "DOI": "10.1021/acs.jpca.9b08723",
+      "volume": "124",
+      "author": "Y Zuo",
+      "year": "2020",
+      "unstructured": "Zuo, Y. et al. Performance and cost assessment of machine learning interatomic potentials. J. Phys. Chem. A 124, 731\u2013745 (2020).",
+      "journal-title": "J. Phys. Chem. A"
+    },
+    {
+      "key": "349_CR10",
+      "unstructured": "Sch\u00fctt, K. et al. SchNet: a continuous-filter convolutional neural network for modeling quantum interactions. In Proc. 31st International Conference on Neural Information Processing Systems Advances in Neural Information Processing Systems 992\u20131002 (NIPS, 2017)."
+    },
+    {
+      "key": "349_CR11",
+      "unstructured": "Klicpera, J., Gro\u00df, J. & G\u00fcnnemann, S. Directional message passing for molecular graphs. Preprint at https://arxiv.org/abs/2003.03123 (2020)."
+    },
+    {
+      "key": "349_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "333",
+      "DOI": "10.1039/D2DD00008C",
+      "volume": "1",
+      "author": "M Haghighatlari",
+      "year": "2022",
+      "unstructured": "Haghighatlari, M. et al. NewtonNet: a Newtonian message passing network for deep learning of interatomic potentials and forces. Digit. Discov. 1, 333\u2013343 (2022).",
+      "journal-title": "Digit. Discov."
+    },
+    {
+      "key": "349_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1038/s41524-021-00543-3",
+      "volume": "7",
+      "author": "CW Park",
+      "year": "2021",
+      "unstructured": "Park, C. W. et al. Accurate and scalable graph neural network force field and molecular dynamics with direct force architecture. npj Comput. Mater. 7, 1\u20139 (2021).",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "349_CR14",
+      "unstructured": "Cheon, G., Yang, L., McCloskey, K., Reed, E. J. & Cubuk, E. D. Crystal structure search with random relaxations using graph networks. Preprint at https://arxiv.org/abs/2012.02920 (2020)."
+    },
+    {
+      "key": "349_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "aad3000",
+      "DOI": "10.1126/science.aad3000",
+      "volume": "351",
+      "author": "K Lejaeghere",
+      "year": "2016",
+      "unstructured": "Lejaeghere, K. et al. Reproducibility in density functional theory calculations of solids. Science 351, aad3000 (2016).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "349_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "314",
+      "DOI": "10.1016/j.commatsci.2012.10.028",
+      "volume": "68",
+      "author": "SP Ong",
+      "year": "2013",
+      "unstructured": "Ong, S. P. et al. Python Materials Genomics (pymatgen): a robust, open-source Python library for materials analysis. Comput. Mater. Sci. 68, 314\u2013319 (2013).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "349_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "5037",
+      "DOI": "10.1002/cpe.3505",
+      "volume": "27",
+      "author": "A Jain",
+      "year": "2015",
+      "unstructured": "Jain, A. et al. FireWorks: a dynamic workflow system designed for high-throughput applications. Concurr. Comput. 27, 5037\u20135059 (2015).",
+      "journal-title": "Concurr. Comput."
+    },
+    {
+      "key": "349_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "218",
+      "DOI": "10.1016/j.commatsci.2015.09.013",
+      "volume": "111",
+      "author": "G Pizzi",
+      "year": "2016",
+      "unstructured": "Pizzi, G., Cepellotti, A., Sabatini, R., Marzari, N. & Kozinsky, B. AiiDA: automated interactive infrastructure and database for computational science. Comput. Mater. Sci. 111, 218\u2013230 (2016).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "349_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "140",
+      "DOI": "10.1016/j.commatsci.2017.07.030",
+      "volume": "139",
+      "author": "K Mathew",
+      "year": "2017",
+      "unstructured": "Mathew, K. et al. Atomate: a high-level interface to generate, execute, and analyze computational materials science workflows. Comput. Mater. Sci. 139, 140\u2013152 (2017).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "349_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "011002",
+      "DOI": "10.1063/1.4812323",
+      "volume": "1",
+      "author": "A Jain",
+      "year": "2013",
+      "unstructured": "Jain, A. et al. Commentary: the materials project: a materials genome approach to accelerating materials innovation. APL Mater. 1, 011002 (2013).",
+      "journal-title": "APL Mater."
+    },
+    {
+      "key": "349_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "227",
+      "DOI": "10.1016/j.commatsci.2012.02.002",
+      "volume": "58",
+      "author": "S Curtarolo",
+      "year": "2012",
+      "unstructured": "Curtarolo, S. et al. AFLOWLIB.ORG: a distributed materials properties repository from high-throughput ab initio calculations. Comput. Mater. Sci. 58, 227\u2013235 (2012).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "349_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1038/npjcompumats.2015.10",
+      "volume": "1",
+      "author": "S Kirklin",
+      "year": "2015",
+      "unstructured": "Kirklin, S. et al. The Open Quantum Materials Database (OQMD): assessing the accuracy of DFT formation energies. npj Comput. Mater. 1, 1\u201315 (2015).",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "349_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "036001",
+      "DOI": "10.1088/2515-7639/ab13bb",
+      "volume": "2",
+      "author": "C Draxl",
+      "year": "2019",
+      "unstructured": "Draxl, C. & Scheffler, M. The NOMAD laboratory: from data sharing to artificial intelligence. J. Phys. Mater. 2, 036001 (2019).",
+      "journal-title": "J. Phys. Mater."
+    },
+    {
+      "key": "349_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "145301",
+      "DOI": "10.1103/PhysRevLett.120.145301",
+      "volume": "120",
+      "author": "T Xie",
+      "year": "2018",
+      "unstructured": "Xie, T. & Grossman, J. C. Crystal graph convolutional neural networks for an accurate and interpretable prediction of material properties. Phys. Rev. Lett. 120, 145301 (2018).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "3564",
+      "DOI": "10.1021/acs.chemmater.9b01294",
+      "volume": "31",
+      "author": "C Chen",
+      "year": "2019",
+      "unstructured": "Chen, C., Ye, W., Zuo, Y., Zheng, C. & Ong, S. P. Graph networks as a universal machine learning framework for molecules and crystals. Chem. Mater. 31, 3564\u20133572 (2019).",
+      "journal-title": "Chem. Mater."
+    },
+    {
+      "key": "349_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "46",
+      "DOI": "10.1038/s43588-020-00002-x",
+      "volume": "1",
+      "author": "C Chen",
+      "year": "2021",
+      "unstructured": "Chen, C., Zuo, Y., Ye, W., Li, X. & Ong, S. P. Learning properties of ordered and disordered materials from multi-fidelity data. Nat. Comput. Sci. 1, 46\u201353 (2021).",
+      "journal-title": "Nat. Comput. Sci."
+    },
+    {
+      "key": "349_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1038/s41524-021-00650-1",
+      "volume": "7",
+      "author": "K Choudhary",
+      "year": "2021",
+      "unstructured": "Choudhary, K. & DeCost, B. Atomistic line graph neural network for improved materials property predictions. npj Comput. Mater. 7, 1\u20138 (2021).",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "349_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "6991",
+      "DOI": "10.1103/PhysRevB.37.6991",
+      "volume": "37",
+      "author": "J Tersoff",
+      "year": "1988",
+      "unstructured": "Tersoff, J. New empirical approach for the structure and energy of covalent systems. Phys. Rev. B 37, 6991\u20137000 (1988).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "349_CR29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/sdata.2018.65",
+      "volume": "5",
+      "author": "G Petretto",
+      "year": "2018",
+      "unstructured": "Petretto, G. et al. High-throughput density-functional perturbation theory phonons for inorganic materials. Sci. Data 5, 180065 (2018).",
+      "journal-title": "Sci. Data"
+    },
+    {
+      "key": "349_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "136406",
+      "DOI": "10.1103/PhysRevLett.100.136406",
+      "volume": "100",
+      "author": "JP Perdew",
+      "year": "2008",
+      "unstructured": "Perdew, J. P. et al. Restoring the density-gradient expansion for exchange in solids and surfaces. Phys. Rev. Lett. 100, 136406 (2008).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "558",
+      "DOI": "10.1103/PhysRevB.47.558",
+      "volume": "47",
+      "author": "G Kresse",
+      "year": "1993",
+      "unstructured": "Kresse, G. & Hafner, J. Ab initio molecular dynamics for liquid metals. Phys. Rev. B 47, 558\u2013561 (1993).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "349_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "15",
+      "DOI": "10.1016/0927-0256(96)00008-0",
+      "volume": "6",
+      "author": "G Kresse",
+      "year": "1996",
+      "unstructured": "Kresse, G. & Furthm\u00fcller, J. Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set. Comput. Mater. Sci. 6, 15\u201350 (1996).",
+      "journal-title": "Comput. Mater. Sci."
+    },
+    {
+      "key": "349_CR33",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1038/s41524-019-0267-z",
+      "volume": "6",
+      "author": "A Dunn",
+      "year": "2020",
+      "unstructured": "Dunn, A., Wang, Q., Ganose, A., Dopp, D. & Jain, A. Benchmarking materials property prediction methods: the Matbench test set and Automatminer reference algorithm. npj Comput. Mater. 6, 1\u201310 (2020).",
+      "journal-title": "npj Comput. Mater."
+    },
+    {
+      "key": "349_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "e160022",
+      "DOI": "10.1126/sciadv.1600225",
+      "volume": "2",
+      "author": "W Sun",
+      "year": "2016",
+      "unstructured": "Sun, W. et al. The thermodynamic scale of inorganic crystalline metastability. Sci. Adv. 2, e160022 (2016).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "349_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "100463",
+      "DOI": "10.1016/j.mtphys.2021.100463",
+      "volume": "21",
+      "author": "J Qi",
+      "year": "2021",
+      "unstructured": "Qi, J. et al. Bridging the gap between simulated and experimental ionic conductivities in lithium superionic conductors. Mater. Today Phys. 21, 100463 (2021).",
+      "journal-title": "Mater. Today Phys."
+    },
+    {
+      "key": "349_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "713",
+      "DOI": "10.1016/j.cpc.2006.07.020",
+      "volume": "175",
+      "author": "CW Glass",
+      "year": "2006",
+      "unstructured": "Glass, C. W., Oganov, A. R. & Hansen, N. USPEX\u2014evolutionary crystal structure prediction. Comput. Phys. Commun. 175, 713\u2013720 (2006).",
+      "journal-title": "Comput. Phys. Commun."
+    },
+    {
+      "key": "349_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "2063",
+      "DOI": "10.1016/j.cpc.2012.05.008",
+      "volume": "183",
+      "author": "Y Wang",
+      "year": "2012",
+      "unstructured": "Wang, Y., Lv, J., Zhu, L. & Ma, Y. CALYPSO: a method for crystal structure prediction. Comput. Phys. Commun. 183, 2063\u20132070 (2012).",
+      "journal-title": "Comput. Phys. Commun."
+    },
+    {
+      "key": "349_CR38",
+      "unstructured": "Xie, T., Fu, X., Ganea, O.-E., Barzilay, R. & Jaakkola, T. Crystal diffusion variational autoencoder for periodic material generation. Preprint at https://arxiv.org/abs/2110.06197 (2021)."
+    },
+    {
+      "key": "349_CR39",
+      "doi-asserted-by": "publisher",
+      "first-page": "e1603015",
+      "DOI": "10.1126/sciadv.1603015",
+      "volume": "3",
+      "author": "S Chmiela",
+      "year": "2017",
+      "unstructured": "Chmiela, S. et al. Machine learning of accurate energy-conserving molecular force fields. Sci. Adv. 3, e1603015 (2017).",
+      "journal-title": "Sci. Adv."
+    },
+    {
+      "key": "349_CR40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms13890",
+      "volume": "8",
+      "author": "KT Sch\u00fctt",
+      "year": "2017",
+      "unstructured": "Sch\u00fctt, K. T., Arbabzadah, F., Chmiela, S., M\u00fcller, K. R. & Tkatchenko, A. Quantum-chemical insights from deep tensor neural networks. Nat. Commun. 8, 13890 (2017).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "349_CR41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-018-06169-2",
+      "volume": "9",
+      "author": "S Chmiela",
+      "year": "2018",
+      "unstructured": "Chmiela, S., Sauceda, H. E., M\u00fcller, K.-R. & Tkatchenko, A. Towards exact molecular dynamics simulations with machine-learned force fields. Nat. Commun. 9, 3887 (2018).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "349_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "4962",
+      "DOI": "10.1021/acs.jpclett.9b02037",
+      "volume": "10",
+      "author": "Y Zhang",
+      "year": "2019",
+      "unstructured": "Zhang, Y., Hu, C. & Jiang, B. Embedded atom neural network potentials: efficient and accurate machine learning with a physically inspired representation. J. Phys. Chem. Lett. 10, 4962\u20134967 (2019).",
+      "journal-title": "J. Phys. Chem. Lett."
+    },
+    {
+      "key": "349_CR43",
+      "doi-asserted-by": "publisher",
+      "first-page": "3865",
+      "DOI": "10.1103/PhysRevLett.77.3865",
+      "volume": "77",
+      "author": "JP Perdew",
+      "year": "1996",
+      "unstructured": "Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient approximation made simple. Phys. Rev. Lett. 77, 3865\u20133868 (1996).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR44",
+      "doi-asserted-by": "publisher",
+      "first-page": "943",
+      "DOI": "10.1103/PhysRevB.44.943",
+      "volume": "44",
+      "author": "VI Anisimov",
+      "year": "1991",
+      "unstructured": "Anisimov, V. I., Zaanen, J. & Andersen, O. K. Band theory and Mott insulators: Hubbard U instead of stoner I. Phys. Rev. B 44, 943\u2013954 (1991).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "349_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "17",
+      "DOI": "10.1080/08893110410001664882",
+      "volume": "10",
+      "author": "M Hellenbrandt",
+      "year": "2004",
+      "unstructured": "Hellenbrandt, M. The Inorganic Crystal Structure Database (ICSD)\u2014present and future. Crystallogr. Rev. 10, 17\u201322 (2004).",
+      "journal-title": "Crystallogr. Rev."
+    },
+    {
+      "key": "349_CR46",
+      "doi-asserted-by": "publisher",
+      "first-page": "195107",
+      "DOI": "10.1103/PhysRevB.73.195107",
+      "volume": "73",
+      "author": "L Wang",
+      "year": "2006",
+      "unstructured": "Wang, L., Maxisch, T. & Ceder, G. Oxidation energies of transition metal oxides within the GGU+U framework. Phys. Rev. B 73, 195107 (2006).",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "349_CR47",
+      "doi-asserted-by": "publisher",
+      "first-page": "1827",
+      "DOI": "10.1021/acs.jctc.8b00770",
+      "volume": "15",
+      "author": "A Singraber",
+      "year": "2019",
+      "unstructured": "Singraber, A., Behler, J. & Dellago, C. Library-based LAMMPS implementation of high-dimensional neural network potentials. J. Chem. Theory Comput. 15, 1827\u20131840 (2019).",
+      "journal-title": "J. Chem. Theory Comput."
+    },
+    {
+      "key": "349_CR48",
+      "unstructured": "Ramachandran, P., Zoph, B. & Le, Q. V. Searching for activation functions. Preprint at https://arxiv.org/abs/1710.05941 (2017)."
+    },
+    {
+      "key": "349_CR49",
+      "doi-asserted-by": "publisher",
+      "first-page": "154102",
+      "DOI": "10.1063/1.5086167",
+      "volume": "150",
+      "author": "E Kocer",
+      "year": "2019",
+      "unstructured": "Kocer, E., Mason, J. K. & Erturk, H. A novel approach to describe chemical environments in high-dimensional neural network potentials. J. Chem. Phys. 150, 154102 (2019).",
+      "journal-title": "J. Chem. Phys."
+    },
+    {
+      "key": "349_CR50",
+      "unstructured": "Kingma, D. P. & Ba, J. Adam: a method for stochastic optimization. Preprint https://arxiv.org/abs/1412.6980 (2017)."
+    },
+    {
+      "key": "349_CR51",
+      "doi-asserted-by": "publisher",
+      "first-page": "73",
+      "DOI": "10.1214/aoms/1177703732",
+      "volume": "35",
+      "author": "PJ Huber",
+      "year": "1964",
+      "unstructured": "Huber, P. J. Robust estimation of a location parameter. Ann. Math. Stat. 35, 73\u2013101 (1964).",
+      "journal-title": "Ann. Math. Stat."
+    },
+    {
+      "key": "349_CR52",
+      "unstructured": "Abadi, M. et al. TensorFlow: a system for large-scale machine learning. In 12th Symposium on Operating Systems Design and Implementation 265\u2013283 (OSDI, 2016)."
+    },
+    {
+      "key": "349_CR53",
+      "doi-asserted-by": "publisher",
+      "first-page": "170201",
+      "DOI": "10.1103/PhysRevLett.97.170201",
+      "volume": "97",
+      "author": "E Bitzek",
+      "year": "2006",
+      "unstructured": "Bitzek, E., Koskinen, P., G\u00e4hler, F., Moseler, M. & Gumbsch, P. Structural relaxation made simple. Phys. Rev. Lett. 97, 170201 (2006).",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "349_CR54",
+      "first-page": "273002",
+      "volume": "29",
+      "author": "AH Larsen",
+      "year": "2017",
+      "unstructured": "Larsen, A. H. et al. The atomic simulation environment\u2014a Python library for working with atoms. J. Phys. 29, 273002 (2017).",
+      "journal-title": "J. Phys."
+    },
+    {
+      "key": "349_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/j.scriptamat.2015.07.021",
+      "volume": "108",
+      "author": "A Togo",
+      "year": "2015",
+      "unstructured": "Togo, A. & Tanaka, I. First principles phonon calculations in materials science. Scripta Materialia 108, 1\u20135 (2015).",
+      "journal-title": "Scripta Materialia"
+    },
+    {
+      "key": "349_CR56",
+      "first-page": "2825",
+      "volume": "12",
+      "author": "F Pedregosa",
+      "year": "2011",
+      "unstructured": "Pedregosa, F. et al. Scikit-learn: machine learning in Python. J. Mach. Learn. Res. 12, 2825\u20132830 (2011).",
+      "journal-title": "J. Mach. Learn. Res."
+    },
+    {
+      "key": "349_CR57",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Seabold, S. & Perktold, J. Statsmodels: econometric and statistical modeling with Python. In Proc. 9th Python in Science Conference 92\u201396 (SciPy, 2010).",
+      "DOI": "10.25080/Majora-92bf1922-011"
+    },
+    {
+      "key": "349_CR58",
+      "doi-asserted-by": "publisher",
+      "first-page": "90",
+      "DOI": "10.1109/MCSE.2007.55",
+      "volume": "9",
+      "author": "JD Hunter",
+      "year": "2007",
+      "unstructured": "Hunter, J. D. Matplotlib: a 2D graphics environment. Comput. Sci. Eng. 9, 90\u201395 (2007).",
+      "journal-title": "Comput. Sci. Eng."
+    },
+    {
+      "key": "349_CR59",
+      "doi-asserted-by": "publisher",
+      "first-page": "3021",
+      "DOI": "10.21105/joss.03021",
+      "volume": "6",
+      "author": "ML Waskom",
+      "year": "2021",
+      "unstructured": "Waskom, M. L. Seaborn: statistical data visualization. J. Open Source Softw. 6, 3021 (2021).",
+      "journal-title": "J. Open Source Softw."
+    },
+    {
+      "key": "349_CR60",
+      "unstructured": "Pandas Development Team Pandas-Dev/Pandas: Pandas (Zenodo, 2020)."
+    },
+    {
+      "key": "349_CR61",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chen, C. & Ong, S. P. MPF.2021.2.8. (FigShare, 2022); https://doi.org/10.6084/m9.figshare.19470599.v3",
+      "DOI": "10.6084/m9.figshare.19470599.v3"
+    },
+    {
+      "key": "349_CR62",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chen, C. m3gnet Phonon Dispersion Curve of 328 Materials (FigShare, 2022); https://doi.org/10.6084/m9.figshare.20217212.v1",
+      "DOI": "10.6084/m9.figshare.20217212.v1"
+    },
+    {
+      "key": "349_CR63",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ong, S. P. et al. materialsvirtuallab/m3gnet: v0.1.0. 2022 (FigShare, 2022); https://doi.org/10.5281/zenodo.7141391",
+      "DOI": "10.5281/zenodo.7141391"
+    },
+    {
+      "key": "349_CR64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/sdata.2015.9",
+      "volume": "2",
+      "author": "M de Jong",
+      "year": "2015",
+      "unstructured": "de Jong, M. et al. Charting the complete elastic properties of inorganic crystalline compounds. Sci. Data 2, 150009 (2015).",
+      "journal-title": "Sci. Data"
+    }
+  ],
+  "container-title": [
+    "Nature Computational Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s43588-022-00349-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s43588-022-00349-3",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s43588-022-00349-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        28
+      ]
+    ],
+    "date-time": "2022-11-28T12:13:57Z",
+    "timestamp": 1669637637000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s43588-022-00349-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        28
+      ]
+    ]
+  },
+  "references-count": 64,
+  "journal-issue": {
+    "issue": "11",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "349"
+  ],
+  "URL": "https://doi.org/10.1038/s43588-022-00349-3",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.21203/rs.3.rs-1348213/v1",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "2662-8457"
+  ],
+  "issn-type": [
+    {
+      "value": "2662-8457",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        11,
+        28
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "18 March 2022",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "5 October 2022",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "28 November 2022",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no financial interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

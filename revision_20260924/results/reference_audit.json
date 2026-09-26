@@ -1,0 +1,1412 @@
+[
+  {
+    "original_number": 1,
+    "doi": "10.1063/1.4812323",
+    "title": [
+      "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation"
+    ],
+    "journal": [
+      "APL Materials"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          1
+        ]
+      ]
+    },
+    "volume": "1",
+    "page": null,
+    "article-number": "011002",
+    "authors": [
+      {
+        "given": "Anubhav",
+        "family": "Jain",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shyue Ping",
+        "family": "Ong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geoffroy",
+        "family": "Hautier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universit\u00e9 catholique de Louvain 3 , Louvain-la-Neuve, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William Davidson",
+        "family": "Richards",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen",
+        "family": "Dacek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shreyas",
+        "family": "Cholia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "Gunter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Skinner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerbrand",
+        "family": "Ceder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology 2 , Cambridge 02139, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristin A.",
+        "family": "Persson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Berkeley National Laboratory 1 , Berkeley 94720, California, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 4,
+    "doi": "10.1038/nmat3568",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "original_number": 5,
+    "doi": "10.1038/s41586-018-0337-2",
+    "title": [
+      "Machine learning for molecular and materials science"
+    ],
+    "journal": [
+      "Nature"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    },
+    "volume": "559",
+    "page": "547-555",
+    "article-number": null,
+    "authors": [
+      {
+        "given": "Keith T.",
+        "family": "Butler",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel W.",
+        "family": "Davies",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugh",
+        "family": "Cartwright",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olexandr",
+        "family": "Isayev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aron",
+        "family": "Walsh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 6,
+    "doi": "10.1038/s41524-019-0221-0",
+    "title": [
+      "Recent advances and applications of machine learning in solid-state materials science"
+    ],
+    "journal": [
+      "npj Computational Materials"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          8
+        ]
+      ]
+    },
+    "volume": "5",
+    "page": null,
+    "article-number": "83",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5685-6404",
+        "authenticated-orcid": false,
+        "given": "Jonathan",
+        "family": "Schmidt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7420-5098",
+        "authenticated-orcid": false,
+        "given": "M\u00e1rio R. G.",
+        "family": "Marques",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Silvana",
+        "family": "Botti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miguel A. L.",
+        "family": "Marques",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 7,
+    "doi": "10.1103/PhysRevLett.120.145301",
+    "title": [
+      "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties"
+    ],
+    "journal": [
+      "Physical Review Letters"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          6
+        ]
+      ]
+    },
+    "volume": "120",
+    "page": null,
+    "article-number": "145301",
+    "authors": [
+      {
+        "given": "Tian",
+        "family": "Xie",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeffrey C.",
+        "family": "Grossman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 8,
+    "doi": "10.1021/acs.chemmater.9b01294",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "original_number": 9,
+    "doi": "10.1063/1.5019779",
+    "title": [
+      "SchNet \u2013 A deep learning architecture for molecules and materials"
+    ],
+    "journal": [
+      "The Journal of Chemical Physics"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          29
+        ]
+      ]
+    },
+    "volume": "148",
+    "page": null,
+    "article-number": "241722",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8342-0964",
+        "authenticated-orcid": false,
+        "given": "K. T.",
+        "family": "Sch\u00fctt",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H. E.",
+        "family": "Sauceda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fritz-Haber-Institut der Max-Planck-Gesellschaft 2 , 14195 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.-J.",
+        "family": "Kindermans",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Tkatchenko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics and Materials Science Research Unit, University of Luxembourg 3 , L-1511 Luxembourg, Luxembourg"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.-R.",
+        "family": "M\u00fcller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Machine Learning Group, Technische Universit\u00e4t Berlin 1 , 10587 Berlin, Germany"
+          },
+          {
+            "name": "Max-Planck-Institut f\u00fcr Informatik 4 , Saarbr\u00fccken, Germany"
+          },
+          {
+            "name": "Department of Brain and Cognitive Engineering, Korea University 5 , Anam-dong, Seongbuk-gu, Seoul 136-713, South Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 13,
+    "doi": "10.1038/s43588-022-00349-3",
+    "title": [
+      "A universal graph deep learning interatomic potential for the periodic table"
+    ],
+    "journal": [
+      "Nature Computational Science"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          28
+        ]
+      ]
+    },
+    "volume": "2",
+    "page": "718-728",
+    "article-number": null,
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8008-7043",
+        "authenticated-orcid": false,
+        "given": "Chi",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5726-2587",
+        "authenticated-orcid": false,
+        "given": "Shyue Ping",
+        "family": "Ong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 14,
+    "doi": "10.1038/s42256-023-00716-3",
+    "title": [
+      "CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling"
+    ],
+    "journal": [
+      "Nature Machine Intelligence"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "volume": "5",
+    "page": "1031-1041",
+    "article-number": null,
+    "authors": [
+      {
+        "given": "Bowen",
+        "family": "Deng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1921-1628",
+        "authenticated-orcid": false,
+        "given": "Peichen",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1974-028X",
+        "authenticated-orcid": false,
+        "given": "KyuJung",
+        "family": "Jun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Janosh",
+        "family": "Riebesell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kevin",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5198-5036",
+        "authenticated-orcid": false,
+        "given": "Christopher J.",
+        "family": "Bartel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9275-3605",
+        "authenticated-orcid": false,
+        "given": "Gerbrand",
+        "family": "Ceder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 24,
+    "doi": "10.1080/27660400.2024.2384822",
+    "title": [
+      "Spglib: a software library for crystal symmetry search"
+    ],
+    "journal": [
+      "Science and Technology of Advanced Materials: Methods"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          16
+        ]
+      ]
+    },
+    "volume": "4",
+    "page": null,
+    "article-number": "2384822",
+    "authors": [
+      {
+        "given": "Atsushi",
+        "family": "Togo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Institute for Materials Science",
+            "place": [
+              "Tsukuba, Japan"
+            ]
+          },
+          {
+            "name": "Kyoto University",
+            "place": [
+              "Kyoto, Japan"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kohei",
+        "family": "Shinohara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Preferred Networks, Inc",
+            "place": [
+              "Tokyo, Japan"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Isao",
+        "family": "Tanaka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kyoto University",
+            "place": [
+              "Kyoto, Japan"
+            ]
+          },
+          {
+            "name": "Kyoto University",
+            "place": [
+              "Kyoto, Japan"
+            ]
+          },
+          {
+            "name": "Japan Fine Ceramics Center",
+            "place": [
+              "Nagoya, Japan"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 34,
+    "doi": "10.1016/j.commatsci.2012.10.028",
+    "title": [
+      "Python Materials Genomics (pymatgen): A robust, open-source python library for materials analysis"
+    ],
+    "journal": [
+      "Computational Materials Science"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          2
+        ]
+      ]
+    },
+    "volume": "68",
+    "page": "314-319",
+    "article-number": null,
+    "authors": [
+      {
+        "given": "Shyue Ping",
+        "family": "Ong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William Davidson",
+        "family": "Richards",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anubhav",
+        "family": "Jain",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geoffroy",
+        "family": "Hautier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Kocher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shreyas",
+        "family": "Cholia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "Gunter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vincent L.",
+        "family": "Chevrier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristin A.",
+        "family": "Persson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerbrand",
+        "family": "Ceder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 43,
+    "doi": "10.1016/j.scriptamat.2026.117432",
+    "title": [
+      "Nano-steps induce instability at \u03a33{111} twin boundaries and promote dislocation cell strengthening: An experimental and phase field crystal study"
+    ],
+    "journal": [
+      "Scripta Materialia"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "volume": "283",
+    "page": "117432",
+    "article-number": "117432",
+    "authors": [
+      {
+        "given": "Huanqing",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3333-0869",
+        "authenticated-orcid": false,
+        "given": "Yuhong",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ning",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinyu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhuo",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hua",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 44,
+    "doi": "10.1002/rar2.70319",
+    "title": [
+      "Oxygen Doping and Crystal\u2013Amorphous Multiphase Coupling Synergistically Improve the Wear Resistance of NiTiCu Alloy"
+    ],
+    "journal": [
+      "Rare Metals"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "volume": "45",
+    "page": null,
+    "article-number": "e70319",
+    "authors": [
+      {
+        "given": "Huwen",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanchun",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingxin",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiacheng",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jichao",
+        "family": "Qiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mechanics and Transportation Engineering Northwestern Polytechnical University  Xi'an China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shenshen",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          },
+          {
+            "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haorong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinhui",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fuling",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kaixiong",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Solid Lubrication Lanzhou Institute of Chemical Physics Chinese Academy of Sciences  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter K.",
+        "family": "Liaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Materials Science and Engineering University of Tennessee  Knoxville Tennessee USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peiqing",
+        "family": "La",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Advanced Processing and Recycling of Non\u2010Ferrous Metals School of Materials Science and Engineering Lanzhou University of Technology  Lanzhou China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory for Advanced Metals and Materials University of Science and Technology Beijing  Beijing China"
+          },
+          {
+            "name": "Institute of Materials Intelligent Technology Liaoning Academy of Materials  Shenyang China"
+          },
+          {
+            "name": "School of Mathematics and Physics of University of Science University of Science and Technology  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  },
+  {
+    "original_number": 45,
+    "doi": "10.1039/D6CP01826B",
+    "title": [
+      "Machine learning force fields for inorganic crystalline materials: principles, advances, and emerging applications"
+    ],
+    "journal": [
+      "Physical Chemistry Chemical Physics"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "volume": "28",
+    "page": "18284-18310",
+    "article-number": null,
+    "authors": [
+      {
+        "given": "Jing",
+        "family": "Yi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-9418-9261",
+        "authenticated-orcid": false,
+        "given": "Yuxin",
+        "family": "Zhan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Interdisciplinary Graduate School of Engineering Sciences, Department of Interdisciplinary Engineering Sciences, Kyushu University, Fukuoka 819-0395, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanmao",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Interdisciplinary Graduate School of Engineering Sciences, Department of Interdisciplinary Engineering Sciences, Kyushu University, Fukuoka 819-0395, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8197-2255",
+        "authenticated-orcid": false,
+        "given": "Shuai",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huanhuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Physics and Renewable Energy, Chongqing University of Technology, Chongqing, P. R. China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "status": "Crossref publisher-deposited metadata retrieved"
+  }
+]
